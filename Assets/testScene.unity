@@ -117,8 +117,8 @@ MonoBehaviour:
   m_TerrainData: {fileID: 15600000, guid: 9b1e7c8fc367d77459f230312ba743a1, type: 2}
   m_TreeDistance: 2000
   m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
-  m_TreeMaximumFullLODCount: 50
+  m_TreeCrossFadeLength: 150
+  m_TreeMaximumFullLODCount: 500
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
@@ -534,6 +534,8 @@ GameObject:
   - 54: {fileID: 2011706888}
   - 114: {fileID: 2011706889}
   - 114: {fileID: 2011706890}
+  - 114: {fileID: 2011706891}
+  - 114: {fileID: 2011706892}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -619,7 +621,7 @@ MonoBehaviour:
   detailedGizmos: 0
   saveGetNearestHints: 1
   startEndModifier:
-    priority: 1
+    priority: 3
     addPoints: 0
     exactStartPoint: 1
     exactEndPoint: 1
@@ -646,3 +648,36 @@ MonoBehaviour:
   speed: 10
   maxVelocityChange: 10
   nextWaypointDistance: 3
+--- !u!114 &2011706891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2011706883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f586f285b3847808d79083bd19ef1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  priority: 2
+--- !u!114 &2011706892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2011706883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb6a34d769a1e4ac7b0b30e433aa443c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  priority: 1
+  smoothType: 0
+  subdivisions: 2
+  iterations: 2
+  strength: .5
+  uniformLength: 1
+  maxSegmentLength: 2
+  bezierTangentLength: .400000006
+  offset: .200000003
+  factor: .100000001
