@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 using Pathfinding;
 
-public class ChareterHandler : MonoBehaviour {
+public class AIEnemy : MonoBehaviour {
+	
+	public GameObject primaryTarget;
+	public GameObject secondaryTarget;
 	
 	//The calculated path    
 	public Path path;
@@ -22,11 +26,13 @@ public class ChareterHandler : MonoBehaviour {
 	private int currentWaypoint = 0;
 	
 	private CharacterController controller;
-	
+
 	// Use this for initialization
 	void Start () {
 		seeker = GetComponent<Seeker>();
 		controller = GetComponent<CharacterController>();
+		
+		move();
 	}
 	
 	public void OnPathComplete (Path p) {        
@@ -37,9 +43,10 @@ public class ChareterHandler : MonoBehaviour {
 			currentWaypoint = 0;       
 		}    
 	}
-			
+	
+	
 	// Update is called once per frame
-	void FixedUpdate () {
+	void Update () {
 		if (path == null) {            
 			//We have no path to move after yet            
 			return;        
@@ -63,9 +70,9 @@ public class ChareterHandler : MonoBehaviour {
 		}
 	}
 	
-	public void move(Vector3 to){
+	public void move(){
 		seeker.pathCallback += OnPathComplete;
-		seeker.StartPath(transform.position, to);
+		seeker.StartPath(transform.position, secondaryTarget.transform.position);
 	}
 	
 	public void OnDisable () {   
