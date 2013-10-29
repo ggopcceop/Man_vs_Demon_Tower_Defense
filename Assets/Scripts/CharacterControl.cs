@@ -50,15 +50,15 @@ public class CharacterControl : MonoBehaviour {
 			return;      
 		}               
 		//Direction to the next waypoint  
-		Vector3 targetVelocity  = (path.vectorPath[currentWaypoint]-transform.position).normalized;        
-		targetVelocity *= speed;
-		
-		controller.Move(targetVelocity * Time.deltaTime);
+		 Vector3 dir = (path.vectorPath[currentWaypoint]-transform.position).normalized;
+        dir *= speed * Time.fixedDeltaTime;
+        controller.SimpleMove (dir);
 		
 		//Check if we are close enough to the next waypoint     
 		//If we are, proceed to follow the next waypoint      
 		if (Vector3.Distance (transform.position,path.vectorPath[currentWaypoint]) < nextWaypointDistance) {    
-			currentWaypoint++;           
+			currentWaypoint++;        
+			transform.LookAt(path.vectorPath[currentWaypoint]);
 			return;        
 		}
 	}
