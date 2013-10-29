@@ -87,7 +87,7 @@ public class GameControler : MonoBehaviour
 	
 	void ReadWareConfig ()
 	{
-		FileInfo theSourceFile = new FileInfo (wareConfigFileName);
+		FileInfo theSourceFile = new FileInfo ("Assets" + Path.DirectorySeparatorChar + wareConfigFileName);
 
 		StreamReader reader = theSourceFile.OpenText ();
 		string text;
