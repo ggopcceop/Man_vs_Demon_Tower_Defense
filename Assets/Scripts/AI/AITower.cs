@@ -46,6 +46,8 @@ public class AITower : MonoBehaviour {
 				AIEjection ej = clone.GetComponent<AIEjection>();
 				ej.target = o;
 				
+				Physics.IgnoreCollision(collider, clone.collider);
+				
 				currentInterval = 0;
 				break;
 			}

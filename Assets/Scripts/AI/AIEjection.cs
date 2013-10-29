@@ -6,7 +6,11 @@ public class AIEjection : MonoBehaviour {
 	public GameObject target;
 	
 	//the damage of the ejection
-	public float damage;
+	public Damage.DamageType damageType;
+	
+	//the basic damage
+	public float damage = 1;
+	
 	//the flying speed
 	public float flyingSpeed;
 	//the max range of ejection can fly
@@ -40,7 +44,16 @@ public class AIEjection : MonoBehaviour {
 		
 		Vector3 dirction = targetPoint - transform.position;
 		dirction *= flyingSpeed;
-		collider.transform.Translate(dirction * Time.deltaTime);
+		collider.transform.Translate(dirction * Time.fixedDeltaTime);
 	}
+	
+	void OnTriggerEnter(Collider other) {
+		Character chara = other.GetComponent<Character>();
+		if(chara != null){
+			chara.getDamage(damage);
+		}
+        Destroy(gameObject);
+    }
+
 	
 }

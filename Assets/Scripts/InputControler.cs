@@ -60,7 +60,7 @@ public class InputControler : MonoBehaviour
 					Debug.DrawLine(new Vector3(hit.point.x - 1, hit.point.y + 0.1f, hit.point.z), new Vector3(hit.point.x + 1, hit.point.y + 0.1f, hit.point.z),Color.red, 1);
 					Debug.DrawLine(new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z - 1), new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z + 1),Color.red, 1);
 
-					ChareterHandler charter = GameObject.Find("Sphere").GetComponent<ChareterHandler>();
+					CharacterControl charter = GameObject.Find("Sphere").GetComponent<CharacterControl>();
 					charter.move(hit.point);
 				}
 			}
