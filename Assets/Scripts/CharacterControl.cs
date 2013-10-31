@@ -3,6 +3,8 @@ using System.Collections;
 
 using Pathfinding;
 
+[RequireComponent (typeof (Character))]
+[RequireComponent (typeof (CharacterController))]
 public class CharacterControl : MonoBehaviour {
 	
 	//The calculated path    
@@ -22,11 +24,14 @@ public class CharacterControl : MonoBehaviour {
 	private int currentWaypoint = 0;
 	
 	private CharacterController controller;
+	private Character character;
 	
 	// Use this for initialization
 	void Start () {
 		seeker = GetComponent<Seeker>();
 		controller = GetComponent<CharacterController>();
+		character = GetComponent<Character>();
+		
 	}
 	
 	public void OnPathComplete (Path p) {        
@@ -40,6 +45,9 @@ public class CharacterControl : MonoBehaviour {
 			
 	// Update is called once per frame
 	void FixedUpdate () {
+		if(character.IsDie()){
+			return;
+		}
 		if (path == null) {            
 			//We have no path to move after yet            
 			return;        

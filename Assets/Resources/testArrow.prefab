@@ -81,10 +81,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   damageType: 0
+  damageEffect: 0
   damage: 1
   flyingSpeed: 5
   range: 0
-  canTracking: 0
+  canTracking: 1
   hasSplash: 0
   splashArea: 0
   splashDegradation: 0

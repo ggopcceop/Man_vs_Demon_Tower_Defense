@@ -8,6 +8,9 @@ public class AIEjection : MonoBehaviour {
 	//the damage of the ejection
 	public Damage.DamageType damageType;
 	
+	//the effect of the damage
+	public Damage.DamageEffect damageEffect;
+	
 	//the basic damage
 	public float damage = 1;
 	
@@ -56,9 +59,9 @@ public class AIEjection : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		Character chara = other.GetComponent<Character>();
 		if(chara != null){
-			chara.getDamage(damage);
+			Damage.doDamage(other.gameObject, Damage.DamageEffect.None, damage);
 		}
-        Destroy(gameObject);
+		Destroy(gameObject);
     }
 
 	
