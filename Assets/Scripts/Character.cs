@@ -43,7 +43,7 @@ public class Character : MonoBehaviour
 		Debug.Log (name + " died");
 		die = true;
 		if(type == CharacterType.Enemy){
-			GameControler game = GameObject.Find("GameControler").GetComponent<GameControler>();
+			GameWareControler game = GameObject.Find("GameWareControler").GetComponent<GameWareControler>();
 			game.AIEnemies.Remove(gameObject);
 		}
 		

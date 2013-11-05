@@ -13,7 +13,7 @@ public class AITower : MonoBehaviour
 	
 	//the range of the tower
 	public float range = 50;
-	GameControler gameControler;
+	GameWareControler gameWareControler;
 	
 	//the eject point of the tower
 	Transform eject;
@@ -22,7 +22,7 @@ public class AITower : MonoBehaviour
 	void Start ()
 	{
 		
-		gameControler = GameObject.Find ("GameControler").GetComponent<GameControler> ();
+		gameWareControler = GameObject.Find ("GameWareControler").GetComponent<GameWareControler> ();
 		
 		eject = transform.FindChild ("eject");
 	}
@@ -43,7 +43,7 @@ public class AITower : MonoBehaviour
 				}
 			}
 			if (currentTarget == null) {
-				LinkedList<GameObject> enemies = gameControler.AIEnemies;
+				LinkedList<GameObject> enemies = gameWareControler.AIEnemies;
 				foreach (GameObject o in enemies) {
 					float dist = Vector3.Distance (o.transform.position, transform.position);
 					if (dist < range) {
