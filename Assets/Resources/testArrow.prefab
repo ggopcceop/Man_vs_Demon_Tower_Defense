@@ -80,7 +80,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   damage: 0
-  flyingSpeed: 5
+  flyingSpeed: 10
   range: 0
   canTracking: 0
   hasSplash: 0
