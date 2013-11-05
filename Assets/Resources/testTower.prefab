@@ -30,9 +30,10 @@ GameObject:
   - 65: {fileID: 6500002}
   - 23: {fileID: 2300002}
   - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: testTower
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,7 +91,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: c752d293ab28ca946a5304bfffe8f626, type: 2}
+  - {fileID: 2100000, guid: b5122bc89893c7c48b6241497a246789, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -145,10 +146,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed43d12199b0d3a4682cf17b6d5504e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ejection: {fileID: 0}
-  ejectionSpeed: 10
+  ejection: {fileID: 100000, guid: b15daac5affa53e4eada3fcebc2bdff6, type: 2}
   ejectionInterval: 5
   range: 50
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 894514fd340e176449fc8adb2ab80488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  type: 1
+  maxHealth: 5
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

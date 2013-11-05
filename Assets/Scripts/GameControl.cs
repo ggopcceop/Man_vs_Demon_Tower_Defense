@@ -10,6 +10,8 @@ public class GameControl : MonoBehaviour {
 	public PlayerState currentPlayerState;
 	public GameState currentGameState;
 	
+	public GameObject selectedObject;
+	
 	
 	// Use this for initialization
 	void Start () {

@@ -5,7 +5,7 @@ using System.Collections;
 
 public class Character : MonoBehaviour
 {
-	public enum CharacterType {Player, Enemy};
+	public enum CharacterType {Player, Tower, Enemy};
 	
 	
 	public string name;
@@ -23,7 +23,11 @@ public class Character : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		
+		if(highlight){
+			highlight = false;
+		} else {
+			renderer.material.SetColor("_Color", Color.white);
+		}
 	}
 	
 	public void GetDamage (float amount)
@@ -52,5 +56,17 @@ public class Character : MonoBehaviour
 	public bool IsDie ()
 	{
 		return die;
+	}
+	
+	bool highlight = false;
+	public void Highlight(){
+		if(!die){
+			highlight = true;
+			if(type == CharacterType.Tower){
+				renderer.material.SetColor("_Color", Color.green);
+			}else if(type == CharacterType.Enemy){
+				renderer.material.SetColor("_Color", Color.red);
+			}
+		}
 	}
 }

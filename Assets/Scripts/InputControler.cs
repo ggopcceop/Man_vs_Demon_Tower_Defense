@@ -7,14 +7,16 @@ public class InputControler : MonoBehaviour
 	public float cameraTiggerWidth = 10.0f;
 	public float cameraSpeed = 12.0f;
 	
-	private Camera mainCamera;
-	private Cursor cursor;
+	Camera mainCamera;
+	Cursor cursor;
+	GameControl gameControl;
 	
 	// Use this for initialization
 	void Start ()
 	{
 		mainCamera = GameObject.Find ("Camera").camera;	
 		cursor = GameObject.Find ("Cursor").GetComponent<Cursor> ();
+		gameControl = GameObject.Find("GameControl").GetComponent<GameControl>();
 		
 	}
 	
@@ -55,16 +57,19 @@ public class InputControler : MonoBehaviour
 		RaycastHit hit;
 		if(Physics.Raycast(ray, out hit)){
 			if(hit.collider.gameObject.tag.Equals("Clickable")){
-				
-			}
-			if(Input.GetMouseButtonUp(0)){
-				Debug.Log("Button up");
-				Debug.DrawLine(new Vector3(hit.point.x - 1, hit.point.y + 0.1f, hit.point.z), new Vector3(hit.point.x + 1, hit.point.y + 0.1f, hit.point.z),Color.red, 1);
-				Debug.DrawLine(new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z - 1), new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z + 1),Color.red, 1);
-
-				CharacterControl charter = GameObject.Find("Sphere").GetComponent<CharacterControl>();
-				charter.move(hit.point);
-				
+				hit.collider.gameObject.GetComponent<Character>().Highlight();
+				if(Input.GetMouseButtonUp(0)){
+					gameControl.selectedObject = hit.collider.gameObject;
+				}
+			} else{
+				if(Input.GetMouseButtonUp(0)){
+					Debug.Log("Button up");
+					Debug.DrawLine(new Vector3(hit.point.x - 1, hit.point.y + 0.1f, hit.point.z), new Vector3(hit.point.x + 1, hit.point.y + 0.1f, hit.point.z),Color.red, 1);
+					Debug.DrawLine(new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z - 1), new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z + 1),Color.red, 1);
+	
+					CharacterControl charter = GameObject.Find("Sphere").GetComponent<CharacterControl>();
+					charter.move(hit.point);
+				}
 			}
 		}
 	}
