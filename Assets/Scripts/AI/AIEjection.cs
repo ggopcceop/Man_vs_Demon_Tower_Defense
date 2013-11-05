@@ -6,7 +6,14 @@ public class AIEjection : MonoBehaviour {
 	public GameObject target;
 	
 	//the damage of the ejection
-	public float damage;
+	public Damage.DamageType damageType;
+	
+	//the effect of the damage
+	public Damage.DamageEffect damageEffect;
+	
+	//the basic damage
+	public float damage = 1;
+	
 	//the flying speed
 	public float flyingSpeed;
 	//the max range of ejection can fly
@@ -21,15 +28,19 @@ public class AIEjection : MonoBehaviour {
 	public float splashDegradation;
 	
 	Vector3 targetPoint; 
+	float maxLiveTime;
+	float currentLiveTime;
 	
 	// Use this for initialization
 	void Start () {
 		targetPoint = target.transform.position;
+		maxLiveTime = PlayerPrefs.GetFloat("MaxEjectionTime", 30);
+		currentLiveTime = 0;
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		if(target == null){
+		if(target == null || currentLiveTime > maxLiveTime){
 			Destroy(gameObject);
 		}
 		
@@ -41,6 +52,17 @@ public class AIEjection : MonoBehaviour {
 		Vector3 dirction = targetPoint - transform.position;
 		dirction *= flyingSpeed;
 		collider.transform.Translate(dirction * Time.deltaTime);
+		
+		currentLiveTime += Time.deltaTime;
 	}
+	
+	void OnTriggerEnter(Collider other) {
+		Character chara = other.GetComponent<Character>();
+		if(chara != null){
+			Damage.doDamage(other.gameObject, Damage.DamageEffect.None, damage);
+		}
+		Destroy(gameObject);
+    }
+
 	
 }

@@ -7,14 +7,16 @@ public class InputControler : MonoBehaviour
 	public float cameraTiggerWidth = 10.0f;
 	public float cameraSpeed = 12.0f;
 	
-	private Camera mainCamera;
-	private Cursor cursor;
+	Camera mainCamera;
+	Cursor cursor;
+	GameControl gameControl;
 	
 	// Use this for initialization
 	void Start ()
 	{
 		mainCamera = GameObject.Find ("Camera").camera;	
 		cursor = GameObject.Find ("Cursor").GetComponent<Cursor> ();
+		gameControl = GameObject.Find("GameControl").GetComponent<GameControl>();
 		
 	}
 	
@@ -50,21 +52,25 @@ public class InputControler : MonoBehaviour
 	//function for mouse click events
 	void MouseEvent ()
 	{
-		if (Input.GetMouseButton (0) || Input.GetMouseButtonUp(0)) {
-			Vector3 normalizedPoint = new Vector3(cursor.mousePosition.x ,Screen.height - cursor.mousePosition.y, 0);
-			Ray ray = mainCamera.ScreenPointToRay(normalizedPoint);
-			RaycastHit hit;
-			if(Physics.Raycast(ray, out hit)){
+		Vector3 normalizedPoint = new Vector3(cursor.mousePosition.x ,Screen.height - cursor.mousePosition.y, 0);
+		Ray ray = mainCamera.ScreenPointToRay(normalizedPoint);
+		RaycastHit hit;
+		if(Physics.Raycast(ray, out hit)){
+			if(hit.collider.gameObject.tag.Equals("Clickable")){
+				hit.collider.gameObject.GetComponent<Character>().Highlight();
+				if(Input.GetMouseButtonUp(0)){
+					gameControl.selectedObject = hit.collider.gameObject;
+				}
+			} else{
 				if(Input.GetMouseButtonUp(0)){
 					Debug.Log("Button up");
 					Debug.DrawLine(new Vector3(hit.point.x - 1, hit.point.y + 0.1f, hit.point.z), new Vector3(hit.point.x + 1, hit.point.y + 0.1f, hit.point.z),Color.red, 1);
 					Debug.DrawLine(new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z - 1), new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z + 1),Color.red, 1);
-
-					ChareterHandler charter = GameObject.Find("Sphere").GetComponent<ChareterHandler>();
+	
+					CharacterControl charter = GameObject.Find("Sphere").GetComponent<CharacterControl>();
 					charter.move(hit.point);
 				}
 			}
 		}
-
 	}
 }
