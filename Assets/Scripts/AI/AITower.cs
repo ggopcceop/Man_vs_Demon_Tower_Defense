@@ -34,6 +34,7 @@ public class AITower : MonoBehaviour
 	void FixedUpdate ()
 	{		
 		if (currentInterval > ejectionInterval) {
+			//if the tower has a target, check if is out of range
 			if(currentTarget != null){
 				float dist = Vector3.Distance (currentTarget.transform.position, transform.position);
 				if (dist > range) {
@@ -42,6 +43,8 @@ public class AITower : MonoBehaviour
 					currentTarget = null;
 				}
 			}
+			
+			//find a new target if current target is not available
 			if (currentTarget == null) {
 				LinkedList<GameObject> enemies = gameWareControler.AIEnemies;
 				foreach (GameObject o in enemies) {
@@ -53,6 +56,8 @@ public class AITower : MonoBehaviour
 					}
 				}
 			}
+			
+			//shoot to the target
 			if(currentTarget != null){
 				Shoot ();
 			}
@@ -61,9 +66,9 @@ public class AITower : MonoBehaviour
 		currentInterval += Time.deltaTime;
 	}
 	
+	//shoot 
 	void Shoot ()
 	{
-		
 		GameObject clone = Instantiate (ejection, eject.position, Quaternion.identity) as GameObject;
 		AIEjection ej = clone.GetComponent<AIEjection> ();
 		ej.target = currentTarget;

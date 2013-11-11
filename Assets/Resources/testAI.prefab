@@ -13,8 +13,8 @@ GameObject:
   - 114: {fileID: 11400002}
   - 114: {fileID: 11400000}
   - 114: {fileID: 11400004}
-  - 143: {fileID: 14300000}
   - 114: {fileID: 11400006}
+  - 143: {fileID: 14300000}
   m_Layer: 0
   m_Name: testAI
   m_TagString: Clickable
@@ -110,9 +110,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7768b9688e214cf45886ee5a4d5a6008, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 200
+  speed: 5
   maxVelocityChange: 10
   nextWaypointDistance: 3
+  attackTarget: {fileID: 0}
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -124,9 +125,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 894514fd340e176449fc8adb2ab80488, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  type: 1
+  name: testAI
+  type: 2
   maxHealth: 3
+  attackTarget: {fileID: 0}
 --- !u!143 &14300000
 CharacterController:
   m_ObjectHideFlags: 1

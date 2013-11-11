@@ -68,7 +68,9 @@ public class InputControler : MonoBehaviour
 					Debug.DrawLine(new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z - 1), new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z + 1),Color.red, 1);
 	
 					CharacterControl charter = GameObject.Find("Sphere").GetComponent<CharacterControl>();
-					charter.move(hit.point);
+					GameObject target = GameObject.Find("Target");
+					target.transform.position = hit.point;
+					charter.move(target.transform);
 				}
 			}
 		}

@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 894514fd340e176449fc8adb2ab80488, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: testTower
   type: 1
   maxHealth: 5
 --- !u!1001 &100100000
