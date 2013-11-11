@@ -117,7 +117,11 @@ public class GameWareControler : MonoBehaviour
 		for (int i = 0; i < ware.count; i++) {				
 			GameObject prelab = Resources.Load (ware.name) as GameObject;
 			GameObject ai = Instantiate (prelab, enemySpawn.transform.position, Quaternion.identity) as GameObject;
-				
+			//set children
+			Vector3 location = new Vector3(ai.transform.position.x,ai.transform.position.y+5.0f,ai.transform.position.z);
+			GameObject healthBar = Resources.Load("Health Bar") as GameObject;
+			GameObject health = Instantiate (healthBar, location, Quaternion.identity) as GameObject;
+			health.transform.parent = ai.transform;
 			ai.GetComponent<AIEnemy> ().secondaryTarget = castle;
 			AIEnemies.AddLast (ai);				
 		}

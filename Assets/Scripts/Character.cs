@@ -11,13 +11,15 @@ public class Character : MonoBehaviour
 	public string name;
 	public CharacterType type;
 	public float maxHealth;
-	private float currentHealth;
+	public float currentHealth;
 	private bool die = false;
+	//GamePlayGUI gamePlayGUI;
 	
 	// Use this for initialization
 	void Start ()
 	{
-		currentHealth = maxHealth;	
+		currentHealth = maxHealth;
+		//gamePlayGUI = GetComponent<GamePlayGUI>();
 	}
 	
 	// Update is called once per frame
@@ -49,6 +51,9 @@ public class Character : MonoBehaviour
 		if(type == CharacterType.Enemy){
 			GameWareControler game = GameObject.Find("GameWareControler").GetComponent<GameWareControler>();
 			game.AIEnemies.Remove(gameObject);
+			//scoreCount+=10;
+			//gamePlayGUI.UpdateGUI();
+			//Destroy(gameObject);
 		}
 		
 	}
