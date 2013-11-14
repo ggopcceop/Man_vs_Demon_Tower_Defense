@@ -20,7 +20,7 @@ public class AIEnemy : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(!moved){
-			characterControl.move(secondaryTarget.transform.position);
+			characterControl.move(secondaryTarget.transform);
 			moved = true;
 		}
 	}

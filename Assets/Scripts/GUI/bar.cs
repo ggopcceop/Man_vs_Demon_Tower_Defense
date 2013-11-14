@@ -7,10 +7,9 @@ public class bar : MonoBehaviour {
 	private float currentHealth;
 	public UILabel label;
 	private bool displayText = false;
-	public GameObject target = GameObject.Find ("Camera");
+	public GameObject target;
 	//private GameObject barName;
 	private GameObject parent;
-	
 	
 	void Awake(){
 		slider = GetComponent<UISlider>();
@@ -19,13 +18,22 @@ public class bar : MonoBehaviour {
 			return;
 		}
 		maxWidth = slider.foreground.localScale.x;
-		parent = this.transform.parent.gameObject;
+		parent=transform.parent.gameObject.transform.parent.gameObject;
 		maxWidth = parent.GetComponent<Character>().maxHealth;
 		DisplayText = displayText;
 	}
 	
 	void Start(){
+		target = GameObject.Find ("Camera");
+		
+		if(transform.parent){
+			Debug.Log(parent.name);
+		}
+		else{
+			Debug.Log("Not found parent");
+		}
 		currentHealth = parent.GetComponent<Character>().currentHealth;
+		
 		//UpdateDisplay(currentHealth/maxHealth);
 		//barName = this.gameObject;
 	}

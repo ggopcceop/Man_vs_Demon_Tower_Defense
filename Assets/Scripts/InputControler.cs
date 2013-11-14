@@ -53,22 +53,31 @@ public class InputControler : MonoBehaviour
 	void MouseEvent ()
 	{
 		Vector3 normalizedPoint = new Vector3(cursor.mousePosition.x ,Screen.height - cursor.mousePosition.y, 0);
-		Ray ray = mainCamera.ScreenPointToRay(normalizedPoint);
-		RaycastHit hit;
-		if(Physics.Raycast(ray, out hit)){
-			if(hit.collider.gameObject.tag.Equals("Clickable")){
-				hit.collider.gameObject.GetComponent<Character>().Highlight();
-				if(Input.GetMouseButtonUp(0)){
-					gameControl.selectedObject = hit.collider.gameObject;
-				}
-			} else{
-				if(Input.GetMouseButtonUp(0)){
-					Debug.Log("Button up");
-					Debug.DrawLine(new Vector3(hit.point.x - 1, hit.point.y + 0.1f, hit.point.z), new Vector3(hit.point.x + 1, hit.point.y + 0.1f, hit.point.z),Color.red, 1);
-					Debug.DrawLine(new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z - 1), new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z + 1),Color.red, 1);
-	
-					CharacterControl charter = GameObject.Find("Sphere").GetComponent<CharacterControl>();
-					charter.move(hit.point);
+
+		GUILayer gui = mainCamera.GetComponent<GUILayer>();
+		if(gui.HitTest(normalizedPoint) != null){
+			Debug.Log("Hited a GUI somethings");
+		}else{
+			Ray ray = mainCamera.ScreenPointToRay(normalizedPoint);
+			RaycastHit hit;
+			if(Physics.Raycast(ray, out hit)){
+
+				if(hit.collider.gameObject.tag.Equals("Clickable")){
+					hit.collider.gameObject.GetComponent<Character>().Highlight();
+					if(Input.GetMouseButtonUp(0)){
+						gameControl.selectedObject = hit.collider.gameObject;
+					}
+				} else{
+					if(Input.GetMouseButtonUp(0)){
+						Debug.Log("Button up");
+						Debug.DrawLine(new Vector3(hit.point.x - 1, hit.point.y + 0.1f, hit.point.z), new Vector3(hit.point.x + 1, hit.point.y + 0.1f, hit.point.z),Color.red, 1);
+						Debug.DrawLine(new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z - 1), new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z + 1),Color.red, 1);
+		
+						CharacterControl charter = GameObject.Find("Sphere").GetComponent<CharacterControl>();
+						GameObject target = GameObject.Find("Target");
+						target.transform.position = hit.point;
+						charter.move(target.transform);
+					}
 				}
 			}
 		}

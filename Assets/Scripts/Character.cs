@@ -2,7 +2,7 @@
 using System.Collections;
 
 
-
+[RequireComponent (typeof (CharacterControl))]
 public class Character : MonoBehaviour
 {
 	public enum CharacterType {Player, Tower, Enemy};
@@ -11,15 +11,24 @@ public class Character : MonoBehaviour
 	public string name;
 	public CharacterType type;
 	public float maxHealth;
+
 	public float currentHealth;
+
 	private bool die = false;
 	//GamePlayGUI gamePlayGUI;
+	
+	CharacterControl characterControl;
 	
 	// Use this for initialization
 	void Start ()
 	{
+
 		currentHealth = maxHealth;
 		//gamePlayGUI = GetComponent<GamePlayGUI>();
+
+	
+		characterControl = GetComponent<CharacterControl>();
+
 	}
 	
 	// Update is called once per frame
@@ -48,6 +57,7 @@ public class Character : MonoBehaviour
 	{
 		Debug.Log (name + " died");
 		die = true;
+		characterControl.canMove = false;
 		if(type == CharacterType.Enemy){
 			GameWareControler game = GameObject.Find("GameWareControler").GetComponent<GameWareControler>();
 			game.AIEnemies.Remove(gameObject);
