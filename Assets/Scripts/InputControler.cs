@@ -6,7 +6,15 @@ public class InputControler : MonoBehaviour
 	
 	public float cameraTiggerWidth = 10.0f;
 	public float cameraSpeed = 12.0f;
-	
+	public GUITexture tower1;
+	public Texture2D tower1_enable;
+	public GUITexture tower1_disable;
+	public GUITexture tower2;
+	public Texture2D tower2_enable;
+	public GUITexture tower2_disable;
+	public GUITexture tower3;
+	public Texture2D tower3_enable;
+	public GUITexture tower3_disable;
 	Camera mainCamera;
 	Cursor cursor;
 	GameControl gameControl;
@@ -56,7 +64,20 @@ public class InputControler : MonoBehaviour
 
 		GUILayer gui = mainCamera.GetComponent<GUILayer>();
 		if(gui.HitTest(normalizedPoint) != null){
-			Debug.Log("Hited a GUI somethings");
+			Debug.Log(gui.HitTest(normalizedPoint).name);
+			string name = gui.HitTest(normalizedPoint).name;
+
+			if (name=="Tower1"&&Input.GetMouseButtonUp(0)){
+				Debug.Log(name+" is clicked");
+				tower1.texture = tower1_enable;
+			}
+			else if (name=="Tower2"&&Input.GetMouseButtonUp(0)){
+				Debug.Log(name+" is clicked");
+				tower2.texture = tower2_enable;
+			}
+			else if(name=="Tower3"&&Input.GetMouseButtonUp(0)) {
+				Debug.Log(name+" is clicked");
+				tower3.texture = tower3_enable;}
 		}else{
 			Ray ray = mainCamera.ScreenPointToRay(normalizedPoint);
 			RaycastHit hit;
