@@ -3,8 +3,9 @@ using System.Collections;
 
 public class bar : MonoBehaviour {
 	private UISlider slider;
-	private float maxWidth;
-	private float currentHealth;
+	public float maxWidth;
+	public float currentHealth;
+	private float maxWidthBackground;
 	public UILabel label;
 	private bool displayText = false;
 	public GameObject target;
@@ -17,7 +18,9 @@ public class bar : MonoBehaviour {
 			Debug.LogError("UISlider cannot found");
 			return;
 		}
+		//slider.
 		maxWidth = slider.foreground.localScale.x;
+		//maxWidthBackground = transform.GetChild ().localScale.x;
 		parent=transform.parent.gameObject.transform.parent.gameObject;
 		maxWidth = parent.GetComponent<Character>().maxHealth;
 		DisplayText = displayText;
@@ -38,7 +41,7 @@ public class bar : MonoBehaviour {
 		//barName = this.gameObject;
 	}
 	void FixedUpdate(){
-		UpdateDisplay(currentHealth/maxWidth);
+		UpdateDisplay(currentHealth/maxWidth*maxWidthBackground);
 		transform.LookAt(target.transform);
 		
 	}

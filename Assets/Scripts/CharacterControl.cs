@@ -49,6 +49,8 @@ public class CharacterControl : AIPath {
 				Debug.LogWarning ("No NavmeshController or CharacterController attached to GameObject");
 			
 			velocity = controller.velocity;
+			//Play animations
+
 		} else {
 			velocity = Vector3.zero;
 		}

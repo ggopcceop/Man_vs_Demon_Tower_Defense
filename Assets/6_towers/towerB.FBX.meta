@@ -1,0 +1,125 @@
+fileFormatVersion: 2
+guid: 573c0205ea8629d49b5f4f8f2f080e75
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: tower_B_greed_06
+    100002: tower_B_greed_12
+    100004: tower_B_greed_01
+    100006: tower_B_greed_03
+    100008: tower_B_greed_02
+    100010: tower_B_greed_04
+    100012: tower_B_greed_07
+    100014: tower_B_greed_08
+    100016: tower_B_greed_09
+    100018: tower_B_greed_10
+    100020: tower_B_greed_05
+    100022: tower_B_greed_11
+    100024: tower_B_base
+    100026: //RootNode
+    400000: tower_B_greed_06
+    400002: tower_B_greed_12
+    400004: tower_B_greed_01
+    400006: tower_B_greed_03
+    400008: tower_B_greed_02
+    400010: tower_B_greed_04
+    400012: tower_B_greed_07
+    400014: tower_B_greed_08
+    400016: tower_B_greed_09
+    400018: tower_B_greed_10
+    400020: tower_B_greed_05
+    400022: tower_B_greed_11
+    400024: tower_B_base
+    400026: //RootNode
+    2300000: tower_B_greed_06
+    2300002: tower_B_greed_12
+    2300004: tower_B_greed_01
+    2300006: tower_B_greed_03
+    2300008: tower_B_greed_02
+    2300010: tower_B_greed_04
+    2300012: tower_B_greed_07
+    2300014: tower_B_greed_08
+    2300016: tower_B_greed_09
+    2300018: tower_B_greed_10
+    2300020: tower_B_greed_05
+    2300022: tower_B_greed_11
+    2300024: tower_B_base
+    3300000: tower_B_greed_06
+    3300002: tower_B_greed_12
+    3300004: tower_B_greed_01
+    3300006: tower_B_greed_03
+    3300008: tower_B_greed_02
+    3300010: tower_B_greed_04
+    3300012: tower_B_greed_07
+    3300014: tower_B_greed_08
+    3300016: tower_B_greed_09
+    3300018: tower_B_greed_10
+    3300020: tower_B_greed_05
+    3300022: tower_B_greed_11
+    3300024: tower_B_base
+    4300000: tower_B_greed_06
+    4300002: tower_B_greed_01
+    4300004: tower_B_greed_02
+    4300006: tower_B_greed_03
+    4300008: tower_B_greed_04
+    4300010: tower_B_greed_05
+    4300012: tower_B_greed_12
+    4300014: tower_B_greed_07
+    4300016: tower_B_greed_08
+    4300018: tower_B_greed_09
+    4300020: tower_B_greed_10
+    4300022: tower_B_greed_11
+    4300024: tower_B_base
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 
