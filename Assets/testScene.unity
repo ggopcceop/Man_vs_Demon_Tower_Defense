@@ -235,6 +235,7 @@ GUIText:
     rgba: 4294967295
   m_PixelCorrect: 1
   m_RichText: 1
+<<<<<<< HEAD
 --- !u!1 &439263741
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,6 +305,8 @@ MonoBehaviour:
   tower3: {fileID: 0}
   tower3_enable: {fileID: 0}
   tower3_disable: {fileID: 0}
+=======
+>>>>>>> ee7a42c1b3ef8ce078a0f8e9372675fc0185addb
 --- !u!1 &490284255
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,83 +348,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraTiggerWidth: 10
   cameraSpeed: 50
-  tower1: {fileID: 1993804655}
-  tower1_enable: {fileID: 2800000, guid: 65329e7f8b34f4752848b8128e9b1ee6, type: 3}
-  tower1_disable: {fileID: 0}
-  tower2: {fileID: 439263742}
-  tower2_enable: {fileID: 2800000, guid: 4ae748bed6bfa4a0e9b3a690560cce9c, type: 3}
-  tower2_disable: {fileID: 0}
-  tower3: {fileID: 643775266}
-  tower3_enable: {fileID: 2800000, guid: 05b594f2ccc88400ebf6df90286b60bd, type: 3}
-  tower3_disable: {fileID: 0}
---- !u!1 &643775265
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 643775267}
-  - 131: {fileID: 643775266}
-  - 114: {fileID: 643775268}
-  m_Layer: 0
-  m_Name: Tower3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!131 &643775266
-GUITexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 643775265}
-  m_Enabled: 1
-  m_Texture: {fileID: 2800000, guid: 614c75f2812264eab88f053f6772b0d7, type: 3}
-  m_Color: {r: .5, g: .5, b: .5, a: .5}
-  m_PixelInset:
-    serializedVersion: 2
-    x: -110
-    y: -300
-    width: 45
-    height: 45
-  m_LeftBorder: 0
-  m_RightBorder: 0
-  m_TopBorder: 0
-  m_BottomBorder: 0
---- !u!4 &643775267
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 643775265}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .5, y: .5, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
---- !u!114 &643775268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 643775265}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a10dfd9ff644434d9d70f81d6587361, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTiggerWidth: 10
-  cameraSpeed: 12
+
+
   tower1: {fileID: 0}
   tower1_enable: {fileID: 0}
   tower1_disable: {fileID: 0}
   tower2: {fileID: 0}
   tower2_enable: {fileID: 0}
   tower2_disable: {fileID: 0}
+
   tower3: {fileID: 643775266}
   tower3_enable: {fileID: 2800000, guid: 05b594f2ccc88400ebf6df90286b60bd, type: 3}
+
   tower3_disable: {fileID: 0}
 --- !u!1 &711059832
 GameObject:
@@ -924,7 +862,7 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1174188682}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -1609,9 +1547,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1519755751}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d47314d06816674a9a2bf0e3346ab00, type: 3}
+  m_Script: {fileID: 11500000, guid: 1fe0707f479394fa4a9e2ea396c7e18c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemySpawn: {fileID: 1346159797}
+  castle: {fileID: 1836449308}
+  wareConfigFileName: testSceneWare.txt
 --- !u!1 &1675604785
 GameObject:
   m_ObjectHideFlags: 0
