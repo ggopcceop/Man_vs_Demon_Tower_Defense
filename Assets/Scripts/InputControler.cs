@@ -66,7 +66,10 @@ public class InputControler : MonoBehaviour
 		if(gui.HitTest(normalizedPoint) != null){
 			//Debug.Log(gui.HitTest(normalizedPoint).name);
 			string name = gui.HitTest(normalizedPoint).name;
-
+			if (name == "Start_button"&&Input.GetMouseButtonUp(0)){
+				Debug.Log(name+"is clicked");
+				gameControl.currentGameState = GameControl.GameState.Playing;
+			}
 			if (name=="Tower1"&&Input.GetMouseButtonUp(0)){
 				Debug.Log(name+" is clicked");
 				tower1.texture = tower1_enable;
