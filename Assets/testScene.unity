@@ -235,78 +235,6 @@ GUIText:
     rgba: 4294967295
   m_PixelCorrect: 1
   m_RichText: 1
-<<<<<<< HEAD
---- !u!1 &439263741
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 439263743}
-  - 131: {fileID: 439263742}
-  - 114: {fileID: 439263744}
-  m_Layer: 0
-  m_Name: Tower2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!131 &439263742
-GUITexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 439263741}
-  m_Enabled: 1
-  m_Texture: {fileID: 2800000, guid: 8b968d994079649aab1a602428e60e0b, type: 3}
-  m_Color: {r: .5, g: .5, b: .5, a: .5}
-  m_PixelInset:
-    serializedVersion: 2
-    x: -180
-    y: -300
-    width: 45
-    height: 45
-  m_LeftBorder: 0
-  m_RightBorder: 0
-  m_TopBorder: 0
-  m_BottomBorder: 0
---- !u!4 &439263743
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 439263741}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .5, y: .5, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
---- !u!114 &439263744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 439263741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a10dfd9ff644434d9d70f81d6587361, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTiggerWidth: 10
-  cameraSpeed: 12
-  tower1: {fileID: 0}
-  tower1_enable: {fileID: 0}
-  tower1_disable: {fileID: 0}
-  tower2: {fileID: 439263742}
-  tower2_enable: {fileID: 2800000, guid: 4ae748bed6bfa4a0e9b3a690560cce9c, type: 3}
-  tower2_disable: {fileID: 0}
-  tower3: {fileID: 0}
-  tower3_enable: {fileID: 0}
-  tower3_disable: {fileID: 0}
-=======
->>>>>>> ee7a42c1b3ef8ce078a0f8e9372675fc0185addb
 --- !u!1 &490284255
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,18 +276,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraTiggerWidth: 10
   cameraSpeed: 50
-
-
-  tower1: {fileID: 0}
-  tower1_enable: {fileID: 0}
+  tower1: {fileID: 1993804655}
+  tower1_enable: {fileID: 2800000, guid: 65329e7f8b34f4752848b8128e9b1ee6, type: 3}
   tower1_disable: {fileID: 0}
-  tower2: {fileID: 0}
-  tower2_enable: {fileID: 0}
+  tower2: {fileID: 1494855106}
+  tower2_enable: {fileID: 2800000, guid: 4ae748bed6bfa4a0e9b3a690560cce9c, type: 3}
   tower2_disable: {fileID: 0}
-
-  tower3: {fileID: 643775266}
+  tower3: {fileID: 1922253745}
   tower3_enable: {fileID: 2800000, guid: 05b594f2ccc88400ebf6df90286b60bd, type: 3}
-
   tower3_disable: {fileID: 0}
 --- !u!1 &711059832
 GameObject:
@@ -1511,6 +1435,52 @@ GUIText:
     rgba: 4294967295
   m_PixelCorrect: 1
   m_RichText: 1
+--- !u!1 &1494855105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1494855107}
+  - 131: {fileID: 1494855106}
+  m_Layer: 0
+  m_Name: Tower2
+  m_TagString: GUI
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!131 &1494855106
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1494855105}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 8b968d994079649aab1a602428e60e0b, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: -180
+    y: -300
+    width: 45
+    height: 45
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!4 &1494855107
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1494855105}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .5, y: .5, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &1519755751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,8 +1562,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   astarData:
-    hasBeenReverted: 0
-    data: 504b0304140000080800e6767743ff2ba429c20100007e0300000b0024006772617068302e6a736f6e0a0020000000000001001800f8fb408a7de8ce01eefb408a7de8ce01e4fb408a7de8ce015d52cb6edb3010fc958267a7b054a36e7c4bedc62d903641dca2e715b5b216a648818fc672e07fef9292fcba10d2cc70677697ef621ba8148b77f10f5440b110b36a96979003cef32fc57c5add159f212fe6329fdf7fc2a22c72719c08702d4aff0a9e8c586413618d8fdf3a16da8bc57422ba741ef864b944edd10e64369d5ef2f19725414b054d8be5860e3828f35199f71a6d4aece98c716994223798faae8de197d0baa0504c4449d06032e57835d2b6f65ce7e2d6735539f42985856e45961b4ac5c457e36baed080db5d0c2606e8ebfcbc26ee32662a6b9aef834b1653fb9ae4ee153a098ea10a94c36b70751930b45793cbce931be32e6b94ecea6dc031c71514f41ba81d140affd6a87f99b53541973d7b8ccdec978a9a82ab7e9c9d7f1ff6e4921d031b65e20cef39025a9ef40f0e9796ea522cc6628e3f0e7fc3d69d5a1ae047b2ce33918a41f0e689f46e6da93c2b477445ce3f5143be5fa38ebd142658568a6f6982dc76f04b633546b0efaf450dca772fece6afb777c39cfc6ef04790def4d31e9807bde5a772234fe0491b37499aef837ae9f964c983d26330cd6be4e4b1d70f6b0b6d7c3aa585b7351d1a738a4fba321b6911f573ba9b4c8fff01504b0304140000080800e6767743287e18aa4300000048000000120024006772617068305f656469746f722e6a736f6e0a00200000000000010018005e0e418a7de8ce015e0e418a7de8ce015e0e418a7de8ce01ab56cac94fce4e4d51b22a292a4dd5512acec82f77ad28294a54b24a4bcc29068a94a456949416a58665166726e5a4c2d4156496e59728592939a7e695a41629d50200504b0304140000080800e6767743149029d37600000085000000090024006d6574612e6a736f6e0a0020000000000001001800e018418a7de8ce01e018418a7de8ce01d618418a7de8ce011d8cb10e82301040ffe5666ce000abac0c6cc6dd305cbd2b74b025a59818e3bf4bd9def0defbc25be2ea82870e6a85aa55151430455ae615ba6ac7cdf14e0f686c834c48a2f16274694fe64c68f413f5b516c306612c207d16b9d14b8ee24e69b6ceb3f3931aa2e3215fb3e5034b1f369fb2568ebf3f504b01022d00140000080800e6767743ff2ba429c20100007e0300000b00240000000000000000000000000000006772617068302e6a736f6e0a0020000000000001001800f8fb408a7de8ce01eefb408a7de8ce01e4fb408a7de8ce01504b01022d00140000080800e6767743287e18aa430000004800000012002400000000000000000000000f0200006772617068305f656469746f722e6a736f6e0a00200000000000010018005e0e418a7de8ce015e0e418a7de8ce015e0e418a7de8ce01504b01022d00140000080800e6767743149029d376000000850000000900240000000000000000000000a60200006d6574612e6a736f6e0a0020000000000001001800e018418a7de8ce01e018418a7de8ce01d618418a7de8ce01504b050600000000030003001c010000670300000000
+    hasBeenReverted: 156
+    data: 504b030414000008080060855d43ff2ba429c20100007e0300000b0024006772617068302e6a736f6e0a00200000000000010018007a093013dfd4ce017a093013dfd4ce0170093013dfd4ce015d52cb6edb3010fc958267a7b054a36e7c4bedc62d903641dca2e715b5b216a648818fc672e07fef9292fcba10d2cc70677697ef621ba8148b77f10f5440b110b36a96979003cef32fc57c5add159f212fe6329fdf7fc2a22c72719c08702d4aff0a9e8c586413618d8fdf3a16da8bc57422ba741ef864b944edd10e64369d5ef2f19725414b054d8be5860e3828f35199f71a6d4aece98c716994223798faae8de197d0baa0504c4449d06032e57835d2b6f65ce7e2d6735539f42985856e45961b4ac5c457e36baed080db5d0c2606e8ebfcbc26ee32662a6b9aef834b1653fb9ae4ee153a098ea10a94c36b70751930b45793cbce931be32e6b94ecea6dc031c71514f41ba81d140affd6a87f99b53541973d7b8ccdec978a9a82ab7e9c9d7f1ff6e4921d031b65e20cef39025a9ef40f0e9796ea522cc6628e3f0e7fc3d69d5a1ae047b2ce33918a41f0e689f46e6da93c2b477445ce3f5143be5fa38ebd142658568a6f6982dc76f04b633546b0efaf450dca772fece6afb777c39cfc6ef04790def4d31e9807bde5a772234fe0491b37499aef837ae9f964c983d26330cd6be4e4b1d70f6b0b6d7c3aa585b7351d1a738a4fba321b6911f573ba9b4c8fff01504b030414000008080060855d43287e18aa4300000048000000120024006772617068305f656469746f722e6a736f6e0a002000000000000100180020183013dfd4ce0120183013dfd4ce0120183013dfd4ce01ab56cac94fce4e4d51b22a292a4dd5512acec82f77ad28294a54b24a4bcc29068a94a456949416a58665166726e5a4c2d4156496e59728592939a7e695a41629d50200504b030414000008080060855d43149029d37600000085000000090024006d6574612e6a736f6e0a00200000000000010018005e203013dfd4ce015e203013dfd4ce0154203013dfd4ce011d8cb10e82301040ffe5666ce000abac0c6cc6dd305cbd2b74b025a59818e3bf4bd9def0defbc25be2ea82870e6a85aa55151430455ae615ba6ac7cdf14e0f686c834c48a2f16274694fe64c68f413f5b516c306612c207d16b9d14b8ee24e69b6ceb3f3931aa2e3215fb3e5034b1f369fb2568ebf3f504b01022d0014000008080060855d43ff2ba429c20100007e0300000b00240000000000000000000000000000006772617068302e6a736f6e0a00200000000000010018007a093013dfd4ce017a093013dfd4ce0170093013dfd4ce01504b01022d0014000008080060855d43287e18aa430000004800000012002400000000000000000000000f0200006772617068305f656469746f722e6a736f6e0a002000000000000100180020183013dfd4ce0120183013dfd4ce0120183013dfd4ce01504b01022d0014000008080060855d43149029d376000000850000000900240000000000000000000000a60200006d6574612e6a736f6e0a00200000000000010018005e203013dfd4ce015e203013dfd4ce0154203013dfd4ce01504b050600000000030003001c0100006703000000
     data_backup: 
     data_cachedStartup: 
     revertData: 
@@ -1809,6 +1779,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1355964464}
   m_GameObject: {fileID: 1899229362}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1922253744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1922253746}
+  - 131: {fileID: 1922253745}
+  m_Layer: 0
+  m_Name: Tower3
+  m_TagString: GUI
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!131 &1922253745
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1922253744}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 614c75f2812264eab88f053f6772b0d7, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: -110
+    y: -300
+    width: 45
+    height: 45
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!4 &1922253746
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1922253744}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .5, y: .5, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &1972149037
 GameObject:
   m_ObjectHideFlags: 0
@@ -1898,7 +1914,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1993804656}
   - 131: {fileID: 1993804655}
-  - 114: {fileID: 1993804657}
   m_Layer: 0
   m_Name: Tower1
   m_TagString: GUI
@@ -1936,28 +1951,6 @@ Transform:
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!114 &1993804657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1993804654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a10dfd9ff644434d9d70f81d6587361, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTiggerWidth: 10
-  cameraSpeed: 12
-  tower1: {fileID: 1993804655}
-  tower1_enable: {fileID: 2800000, guid: 65329e7f8b34f4752848b8128e9b1ee6, type: 3}
-  tower1_disable: {fileID: 0}
-  tower2: {fileID: 0}
-  tower2_enable: {fileID: 0}
-  tower2_disable: {fileID: 0}
-  tower3: {fileID: 0}
-  tower3_enable: {fileID: 0}
-  tower3_disable: {fileID: 0}
 --- !u!1 &2011706883
 GameObject:
   m_ObjectHideFlags: 0

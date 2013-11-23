@@ -2,7 +2,16 @@ fileFormatVersion: 2
 guid: 4a10dfd9ff644434d9d70f81d6587361
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - tower1: {instanceID: 0}
+  - tower1_enable: {fileID: 2800000, guid: 65329e7f8b34f4752848b8128e9b1ee6, type: 3}
+  - tower1_disable: {instanceID: 0}
+  - tower2: {instanceID: 0}
+  - tower2_enable: {fileID: 2800000, guid: 4ae748bed6bfa4a0e9b3a690560cce9c, type: 3}
+  - tower2_disable: {instanceID: 0}
+  - tower3: {instanceID: 0}
+  - tower3_enable: {fileID: 2800000, guid: 05b594f2ccc88400ebf6df90286b60bd, type: 3}
+  - tower3_disable: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
