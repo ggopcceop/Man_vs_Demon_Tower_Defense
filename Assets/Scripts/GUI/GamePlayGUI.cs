@@ -14,14 +14,14 @@ public class GamePlayGUI : MonoBehaviour {
 	public GUIText healthText;
 	public GUIText scoreText;
 	public GUIText cashText;
-	//tower cost              - or array -
+	//towers cost    
 	public int tower1Cost;
 	public int tower2Cost;
 	public int tower3Cost;
 	private string condition;
 	// Use this for initialization
 	void Start () {
-		UpdateGUI();
+		//UpdateGUI();
 		condition = cashText.text+"  "+waveText.text+"  "+healthText.text+"  "+scoreText.text;
 	}
 	
@@ -34,8 +34,6 @@ public class GamePlayGUI : MonoBehaviour {
 	}
 	void OnGUI(){
 		GUI.skin = customSkin;
-
-		
 		GUI.Box(new Rect (0,0,Screen.width,40),condition);
 	}
 
