@@ -74,23 +74,34 @@ NavMeshSettings:
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
   m_NavMesh: {fileID: 0}
---- !u!1 &33675408
+--- !u!1 &43957655
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100000, guid: 39072d946d9894a2aaef40725ce1293c, type: 2}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 33675410}
-  - 114: {fileID: 33675409}
+  - 4: {fileID: 43957656}
+  - 114: {fileID: 43957657}
   m_Layer: 0
-  m_Name: Background
+  m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &33675409
+--- !u!4 &43957656
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 43957655}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1277208646}
+--- !u!114 &43957657
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400000, guid: 39072d946d9894a2aaef40725ce1293c,
@@ -99,7 +110,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 33675408}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d33c6354b54fb847b16b36e1391868d, type: 3}
+  m_Script: {fileID: 11500000, guid: ec033cc951fcc6644a60cf7e03c40ba4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mMat: {fileID: 2100000, guid: e7ef61ebb5c25394c8706a7ea658349f, type: 2}
@@ -509,6 +520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9ec24486fa17414e92bd7d45062b882, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 2011706883}
   currentPlayerState: 0
   currentGameState: 0
   selectedObject: {fileID: 0}
@@ -831,6 +843,7 @@ Transform:
   - {fileID: 1297947447}
   - {fileID: 949488722}
   - {fileID: 1519755752}
+  - {fileID: 43957656}
   - {fileID: 490284256}
   m_Father: {fileID: 0}
 --- !u!1 &1297947446
@@ -1980,8 +1993,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 455.591583, y: 7.54204702, z: 1493.84241}
   m_LocalScale: {x: 5.62458324, y: 5.62458324, z: 5.62458324}
-  m_Children:
-  - {fileID: 1337361940}
+  m_Children: []
   m_Father: {fileID: 0}
 --- !u!114 &2011706888
 MonoBehaviour:
