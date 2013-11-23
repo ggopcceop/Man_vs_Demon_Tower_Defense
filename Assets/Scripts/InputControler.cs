@@ -63,25 +63,30 @@ public class InputControler : MonoBehaviour
 		Vector3 normalizedPoint = new Vector3(cursor.mousePosition.x ,Screen.height - cursor.mousePosition.y, 0);
 
 		GUILayer gui = mainCamera.GetComponent<GUILayer>();
+		//test if player clicked on gui
 		if(gui.HitTest(normalizedPoint) != null){
 			//Debug.Log(gui.HitTest(normalizedPoint).name);
-			string name = gui.HitTest(normalizedPoint).name;
-			if (name == "Start_button"&&Input.GetMouseButtonUp(0)){
-				Debug.Log(name+"is clicked");
-				gameControl.currentGameState = GameControl.GameState.Playing;
+			if(Input.GetMouseButtonUp(0)){
+				string name = gui.HitTest(normalizedPoint).name;
+				//if player clicked start button, start the game. enemy waves
+				if (name == "Start_button"){
+					Debug.Log(name+"is clicked");
+					gameControl.currentGameState = GameControl.GameState.Playing;
+				}
+				if (name=="Tower1"){
+					Debug.Log(name+" is clicked");
+					tower1.texture = tower1_enable;
+				}
+				else if (name=="Tower2"){
+					Debug.Log(name+" is clicked");
+					tower2.texture = tower2_enable;
+				}
+				else if(name=="Tower3") {
+					Debug.Log(name+" is clicked");
+					tower3.texture = tower3_enable;
+				}
 			}
-			if (name=="Tower1"&&Input.GetMouseButtonUp(0)){
-				Debug.Log(name+" is clicked");
-				tower1.texture = tower1_enable;
-			}
-			else if (name=="Tower2"&&Input.GetMouseButtonUp(0)){
-				Debug.Log(name+" is clicked");
-				tower2.texture = tower2_enable;
-			}
-			else if(name=="Tower3"&&Input.GetMouseButtonUp(0)) {
-				Debug.Log(name+" is clicked");
-				tower3.texture = tower3_enable;
-			}
+		//test player clicked ingame objects
 		}else{
 			Ray ray = mainCamera.ScreenPointToRay(normalizedPoint);
 			RaycastHit hit;
@@ -98,10 +103,10 @@ public class InputControler : MonoBehaviour
 						Debug.DrawLine(new Vector3(hit.point.x - 1, hit.point.y + 0.1f, hit.point.z), new Vector3(hit.point.x + 1, hit.point.y + 0.1f, hit.point.z),Color.red, 1);
 						Debug.DrawLine(new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z - 1), new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z + 1),Color.red, 1);
 		
-						CharacterControl charter = GameObject.Find("Sphere").GetComponent<CharacterControl>();
+						CharacterControl character = gameControl.player.GetComponent<CharacterControl>();
 						GameObject target = GameObject.Find("Target");
 						target.transform.position = hit.point;
-						charter.move(target.transform);
+						character.move(target.transform);
 					}
 				}
 			}
