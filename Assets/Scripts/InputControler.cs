@@ -64,7 +64,7 @@ public class InputControler : MonoBehaviour
 
 		GUILayer gui = mainCamera.GetComponent<GUILayer>();
 		if(gui.HitTest(normalizedPoint) != null){
-			Debug.Log(gui.HitTest(normalizedPoint).name);
+			//Debug.Log(gui.HitTest(normalizedPoint).name);
 			string name = gui.HitTest(normalizedPoint).name;
 
 			if (name=="Tower1"&&Input.GetMouseButtonUp(0)){
@@ -77,7 +77,8 @@ public class InputControler : MonoBehaviour
 			}
 			else if(name=="Tower3"&&Input.GetMouseButtonUp(0)) {
 				Debug.Log(name+" is clicked");
-				tower3.texture = tower3_enable;}
+				tower3.texture = tower3_enable;
+			}
 		}else{
 			Ray ray = mainCamera.ScreenPointToRay(normalizedPoint);
 			RaycastHit hit;
