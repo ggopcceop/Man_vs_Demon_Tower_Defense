@@ -47,7 +47,7 @@ public class CharacterControl : AIPath {
 				controller.SimpleMove (dir);
 			else
 				Debug.LogWarning ("No NavmeshController or CharacterController attached to GameObject");
-			
+
 			velocity = controller.velocity;
 		} else {
 			velocity = Vector3.zero;

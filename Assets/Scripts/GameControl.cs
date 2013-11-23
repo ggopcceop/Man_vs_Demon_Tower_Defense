@@ -6,6 +6,8 @@ public class GameControl : MonoBehaviour {
 	public enum PlayerState {Normal, Building};
 	
 	public enum GameState {Starting, Playing};
+
+	public GameObject player;
 	
 	public PlayerState currentPlayerState;
 	public GameState currentGameState;
