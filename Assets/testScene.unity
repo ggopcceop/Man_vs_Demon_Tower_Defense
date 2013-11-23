@@ -921,6 +921,7 @@ MonoBehaviour:
   healthText: {fileID: 711059834}
   scoreText: {fileID: 103915014}
   cashText: {fileID: 1450108251}
+  customSkin: {fileID: 11400000, guid: c7a4e563bc1b04eb6a818098c5bdd2ab, type: 2}
   tower1Cost: 0
   tower2Cost: 0
   tower3Cost: 0
@@ -1122,7 +1123,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_Strength: 1
     m_Bias: .0500000007
