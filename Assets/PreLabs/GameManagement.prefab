@@ -42,7 +42,7 @@ GameObject:
   - 4: {fileID: 400004}
   m_Layer: 0
   m_Name: GameManagement
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,6 +74,22 @@ GameObject:
   - 114: {fileID: 11400006}
   m_Layer: 0
   m_Name: GameControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400010}
+  - 114: {fileID: 11400008}
+  m_Layer: 0
+  m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -114,6 +130,7 @@ Transform:
   - {fileID: 400006}
   - {fileID: 400008}
   - {fileID: 400000}
+  - {fileID: 400010}
   - {fileID: 400002}
   m_Father: {fileID: 0}
 --- !u!4 &400006
@@ -138,6 +155,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400004}
+--- !u!4 &400010
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400004}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -146,7 +174,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d47314d06816674a9a2bf0e3346ab00, type: 3}
+  m_Script: {fileID: 11500000, guid: 1fe0707f479394fa4a9e2ea396c7e18c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemySpawn: {fileID: 0}
@@ -165,6 +193,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraTiggerWidth: 10
   cameraSpeed: 50
+  tower1: {fileID: 0}
+  tower1_enable: {fileID: 2800000, guid: 65329e7f8b34f4752848b8128e9b1ee6, type: 3}
+  tower1_disable: {fileID: 0}
+  tower2: {fileID: 0}
+  tower2_enable: {fileID: 2800000, guid: 4ae748bed6bfa4a0e9b3a690560cce9c, type: 3}
+  tower2_disable: {fileID: 0}
+  tower3: {fileID: 0}
+  tower3_enable: {fileID: 2800000, guid: 05b594f2ccc88400ebf6df90286b60bd, type: 3}
+  tower3_disable: {fileID: 0}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -190,8 +227,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9ec24486fa17414e92bd7d45062b882, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   currentPlayerState: 0
   currentGameState: 0
+  selectedObject: {fileID: 0}
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec033cc951fcc6644a60cf7e03c40ba4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fullHealth: {fileID: 2800000, guid: da5316eedc799f143a0afaa34fa42a2b, type: 3}
+  emptyHealth: {fileID: 2800000, guid: 1ad5bb806a118ac4cbddfbf052681277, type: 3}
+  healthBarLength: 40
+  healthBarHeight: 5
+  healthBarHightOffset: 20
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
