@@ -12,6 +12,9 @@ MonoImporter:
   - tower3: {instanceID: 0}
   - tower3_enable: {fileID: 2800000, guid: 05b594f2ccc88400ebf6df90286b60bd, type: 3}
   - tower3_disable: {instanceID: 0}
+  - Tower1Object: {fileID: 100000, guid: f896c5704f7474897b44cb2a8c0346d5, type: 2}
+  - Tower2Object: {fileID: 100004, guid: 1f9d8d7a8611c46b39fd66c4b45987b4, type: 2}
+  - Tower3Object: {fileID: 100010, guid: 8da11735e7d64438ca66aa0acfcb7451, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

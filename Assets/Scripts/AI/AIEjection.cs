@@ -48,10 +48,12 @@ public class AIEjection : MonoBehaviour {
 			targetPoint = target.transform.position;
 		}
 		
-		
+		transform.LookAt(target.transform.position);
+
 		Vector3 dirction = targetPoint - transform.position;
 		dirction *= flyingSpeed;
-		collider.transform.Translate(dirction * Time.deltaTime);
+		collider.transform.Translate(dirction * Time.deltaTime, Space.World);
+
 		
 		currentLiveTime += Time.deltaTime;
 	}

@@ -2,7 +2,6 @@
 using System.Collections;
 
 
-[RequireComponent (typeof (CharacterControl))]
 public class Character : MonoBehaviour
 {
 	public enum CharacterType {Player, Tower, Enemy};
