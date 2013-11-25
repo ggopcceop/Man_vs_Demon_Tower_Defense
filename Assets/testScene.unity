@@ -852,6 +852,52 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 35478601}
+--- !u!1 &208547131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 208547133}
+  - 131: {fileID: 208547132}
+  m_Layer: 0
+  m_Name: Menu_button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!131 &208547132
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 208547131}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 447fc7583de034352bd240bdd4e8a1bb, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 225
+    y: 120
+    width: 45
+    height: 45
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!4 &208547133
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 208547131}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .5, y: .5, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &226075940
 GameObject:
   m_ObjectHideFlags: 0
@@ -5248,10 +5294,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customSkin: {fileID: 11400000, guid: c7a4e563bc1b04eb6a818098c5bdd2ab, type: 2}
+  healthCount: 10
+  scoreCount: 0
+  cashCount: 200
+  waveLevel: 1
   waveText: {fileID: 1323351469}
   healthText: {fileID: 711059834}
   scoreText: {fileID: 103915014}
   cashText: {fileID: 1450108251}
+  Start_button: {fileID: 1637707815}
+  tower1_GUItexture: {fileID: 1993804655}
+  tower2_GUItexture: {fileID: 1494855106}
+  tower3_GUItexture: {fileID: 1922253745}
+  menu_GUItexture: {fileID: 208547132}
   tower1Cost: 0
   tower2Cost: 0
   tower3Cost: 0
@@ -5916,7 +5971,7 @@ GUIText:
   m_GameObject: {fileID: 1450108249}
   m_Enabled: 1
   serializedVersion: 3
-  m_Text: 'Coin: 100'
+  m_Text: 'Coin: 1000'
   m_Anchor: 0
   m_Alignment: 0
   m_PixelOffset: {x: 0, y: 0}
@@ -6254,6 +6309,7 @@ MonoBehaviour:
   enemySpawn: {fileID: 1346159797}
   castle: {fileID: 1836449308}
   wareConfigFileName: testSceneWare.txt
+  currentWave: 1
 --- !u!1 &1551019336
 GameObject:
   m_ObjectHideFlags: 0
@@ -7897,7 +7953,7 @@ GUITexture:
   m_Color: {r: .5, g: .5, b: .5, a: .5}
   m_PixelInset:
     serializedVersion: 2
-    x: -230
+    x: -225
     y: -300
     width: 45
     height: 45

@@ -12,7 +12,7 @@ public class Character : MonoBehaviour
 	public float maxHealth;
 
 	public float currentHealth;
-
+	private GamePlayGUI gamePlayGUI;
 	private bool die = false;
 	//GamePlayGUI gamePlayGUI;
 	
@@ -25,7 +25,7 @@ public class Character : MonoBehaviour
 		currentHealth = maxHealth;
 		//gamePlayGUI = GetComponent<GamePlayGUI>();
 
-	
+		gamePlayGUI = GameObject.Find("Panel").GetComponent<GamePlayGUI>();
 		characterControl = GetComponent<CharacterControl>();
 
 	}
@@ -49,6 +49,11 @@ public class Character : MonoBehaviour
 		if (currentHealth <= 0) {
 			currentHealth = 0;
 			Die ();
+			//if character is enemy, add score
+			if (type==CharacterType.Enemy){
+				gamePlayGUI.scoreCount+=10;
+			}
+
 		}
 	}
 	
@@ -60,7 +65,6 @@ public class Character : MonoBehaviour
 		if(type == CharacterType.Enemy){
 			GameWareControler game = GameObject.Find("GameWareControler").GetComponent<GameWareControler>();
 			game.AIEnemies.Remove(gameObject);
-			//scoreCount+=10;
 			//gamePlayGUI.UpdateGUI();
 			//Destroy(gameObject);
 		}

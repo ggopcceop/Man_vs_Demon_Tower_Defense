@@ -26,6 +26,7 @@ public class InputControler : MonoBehaviour
 	Cursor cursor;
 	GameControl gameControl;
 	public GameObject buildingTowner;
+	private GamePlayGUI gamePlayGUI;
 	
 	// Use this for initialization
 	void Start ()
@@ -33,6 +34,7 @@ public class InputControler : MonoBehaviour
 		mainCamera = GameObject.Find ("Camera").camera;	
 		cursor = GameObject.Find ("Cursor").GetComponent<Cursor> ();
 		gameControl = GameObject.Find("GameControl").GetComponent<GameControl>();
+		gamePlayGUI = GameObject.Find("Panel").GetComponent<GamePlayGUI>();
 		
 	}
 	
@@ -113,24 +115,42 @@ public class InputControler : MonoBehaviour
 						Debug.Log(name+"is clicked");
 						gameControl.currentGameState = GameControl.GameState.Playing;
 					}
-					if (name=="Tower1"){
+					//if player clicked tower1 button, build tower 1 object
+					else if (name=="Tower1"){
 						Debug.Log(name+" is clicked");
 						tower1.texture = tower1_enable;
-						buildTower(Tower1Object);
-						enableButton = 1;
+						if (gamePlayGUI.cashCount>=10){
+							buildTower(Tower1Object);
+							enableButton = 1;
+							gamePlayGUI.cashCount = gamePlayGUI.cashCount - 10;
+						}
 					}
+					//if player clicked tower2 button, build tower 2 object
 					else if (name=="Tower2"){
 						Debug.Log(name+" is clicked");
 						tower2.texture = tower2_enable;
-						buildTower(Tower2Object);
-						enableButton = 2;
+						if (gamePlayGUI.cashCount>=20){
+							buildTower(Tower2Object);
+							enableButton = 2;
+							gamePlayGUI.cashCount = gamePlayGUI.cashCount - 20;
+						}
 					}
+					//if player clicked tower3 button, build tower 3 object
 					else if(name=="Tower3") {
 						Debug.Log(name+" is clicked");
 						tower3.texture = tower3_enable;
-						buildTower(Tower3Object);
-						enableButton = 3;
+						if (gamePlayGUI.cashCount>=30){
+							buildTower(Tower3Object);
+							enableButton = 3;
+							gamePlayGUI.cashCount = gamePlayGUI.cashCount - 30;
+						}
 					}
+					//if player clicked menu button, shows menu
+					else if (name=="Menu_button"){
+						Debug.Log(name+"is clicked");
+
+					}
+
 				}
 			//test player clicked ingame objects
 			}else{

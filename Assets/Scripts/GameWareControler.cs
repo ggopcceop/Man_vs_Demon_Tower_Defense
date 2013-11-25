@@ -41,7 +41,8 @@ public class GameWareControler : MonoBehaviour
 	
 	//the wares config file of this level
 	public string wareConfigFileName;
-	
+
+	public int currentWave=1;
 	//count the total time passed
 	float gameTime = 0;
 	
