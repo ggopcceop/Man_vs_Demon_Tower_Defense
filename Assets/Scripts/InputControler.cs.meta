@@ -5,13 +5,17 @@ MonoImporter:
   defaultReferences:
   - tower1: {instanceID: 0}
   - tower1_enable: {fileID: 2800000, guid: 65329e7f8b34f4752848b8128e9b1ee6, type: 3}
-  - tower1_disable: {instanceID: 0}
+  - tower1_disable: {fileID: 2800000, guid: a231abfdd84a1443d930ba5375e2735c, type: 3}
   - tower2: {instanceID: 0}
   - tower2_enable: {fileID: 2800000, guid: 4ae748bed6bfa4a0e9b3a690560cce9c, type: 3}
-  - tower2_disable: {instanceID: 0}
+  - tower2_disable: {fileID: 2800000, guid: 58ee8c2b0f1ed4caa95ffc2279414346, type: 3}
   - tower3: {instanceID: 0}
   - tower3_enable: {fileID: 2800000, guid: 05b594f2ccc88400ebf6df90286b60bd, type: 3}
-  - tower3_disable: {instanceID: 0}
+  - tower3_disable: {fileID: 2800000, guid: 0b5a9a38e8f404b82b419443adbd7b9d, type: 3}
+  - Tower1Object: {fileID: 100000, guid: f896c5704f7474897b44cb2a8c0346d5, type: 2}
+  - Tower2Object: {fileID: 100004, guid: 1f9d8d7a8611c46b39fd66c4b45987b4, type: 2}
+  - Tower3Object: {fileID: 100010, guid: 8da11735e7d64438ca66aa0acfcb7451, type: 2}
+  - buildingTowner: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

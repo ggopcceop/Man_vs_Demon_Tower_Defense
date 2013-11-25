@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class InputControler : MonoBehaviour
@@ -8,16 +8,24 @@ public class InputControler : MonoBehaviour
 	public float cameraSpeed = 12.0f;
 	public GUITexture tower1;
 	public Texture2D tower1_enable;
-	public GUITexture tower1_disable;
+	public Texture2D tower1_disable;
 	public GUITexture tower2;
 	public Texture2D tower2_enable;
-	public GUITexture tower2_disable;
+	public Texture2D tower2_disable;
 	public GUITexture tower3;
 	public Texture2D tower3_enable;
-	public GUITexture tower3_disable;
+	public Texture2D tower3_disable;
+
+	public GameObject Tower1Object;
+	public GameObject Tower2Object;
+	public GameObject Tower3Object;
+
+	int enableButton = 0;
+
 	Camera mainCamera;
 	Cursor cursor;
 	GameControl gameControl;
+	public GameObject buildingTowner;
 	
 	// Use this for initialization
 	void Start ()
@@ -62,54 +70,101 @@ public class InputControler : MonoBehaviour
 	{
 		Vector3 normalizedPoint = new Vector3(cursor.mousePosition.x ,Screen.height - cursor.mousePosition.y, 0);
 
-		GUILayer gui = mainCamera.GetComponent<GUILayer>();
-		//test if player clicked on gui
-		if(gui.HitTest(normalizedPoint) != null){
-			//Debug.Log(gui.HitTest(normalizedPoint).name);
-			if(Input.GetMouseButtonUp(0)){
-				string name = gui.HitTest(normalizedPoint).name;
-				//if player clicked start button, start the game. enemy waves
-				if (name == "Start_button"){
-					Debug.Log(name+"is clicked");
-					gameControl.currentGameState = GameControl.GameState.Playing;
-				}
-				if (name=="Tower1"){
-					Debug.Log(name+" is clicked");
-					tower1.texture = tower1_enable;
-				}
-				else if (name=="Tower2"){
-					Debug.Log(name+" is clicked");
-					tower2.texture = tower2_enable;
-				}
-				else if(name=="Tower3") {
-					Debug.Log(name+" is clicked");
-					tower3.texture = tower3_enable;
-				}
-			}
-		//test player clicked ingame objects
-		}else{
+		if(gameControl.currentPlayerState == GameControl.PlayerState.Building){
 			Ray ray = mainCamera.ScreenPointToRay(normalizedPoint);
 			RaycastHit hit;
-			if(Physics.Raycast(ray, out hit)){
+			LayerMask mask = (1 << 9);
+			if(Physics.Raycast(ray, out hit, 100, mask)){
+				Vector3 offset = buildingTowner.transform.position 
+					- buildingTowner.transform.FindChild("TowerBase").position;
+				buildingTowner.transform.position = hit.point + offset;
 
-				if(hit.collider.gameObject.tag.Equals("Clickable")){
-					hit.collider.gameObject.GetComponent<Character>().Highlight();
-					if(Input.GetMouseButtonUp(0)){
-						gameControl.selectedObject = hit.collider.gameObject;
+				if(Input.GetMouseButtonUp(0)){
+					gameControl.currentPlayerState = GameControl.PlayerState.Normal;
+					buildingTowner.collider.enabled = true;
+					buildingTowner.GetComponent<AITower>().enable = true;
+					buildingTowner.renderer.material.SetColor("_Color", Color.white);
+					buildingTowner = null;
+
+					switch(enableButton){
+					case 1:
+						tower1.texture = tower1_disable;
+						break;
+					case 2:
+						tower2.texture = tower2_disable;
+						break;
+					case 3:
+						tower3.texture = tower3_disable;
+						break;
 					}
-				} else{
-					if(Input.GetMouseButtonUp(0)){
-						Debug.Log("Button up");
-						Debug.DrawLine(new Vector3(hit.point.x - 1, hit.point.y + 0.1f, hit.point.z), new Vector3(hit.point.x + 1, hit.point.y + 0.1f, hit.point.z),Color.red, 1);
-						Debug.DrawLine(new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z - 1), new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z + 1),Color.red, 1);
-		
-						CharacterControl character = gameControl.player.GetComponent<CharacterControl>();
-						GameObject target = GameObject.Find("Target");
-						target.transform.position = hit.point;
-						character.move(target.transform);
+					enableButton = 0;
+				}
+
+			}
+		} else {		
+			GUILayer gui = mainCamera.GetComponent<GUILayer>();
+			//test if player clicked on gui
+			if(gui.HitTest(normalizedPoint) != null){
+				//Debug.Log(gui.HitTest(normalizedPoint).name);
+				if(Input.GetMouseButtonUp(0)){
+					string name = gui.HitTest(normalizedPoint).name;
+					//if player clicked start button, start the game. enemy waves
+					if (name == "Start_button"){
+						Debug.Log(name+"is clicked");
+						gameControl.currentGameState = GameControl.GameState.Playing;
+					}
+					if (name=="Tower1"){
+						Debug.Log(name+" is clicked");
+						tower1.texture = tower1_enable;
+						buildTower(Tower1Object);
+						enableButton = 1;
+					}
+					else if (name=="Tower2"){
+						Debug.Log(name+" is clicked");
+						tower2.texture = tower2_enable;
+						buildTower(Tower2Object);
+						enableButton = 2;
+					}
+					else if(name=="Tower3") {
+						Debug.Log(name+" is clicked");
+						tower3.texture = tower3_enable;
+						buildTower(Tower3Object);
+						enableButton = 3;
+					}
+				}
+			//test player clicked ingame objects
+			}else{
+				Ray ray = mainCamera.ScreenPointToRay(normalizedPoint);
+				RaycastHit hit;
+				if(Physics.Raycast(ray, out hit)){
+
+					if(hit.collider.gameObject.tag.Equals("Clickable")){
+						hit.collider.gameObject.GetComponent<Character>().Highlight();
+						if(Input.GetMouseButtonUp(0)){
+							gameControl.selectedObject = hit.collider.gameObject;
+						}
+					} else{
+						if(Input.GetMouseButtonUp(0)){
+							Debug.Log("Button up");
+							Debug.DrawLine(new Vector3(hit.point.x - 1, hit.point.y + 0.1f, hit.point.z), new Vector3(hit.point.x + 1, hit.point.y + 0.1f, hit.point.z),Color.red, 1);
+							Debug.DrawLine(new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z - 1), new Vector3(hit.point.x, hit.point.y + 0.1f, hit.point.z + 1),Color.red, 1);
+			
+							CharacterControl character = gameControl.player.GetComponent<CharacterControl>();
+							GameObject target = GameObject.Find("Target");
+							target.transform.position = hit.point;
+							character.move(target.transform);
+						}
 					}
 				}
 			}
 		}
+	}
+
+	void buildTower(GameObject tower){
+		gameControl.currentPlayerState = GameControl.PlayerState.Building;
+		buildingTowner = Instantiate (tower, Vector3.zero, tower.transform.rotation) as GameObject;
+		buildingTowner.collider.enabled = false;
+		buildingTowner.GetComponent<AITower>().enable = false;
+		buildingTowner.renderer.material.SetColor("_Color", Color.green);
 	}
 }

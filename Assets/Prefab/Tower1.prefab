@@ -11,9 +11,6 @@ GameObject:
   - 33: {fileID: 3300000}
   - 23: {fileID: 2300000}
   - 114: {fileID: 11400006}
-  - 114: {fileID: 11400004}
-  - 143: {fileID: 14300000}
-  - 114: {fileID: 11400002}
   - 114: {fileID: 11400000}
   - 65: {fileID: 6500000}
   m_Layer: 0
@@ -31,8 +28,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400002}
+  - 65: {fileID: 6500002}
   m_Layer: 0
-  m_Name: EjectPoint
+  m_Name: eject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,7 +58,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: -.587885916, y: .392925143, z: .392925143, w: .587885916}
-  m_LocalPosition: {x: 469.924866, y: 13.5233126, z: 1467.48645}
+  m_LocalPosition: {x: 469.924835, y: 13.5232592, z: 1467.48657}
   m_LocalScale: {x: 59.9398346, y: 59.9398346, z: 59.939846}
   m_Children:
   - {fileID: 400002}
@@ -72,8 +70,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
-  m_LocalRotation: {x: .587885916, y: -.392925143, z: -.392925143, w: .587885916}
-  m_LocalPosition: {x: -.00381662487, y: -.00731073087, z: .0622656271}
+  m_LocalRotation: {x: .587885916, y: -.392925173, z: -.392925173, w: .587885916}
+  m_LocalPosition: {x: 0, y: -4.56438887e-09, z: .153155446}
   m_LocalScale: {x: .0110668968, y: .0110668968, z: .0110668968}
   m_Children: []
   m_Father: {fileID: 400000}
@@ -83,8 +81,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
-  m_LocalRotation: {x: .587885916, y: -.392925143, z: -.392925143, w: .587885916}
-  m_LocalPosition: {x: -.00884941127, y: .0011006709, z: -.138977975}
+  m_LocalRotation: {x: .587885916, y: -.392925173, z: -.392925173, w: .587885916}
+  m_LocalPosition: {x: 0, y: 3.70941988e-09, z: -.124467447}
   m_LocalScale: {x: .0110668968, y: .0110668968, z: .0110668968}
   m_Children: []
   m_Father: {fileID: 400000}
@@ -130,6 +128,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .161009833, y: .156171218, z: .285857499}
   m_Center: {x: -9.57399607e-07, y: -9.49949026e-07, z: -7.4505806e-09}
+--- !u!65 &6500002
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -141,62 +151,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 894514fd340e176449fc8adb2ab80488, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Tower1
+  name: testTower
   type: 1
-  maxHealth: 0
-  currentHealth: 0
---- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7768b9688e214cf45886ee5a4d5a6008, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  repathRate: .5
-  target: {fileID: 0}
-  canSearch: 1
-  canMove: 1
-  speed: 3
-  turningSpeed: 5
-  slowdownDistance: .600000024
-  pickNextWaypointDist: 2
-  forwardLook: 1
-  endReachedDistance: .200000003
-  closestOnPathCheck: 1
-  sleepVelocity: .400000006
-  attackTarget: {fileID: 0}
---- !u!114 &11400004
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  drawGizmos: 1
-  detailedGizmos: 0
-  saveGetNearestHints: 1
-  startEndModifier:
-    priority: 1
-    addPoints: 0
-    exactStartPoint: 1
-    exactEndPoint: 1
-    useRaycasting: 0
-    mask:
-      serializedVersion: 2
-      m_Bits: 4294967295
-    useGraphRaycasting: 0
-  traversableTags:
-    tagsChange: -1
-    tagsSet: -1
-  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  maxHealth: 5
+  currentHealth: 5
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -208,23 +166,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed43d12199b0d3a4682cf17b6d5504e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ejection: {fileID: 100000, guid: c248abd1220264ba4bc9b3f47cd9b559, type: 3}
+  enable: 1
+  ejection: {fileID: 100000, guid: b5870aee975714f48821d84ec2c79aac, type: 2}
   ejectionInterval: 5
   range: 50
---- !u!143 &14300000
-CharacterController:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  serializedVersion: 2
-  m_Height: .156169325
-  m_Radius: .142928749
-  m_SlopeLimit: 45
-  m_StepOffset: .300000012
-  m_SkinWidth: .0799999982
-  m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
