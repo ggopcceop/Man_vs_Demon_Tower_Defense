@@ -8,6 +8,10 @@ public class AIEnemy : MonoBehaviour {
 	
 	public GameObject primaryTarget;
 	public GameObject secondaryTarget;
+
+	public float attickInterval = 3;
+
+	public float distance;
 	
 	CharacterControl characterControl;
 	
@@ -15,13 +19,20 @@ public class AIEnemy : MonoBehaviour {
 	void Start () {
 		characterControl = GetComponent<CharacterControl>();
 	}	
-	
-	bool moved = false;
+
+	float currentInterval = 0;
+
 	// Update is called once per frame
 	void Update () {
-		if(!moved){
+		distance = Vector3.Distance(transform.position, secondaryTarget.transform.position);
+		if(distance > 1){
 			characterControl.move(secondaryTarget.transform);
-			moved = true;
+		} else {
+			if (currentInterval > attickInterval) {
+				characterControl.AttackTarget(secondaryTarget);
+				currentInterval = 0;
+			}
+			currentInterval += Time.deltaTime;
 		}
 	}
 }

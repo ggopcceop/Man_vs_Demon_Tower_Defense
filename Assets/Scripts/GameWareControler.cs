@@ -89,6 +89,16 @@ public class GameWareControler : MonoBehaviour
 				}
 			}
 		}
+
+		Character castleCharacter =  castle.GetComponent<Character>();
+		if(castleCharacter.currentHealth <= 0){
+			gameControl.currentGameState = GameControl.GameState.Lose;
+		}
+
+		//if there is not more wares and enemies, wid the game
+		if(gameControl.currentGameState == GameControl.GameState.Playing && !spawning && AIEnemies.Count == 0){
+			gameControl.currentGameState = GameControl.GameState.Win;
+		}
 	}
 	
 	void ReadWareConfig ()
