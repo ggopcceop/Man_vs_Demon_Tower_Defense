@@ -51,6 +51,15 @@ public class CharacterControl : AIPath {
 			velocity = controller.velocity;
 			//Play animations
 
+			Vector3 horizontalVelocity = new Vector3(velocity.x, 0, velocity.z);
+			float horizontalSpeed = horizontalVelocity.magnitude;
+			if(horizontalSpeed > 0.1f){
+				animation.Play("Walk");
+			}else {
+				animation.Play("Stand");
+			}
+
+
 		} else {
 			velocity = Vector3.zero;
 		}
@@ -61,5 +70,8 @@ public class CharacterControl : AIPath {
 		
 		base.Start ();
 	}
-	
+
+	public void AttackTarget(GameObject target){
+		Damage.doDamage(target, Damage.DamageEffect.None, 1);
+	}
 }

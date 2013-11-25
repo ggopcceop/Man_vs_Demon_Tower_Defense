@@ -2222,7 +2222,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11100000, guid: bfda57751e15c4187843a404ad95d976, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11100000, guid: bfda57751e15c4187843a404ad95d976, type: 2}
       propertyPath: m_AnimatePhysics
@@ -2553,7 +2553,7 @@ MonoBehaviour:
   detailedGizmos: 0
   saveGetNearestHints: 1
   startEndModifier:
-    priority: 0
+    priority: 1
     addPoints: 0
     exactStartPoint: 1
     exactEndPoint: 1
@@ -2577,7 +2577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77f586f285b3847808d79083bd19ef1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priority: 0
+  priority: 2
 --- !u!114 &410564846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2615,7 +2615,7 @@ Animation:
     type: 2}
   m_PrefabInternal: {fileID: 326001762}
   m_GameObject: {fileID: 410564842}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
   m_Animations:
@@ -4171,7 +4171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed43d12199b0d3a4682cf17b6d5504e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enable: 1
+  enable: 0
   ejection: {fileID: 100000, guid: b5870aee975714f48821d84ec2c79aac, type: 2}
   ejectionInterval: 5
   range: 50
@@ -6164,8 +6164,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 1150740117}
   m_AABB:
-    m_Center: {x: -4.17113733, y: 1.0117079, z: .235692978}
-    m_Extent: {x: 6.47166395, y: 3.87171602, z: 3.45554638}
+    m_Center: {x: -4.17113733, y: 1.01170826, z: .235692739}
+    m_Extent: {x: 6.47166395, y: 3.8717165, z: 3.45554662}
   m_DirtyAABB: 0
 --- !u!1 &1494855105
 GameObject:
@@ -7368,6 +7368,7 @@ GameObject:
   - 33: {fileID: 1836449311}
   - 65: {fileID: 1836449310}
   - 23: {fileID: 1836449309}
+  - 114: {fileID: 1836449313}
   m_Layer: 0
   m_Name: cvlke
   m_TagString: Untagged
@@ -7426,6 +7427,21 @@ Transform:
   m_LocalScale: {x: 13.9003143, y: 13.9003143, z: 13.9003143}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1836449313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1836449308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 894514fd340e176449fc8adb2ab80488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: C
+  type: 1
+  maxHealth: 50
+  currentHealth: 50
 --- !u!1 &1850384061
 GameObject:
   m_ObjectHideFlags: 0
@@ -7735,6 +7751,10 @@ Prefab:
     - target: {fileID: 100000, guid: f896c5704f7474897b44cb2a8c0346d5, type: 2}
       propertyPath: m_Name
       value: tower1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: f896c5704f7474897b44cb2a8c0346d5, type: 2}
+      propertyPath: enable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f896c5704f7474897b44cb2a8c0346d5, type: 2}

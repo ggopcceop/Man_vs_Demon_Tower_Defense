@@ -16,6 +16,7 @@ public class HealthBar : MonoBehaviour {
 	GameObject player;
 	GameWareControler gameWare;
 	Camera mainCamera;
+	GameObject castle;
 
 
 	// Use this for initialization
@@ -23,6 +24,7 @@ public class HealthBar : MonoBehaviour {
 		player = GameObject.Find("GameControl").GetComponent<GameControl>().player;
 		gameWare = GameObject.Find ("GameWareControler").GetComponent<GameWareControler>();
 		mainCamera = GameObject.Find ("Camera").camera;	
+		castle = gameWare.castle;
 	}
 
 	// draw health bar of each entity in game.
@@ -42,6 +44,12 @@ public class HealthBar : MonoBehaviour {
 				DrawHealthBar(o.transform, currentHealth, maxHealth);
 			}
 		}
+
+
+		//draw health bar of castle
+		maxHealth = castle.GetComponent<Character>().maxHealth;
+		currentHealth = castle.GetComponent<Character>().currentHealth;
+		DrawHealthBar(castle.transform, currentHealth, maxHealth);
 		
 	}
 
