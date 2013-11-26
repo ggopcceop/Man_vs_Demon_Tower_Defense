@@ -151,16 +151,43 @@ public class InputControler : MonoBehaviour
 					//if player clicked menu button, shows menu
 					else if (name=="Menu_button"){
 						Debug.Log(name+"is clicked");
+						Application.LoadLevel(0);
 
 					}
 					//retry this level
-					else if (name==gamePlayGUI.retry.name){
+					else if (name=="Retry"){
 						Debug.Log(name +"is clicked");
-
+						//reload currect level
+						print (Application.loadedLevelName);
+						if(Application.loadedLevelName=="Level1"){
+							print (Application.loadedLevelName);
+							Application.LoadLevel(3);
+						} 
+						else if (Application.loadedLevelName=="Level2"){
+							print (Application.loadedLevelName);
+							Application.LoadLevel(4);
+						}
+						else if (Application.loadedLevelName=="Level3"){
+							print (Application.loadedLevelName);
+							Application.LoadLevel(5);
+						}
 					}
 					//entry next level
-					else if (name==gamePlayGUI.next.name){
+					else if (name=="Next"){
 						Debug.Log(name+"is clicked");
+						//load Next level
+						if(Application.loadedLevelName=="Level1"){
+							print (Application.loadedLevelName);
+							Application.LoadLevel(4);
+						} 
+						else if (Application.loadedLevelName=="Level2"){
+							print (Application.loadedLevelName);
+							Application.LoadLevel(5);
+						}
+						else if (Application.loadedLevelName=="Level3"){
+							print (Application.loadedLevelName);
+							Application.LoadLevel(7);
+						}
 					}
 
 				}
