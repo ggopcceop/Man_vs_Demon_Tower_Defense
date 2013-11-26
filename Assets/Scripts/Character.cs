@@ -52,6 +52,7 @@ public class Character : MonoBehaviour
 			//if character is enemy, add score
 			if (type==CharacterType.Enemy){
 				gamePlayGUI.scoreCount+=10;
+				gamePlayGUI.cashCount+=10;
 			}
 
 		}
@@ -66,7 +67,7 @@ public class Character : MonoBehaviour
 			GameWareControler game = GameObject.Find("GameWareControler").GetComponent<GameWareControler>();
 			game.AIEnemies.Remove(gameObject);
 			//gamePlayGUI.UpdateGUI();
-			//Destroy(gameObject);
+			Destroy(gameObject);
 		}
 		
 	}

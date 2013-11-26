@@ -122,7 +122,8 @@ public class InputControler : MonoBehaviour
 						if (gamePlayGUI.cashCount>=10){
 							buildTower(Tower1Object);
 							enableButton = 1;
-							gamePlayGUI.cashCount = gamePlayGUI.cashCount - 10;
+							//gamePlayGUI.cashCount -= gamePlayGUI.tower1Cost;
+							gamePlayGUI.cashCount -= 10;
 						}
 					}
 					//if player clicked tower2 button, build tower 2 object
@@ -132,7 +133,8 @@ public class InputControler : MonoBehaviour
 						if (gamePlayGUI.cashCount>=20){
 							buildTower(Tower2Object);
 							enableButton = 2;
-							gamePlayGUI.cashCount = gamePlayGUI.cashCount - 20;
+							//gamePlayGUI.cashCount -= gamePlayGUI.tower2Cost;
+							gamePlayGUI.cashCount -= 20;
 						}
 					}
 					//if player clicked tower3 button, build tower 3 object
@@ -142,7 +144,8 @@ public class InputControler : MonoBehaviour
 						if (gamePlayGUI.cashCount>=30){
 							buildTower(Tower3Object);
 							enableButton = 3;
-							gamePlayGUI.cashCount = gamePlayGUI.cashCount - 30;
+							//gamePlayGUI.cashCount -= gamePlayGUI.tower3Cost;
+							gamePlayGUI.cashCount -= 30;
 						}
 					}
 					//if player clicked menu button, shows menu
