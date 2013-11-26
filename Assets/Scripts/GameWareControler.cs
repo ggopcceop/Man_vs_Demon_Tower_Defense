@@ -42,12 +42,19 @@ public class GameWareControler : MonoBehaviour
 	//the wares config file of this level
 	public string wareConfigFileName;
 
-	public int currentWave=1;
+	public int currentWave = 0;
+
+	//the time interval between 2 enemies
+	public float enemyInterval = 1;
+
 	//count the total time passed
 	float gameTime = 0;
 	
 	//the next ware of enemies
 	Ware nextWare;
+
+	//set the time for next ware start to spawn
+	float nextWareTime;
 	
 	GameControl gameControl;
 	
@@ -61,8 +68,13 @@ public class GameWareControler : MonoBehaviour
 		
 		//read a ware from the list
 		if (gameWares.Count > 0) {
+			currentSpawning = false;
 			nextWare = gameWares.First.Value;
 			gameWares.RemoveFirst ();
+
+			enemyCount = nextWare.count;
+			
+			nextWareTime = gameTime + nextWare.time;
 		} else {
 			spawning = false;
 		}
@@ -70,23 +82,64 @@ public class GameWareControler : MonoBehaviour
 	
 	//for testing the ware if is spawning
 	bool spawning = true;
+
+	//for testing the current ware if is spawing
+	bool currentSpawning = false;
+	//count number of enemies spawned in current ware 
+	int enemyCount;
+	//the interval from last enemy spawned
+	float currentEnemyInterval;
 	
-	// Update is called fixed frame
-	void FixedUpdate ()
+	// Update is called every frame
+	void Update ()
 	{
 		if(gameControl.currentGameState == GameControl.GameState.Playing){
 			//add time passed
 			gameTime += Time.deltaTime;
-			
-			//if spawning a ware
-			if (spawning && gameTime > nextWare.time) {
-				SpawnWare (nextWare);
-				
-				if (gameWares.Count > 0) {
-					nextWare = gameWares.First.Value;
-					gameWares.RemoveFirst ();
-				} else {
-					spawning = false;
+
+			if(currentSpawning){
+				//spawn enemies in interval time
+				if(currentEnemyInterval > enemyInterval){
+					currentEnemyInterval = 0;
+					SpawnWare(nextWare);
+					enemyCount--;
+				}
+
+				//update time interval
+				currentEnemyInterval += Time.deltaTime;
+
+				//if spawning current ware is done
+				if(enemyCount <= 0){
+					//stop spawning current ware
+					currentSpawning = false;
+
+					//read the next ware
+					if (gameWares.Count > 0) {	
+						nextWare = gameWares.First.Value;
+						gameWares.RemoveFirst ();
+					}else{
+						nextWare.count = 0;
+					}
+
+					//update the number of enemies in next ware
+					enemyCount = nextWare.count;
+
+					//set the time the nextware start to spawn
+					nextWareTime = gameTime + nextWare.time;
+				}
+			}
+			else {				
+				//if is the time the spawn next ware
+				if (spawning && gameTime > nextWareTime) {
+					
+					if (nextWare.count != 0) {						
+						currentSpawning = true;
+						currentWave++;
+					} else {
+						//if the count of next ware is 0 meaning there is
+						//no more ware to spawn
+						spawning = false;
+					}
 				}
 			}
 		}
@@ -122,15 +175,17 @@ public class GameWareControler : MonoBehaviour
 			}
 		}
 	}
-	
+
+
+
 	void SpawnWare (Ware ware)
 	{
-		for (int i = 0; i < ware.count; i++) {				
+					
 			GameObject prelab = Resources.Load (ware.name) as GameObject;
 			GameObject ai = Instantiate (prelab, enemySpawn.transform.position, Quaternion.identity) as GameObject;
 
 			ai.GetComponent<AIEnemy> ().secondaryTarget = castle;
 			AIEnemies.AddLast (ai);				
-		}
+
 	}
 }
