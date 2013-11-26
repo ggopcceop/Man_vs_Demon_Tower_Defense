@@ -62,6 +62,7 @@ public class Character : MonoBehaviour
 		Debug.Log (name + " died");
 		die = true;
 		characterControl.canMove = false;
+		collider.enabled = false;
 		if(type == CharacterType.Enemy){
 			GameWareControler game = GameObject.Find("GameWareControler").GetComponent<GameWareControler>();
 			game.AIEnemies.Remove(gameObject);
