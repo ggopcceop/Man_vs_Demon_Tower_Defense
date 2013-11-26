@@ -21,7 +21,7 @@ public class Map : MonoBehaviour {
 		
 		//playAgain is false, load level 1
 		if (level1)
-			Application.LoadLevel(2);
+			Application.LoadLevel(3);
 		if (level2)
 			Application.LoadLevel (4);
 		if (level3)

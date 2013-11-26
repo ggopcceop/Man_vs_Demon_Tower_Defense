@@ -54,7 +54,6 @@ public class Character : MonoBehaviour
 				gamePlayGUI.scoreCount+=10;
 				gamePlayGUI.cashCount+=10;
 			}
-
 		}
 	}
 	
@@ -67,7 +66,7 @@ public class Character : MonoBehaviour
 			GameWareControler game = GameObject.Find("GameWareControler").GetComponent<GameWareControler>();
 			game.AIEnemies.Remove(gameObject);
 			//gamePlayGUI.UpdateGUI();
-			Destroy(gameObject);
+			Destroy(gameObject,10);
 		}
 		
 	}
