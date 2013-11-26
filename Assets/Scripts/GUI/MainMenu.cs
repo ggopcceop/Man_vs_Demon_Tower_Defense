@@ -9,6 +9,7 @@ public class MainMenu : MonoBehaviour {
 	public bool credits = false;
 	public bool options = false;
 	private bool showCredit =false;
+	private bool showOptions = false;
 
 	public GUISkin skin;
 	//mouse enter, change color to black
@@ -33,7 +34,7 @@ public class MainMenu : MonoBehaviour {
 			Application.LoadLevel(2);
 		}
 		else if (options){
-		
+			showOptions =true;
 		}
 		else if (credits){
 			showCredit = true;
@@ -41,6 +42,7 @@ public class MainMenu : MonoBehaviour {
 		else if (exit)
 			Application.Quit();
 	}
+
 
 	void OnGUI(){
 
@@ -56,6 +58,18 @@ public class MainMenu : MonoBehaviour {
 				showCredit=false;
 			}
 		}
+		else if (showOptions){
+			GUI.Box(new Rect(Screen.width/12,Screen.height/7,Screen.width/12*10,Screen.height/7*5),"Options");
+			//listener off
+			//AudioListener.volume = GUILayout.HorizontalSlider(AudioListener.volume,0.0,1.0);
+			GUI.Label(new Rect(Screen.width/2-50,Screen.height/2-20, 190, 50),"Music Volume");
+			AudioListener.volume = GUI.HorizontalSlider (new Rect (Screen.width/2-95,Screen.height/2, 190, 50), AudioListener.volume, 0.0f, 1.0f);
+			if(GUI.Button(new Rect(Screen.width/2-45,Screen.height/7*5,90,45),"Back")){
+				showOptions=false;
+			}
+
+		}
+
 	}
 
 }
