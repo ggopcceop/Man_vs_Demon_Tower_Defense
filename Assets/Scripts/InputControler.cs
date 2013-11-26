@@ -8,12 +8,15 @@ public class InputControler : MonoBehaviour
 	public float cameraTiggerWidth = 10.0f;
 	public float cameraSpeed = 12.0f;
 	public GUITexture tower1;
+	public Texture2D tower1_normal; 
 	public Texture2D tower1_enable;
 	public Texture2D tower1_disable;
 	public GUITexture tower2;
+	public Texture2D tower2_normal;
 	public Texture2D tower2_enable;
 	public Texture2D tower2_disable;
 	public GUITexture tower3;
+	public Texture2D tower3_normal;
 	public Texture2D tower3_enable;
 	public Texture2D tower3_disable;
 
@@ -46,6 +49,19 @@ public class InputControler : MonoBehaviour
 		moveCameraWhenEdge ();		
 		
 		MouseEvent();
+		//change tower button color
+		if (gamePlayGUI.cashCount<30&&gamePlayGUI.cashCount>=20){
+			tower3.texture = tower3_disable;
+		}
+		else if (gamePlayGUI.cashCount<20&&gamePlayGUI.cashCount>=10){
+			tower2.texture = tower2_disable;
+			tower3.texture = tower3_disable;
+		}
+		else if(gamePlayGUI.cashCount<10){
+			tower1.texture = tower1_disable;
+			tower2.texture = tower2_disable;
+			tower3.texture = tower3_disable;
+		}
 		
 	}
 	
@@ -93,18 +109,17 @@ public class InputControler : MonoBehaviour
 
 					switch(enableButton){
 					case 1:
-						tower1.texture = tower1_disable;
+						tower1.texture = tower1_enable;
 						break;
 					case 2:
-						tower2.texture = tower2_disable;
+						tower2.texture = tower2_enable;
 						break;
 					case 3:
-						tower3.texture = tower3_disable;
+						tower3.texture = tower3_enable;
 						break;
 					}
 					enableButton = 0;
 				}
-
 			}
 		} else {		
 			GUILayer gui = mainCamera.GetComponent<GUILayer>();
@@ -155,7 +170,6 @@ public class InputControler : MonoBehaviour
 					else if (name=="Menu_button"){
 						Debug.Log(name+"is clicked");
 						Application.LoadLevel(0);
-
 					}
 					//retry this level
 					else if (name=="Retry"){
@@ -192,7 +206,6 @@ public class InputControler : MonoBehaviour
 							Application.LoadLevel(7);
 						}
 					}
-
 				}
 			//test player clicked ingame objects
 			}else{
@@ -218,6 +231,9 @@ public class InputControler : MonoBehaviour
 						}
 					}
 				}
+				tower1.texture = tower1_normal;
+				tower2.texture = tower2_normal;
+				tower3.texture = tower3_normal;
 			}
 		}
 	}
