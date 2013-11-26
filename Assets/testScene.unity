@@ -734,6 +734,32 @@ Transform:
   - {fileID: 1717927337}
   - {fileID: 1259898316}
   m_Father: {fileID: 1478449969}
+--- !u!1 &179820221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100100, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 1393324163}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 179820222}
+  m_Layer: 0
+  m_Name: coldwraith_bone_55
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &179820222
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400064, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 1393324163}
+  m_GameObject: {fileID: 179820221}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0345833302, y: -.00325368345, z: -.146410435}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823834832}
 --- !u!1 &208547131
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,6 +938,32 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1813645872}
+--- !u!1 &258507799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 8bd59179b023849a7942ce2a31f0b295, type: 2}
+  m_PrefabInternal: {fileID: 1859703987}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 258507800}
+  m_Layer: 0
+  m_Name: abyssal_illidan_bone_42
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &258507800
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400048, guid: 8bd59179b023849a7942ce2a31f0b295, type: 2}
+  m_PrefabInternal: {fileID: 1859703987}
+  m_GameObject: {fileID: 258507799}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1813645872}
 --- !u!1 &267117358
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,7 +984,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &267117359
 Transform:
   m_ObjectHideFlags: 0
@@ -986,7 +1038,6 @@ MonoBehaviour:
   endReachedDistance: .200000003
   closestOnPathCheck: 1
   sleepVelocity: .400000006
-  attackTarget: {fileID: 0}
 --- !u!114 &267117362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1034,7 +1085,7 @@ MonoBehaviour:
   detailedGizmos: 0
   saveGetNearestHints: 1
   startEndModifier:
-    priority: 0
+    priority: 1
     addPoints: 0
     exactStartPoint: 1
     exactEndPoint: 1
@@ -1140,6 +1191,32 @@ Transform:
   - {fileID: 74360010}
   - {fileID: 1967991523}
   m_Father: {fileID: 1512017820}
+--- !u!1 &307736519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: 8bd59179b023849a7942ce2a31f0b295, type: 2}
+  m_PrefabInternal: {fileID: 1859703987}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 307736520}
+  m_Layer: 0
+  m_Name: abyssal_illidan_bone_33
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &307736520
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400066, guid: 8bd59179b023849a7942ce2a31f0b295, type: 2}
+  m_PrefabInternal: {fileID: 1859703987}
+  m_GameObject: {fileID: 307736519}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1813645872}
 --- !u!1 &326606231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1560,32 +1637,33 @@ MonoBehaviour:
   bezierTangentLength: .400000006
   offset: .200000003
   factor: .100000001
---- !u!1 &475097011
+--- !u!1 &468563123
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100058, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabParentObject: {fileID: 100106, guid: bfda57751e15c4187843a404ad95d976, type: 2}
   m_PrefabInternal: {fileID: 1393324163}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 422056350}
+  - 4: {fileID: 468563124}
   m_Layer: 0
-  m_Name: abyssal_illidan_bone_42
+  m_Name: coldwraith_bone_52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &422056350
+--- !u!4 &468563124
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400048, guid: 8bd59179b023849a7942ce2a31f0b295, type: 2}
-  m_PrefabInternal: {fileID: 1859703987}
-  m_GameObject: {fileID: 422056349}
+  m_PrefabParentObject: {fileID: 400070, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 1393324163}
+  m_GameObject: {fileID: 468563123}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: .0594698302, y: -.135241121, z: -.00129650068}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1813645872}
+  m_Children:
+  - {fileID: 643929993}
+  m_Father: {fileID: 2048508840}
 --- !u!1 &475097011
 GameObject:
   m_ObjectHideFlags: 0
@@ -1884,7 +1962,7 @@ SkinnedMeshRenderer:
   - {fileID: 853071624}
   - {fileID: 1943109661}
   - {fileID: 1240726273}
-  - {fileID: 1873463219}
+  - {fileID: 1122326627}
   - {fileID: 1316920913}
   - {fileID: 1024758819}
   - {fileID: 49861436}
@@ -1911,7 +1989,7 @@ SkinnedMeshRenderer:
   - {fileID: 995134879}
   - {fileID: 249729225}
   - {fileID: 1032084940}
-  - {fileID: 1390346735}
+  - {fileID: 307736520}
   - {fileID: 152562480}
   - {fileID: 1263327116}
   - {fileID: 139370998}
@@ -1920,7 +1998,7 @@ SkinnedMeshRenderer:
   - {fileID: 1513051669}
   - {fileID: 2134481489}
   - {fileID: 652641131}
-  - {fileID: 422056350}
+  - {fileID: 258507800}
   - {fileID: 101822864}
   - {fileID: 1942315121}
   - {fileID: 655563275}
@@ -2114,6 +2192,32 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1866201650}
+--- !u!1 &643929992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100104, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 1393324163}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 643929993}
+  m_Layer: 0
+  m_Name: coldwraith_bone_54
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &643929993
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400066, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 1393324163}
+  m_GameObject: {fileID: 643929992}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0148671716, y: .0482678413, z: .153125376}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 468563124}
 --- !u!1 &652641130
 GameObject:
   m_ObjectHideFlags: 0
@@ -2456,6 +2560,7 @@ Transform:
   m_Children:
   - {fileID: 891489926}
   - {fileID: 347877450}
+  - {fileID: 2048508840}
   - {fileID: 1255485358}
   m_Father: {fileID: 1912269443}
 --- !u!1 &782121480
@@ -2582,6 +2687,33 @@ Transform:
   m_Children:
   - {fileID: 238956075}
   m_Father: {fileID: 1886268920}
+--- !u!1 &823834831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100102, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 1393324163}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 823834832}
+  m_Layer: 0
+  m_Name: coldwraith_bone_53
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &823834832
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400068, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 1393324163}
+  m_GameObject: {fileID: 823834831}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0594698302, y: -.136912644, z: .00037502771}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 179820222}
+  m_Father: {fileID: 2048508840}
 --- !u!1 &827336419
 GameObject:
   m_ObjectHideFlags: 0
@@ -2823,6 +2955,32 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.51000023, y: 6.67999983, z: 4.53000021}
   m_Center: {x: 0, y: 3.33999991, z: 0}
+--- !u!1 &879430046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100058, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 1393324163}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 879430047}
+  m_Layer: 0
+  m_Name: coldwraith_bone_45
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &879430047
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400084, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 1393324163}
+  m_GameObject: {fileID: 879430046}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0235782005, y: -.0243640542, z: .0234918594}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2125118396}
 --- !u!1 &891489925
 GameObject:
   m_ObjectHideFlags: 0
@@ -2999,6 +3157,32 @@ MonoBehaviour:
   currentPlayerState: 0
   currentGameState: 2
   selectedObject: {fileID: 0}
+--- !u!1 &951202368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100052, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 1393324163}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 951202369}
+  m_Layer: 0
+  m_Name: coldwraith_bone_CSL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &951202369
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 1393324163}
+  m_GameObject: {fileID: 951202368}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0206361413, y: -.0562386513, z: .069527626}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2125118396}
 --- !u!1 &976442506
 GameObject:
   m_ObjectHideFlags: 0
@@ -3594,17 +3778,17 @@ SkinnedMeshRenderer:
   - {fileID: 1952055280}
   - {fileID: 1753741}
   - {fileID: 2011691695}
-  - {fileID: 475097012}
+  - {fileID: 879430047}
   - {fileID: 891489926}
   - {fileID: 347877450}
-  - {fileID: 1255485358}
+  - {fileID: 2048508840}
   - {fileID: 1551019337}
   - {fileID: 1229912033}
   - {fileID: 33654414}
-  - {fileID: 1439223170}
-  - {fileID: 1855286863}
-  - {fileID: 1497008714}
-  - {fileID: 1635694057}
+  - {fileID: 468563124}
+  - {fileID: 823834832}
+  - {fileID: 643929993}
+  - {fileID: 179820222}
   - {fileID: 1411170943}
   - {fileID: 365063879}
   - {fileID: 7353064}
@@ -3635,7 +3819,7 @@ SkinnedMeshRenderer:
   - {fileID: 520016616}
   - {fileID: 1904985223}
   - {fileID: 45439573}
-  - {fileID: 1230923229}
+  - {fileID: 951202369}
   - {fileID: 1472972457}
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 1871414713}
@@ -3851,6 +4035,32 @@ Transform:
   m_Children:
   - {fileID: 1058527847}
   m_Father: {fileID: 1843154359}
+--- !u!1 &1122326626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100120, guid: 8bd59179b023849a7942ce2a31f0b295, type: 2}
+  m_PrefabInternal: {fileID: 1859703987}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1122326627}
+  m_Layer: 0
+  m_Name: abyssal_illidan_bone_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1122326627
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400120, guid: 8bd59179b023849a7942ce2a31f0b295, type: 2}
+  m_PrefabInternal: {fileID: 1859703987}
+  m_GameObject: {fileID: 1122326626}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0142133124, y: 1.33354378, z: -.454383045}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1813645872}
 --- !u!1 &1131353984
 GameObject:
   m_ObjectHideFlags: 0
@@ -4117,7 +4327,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400074, guid: bfda57751e15c4187843a404ad95d976, type: 2}
-  m_PrefabInternal: {fileID: 326001762}
+  m_PrefabInternal: {fileID: 1393324163}
   m_GameObject: {fileID: 1229912032}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -.0190152377, y: -.00329461694, z: -.110367656}
@@ -6489,7 +6699,7 @@ Transform:
   - {fileID: 853071624}
   - {fileID: 1943109661}
   - {fileID: 1240726273}
-  - {fileID: 1873463219}
+  - {fileID: 1122326627}
   - {fileID: 1316920913}
   - {fileID: 1024758819}
   - {fileID: 49861436}
@@ -6497,7 +6707,7 @@ Transform:
   - {fileID: 2056242136}
   - {fileID: 249729225}
   - {fileID: 1032084940}
-  - {fileID: 1390346735}
+  - {fileID: 307736520}
   - {fileID: 152562480}
   - {fileID: 1263327116}
   - {fileID: 139370998}
@@ -6506,7 +6716,7 @@ Transform:
   - {fileID: 1513051669}
   - {fileID: 2134481489}
   - {fileID: 652641131}
-  - {fileID: 422056350}
+  - {fileID: 258507800}
   - {fileID: 995134879}
   m_Father: {fileID: 267117359}
 --- !u!1 &1835585083
@@ -6714,6 +6924,14 @@ Prefab:
     - target: {fileID: 100138, guid: 8bd59179b023849a7942ce2a31f0b295, type: 2}
       propertyPath: m_Name
       value: abyssal_illidan
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 8bd59179b023849a7942ce2a31f0b295, type: 2}
+      propertyPath: startEndModifier.priority
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100138, guid: 8bd59179b023849a7942ce2a31f0b295, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8bd59179b023849a7942ce2a31f0b295, type: 2}
@@ -7596,6 +7814,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   priority: 1
+--- !u!1 &2048508839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100108, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 1393324163}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2048508840}
+  m_Layer: 0
+  m_Name: coldwraith_bone_48
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2048508840
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400078, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 1393324163}
+  m_GameObject: {fileID: 2048508839}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .023842765, y: -.190741345, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 468563124}
+  - {fileID: 823834832}
+  m_Father: {fileID: 780044911}
 --- !u!1 &2056242135
 GameObject:
   m_ObjectHideFlags: 0
@@ -7780,11 +8026,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2011691695}
-  - {fileID: 475097012}
+  - {fileID: 879430047}
   - {fileID: 520016616}
   - {fileID: 1904985223}
-  - {fileID: 1230923229}
+  - {fileID: 951202369}
   - {fileID: 1472972457}
+  - {fileID: 475097012}
+  - {fileID: 1230923229}
   m_Father: {fileID: 326606232}
 --- !u!1 &2127636750
 GameObject:

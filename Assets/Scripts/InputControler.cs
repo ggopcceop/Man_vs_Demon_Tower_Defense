@@ -99,26 +99,42 @@ public class InputControler : MonoBehaviour
 				buildingTowner.transform.position = hit.point + offset;
 
 				if(Input.GetMouseButtonUp(0)){
-					gameControl.currentPlayerState = GameControl.PlayerState.Normal;
-					buildingTowner.collider.enabled = true;
-					buildingTowner.GetComponent<AITower>().enable = true;
-					buildingTowner.renderer.material.SetColor("_Color", Color.white);
-					AstarPath.active.UpdateGraphs (buildingTowner.collider.bounds);
-					buildingTowner = null;
-
-
-					switch(enableButton){
-					case 1:
-						tower1.texture = tower1_enable;
-						break;
-					case 2:
-						tower2.texture = tower2_enable;
-						break;
-					case 3:
-						tower3.texture = tower3_enable;
-						break;
+					Collider[] hitColliders = Physics.OverlapSphere(buildingTowner.transform.position, 5);
+					int i = 0;
+					bool ok = true;
+					while (i < hitColliders.Length && ok) {
+						if(hitColliders[i].gameObject.tag.Equals("Clickable") && hitColliders[i].gameObject != buildingTowner){
+							ok = false;
+						}
+						i++;
 					}
-					enableButton = 0;
+
+					if(ok){
+						gameControl.currentPlayerState = GameControl.PlayerState.Normal;
+						buildingTowner.collider.enabled = true;
+						buildingTowner.GetComponent<AITower>().enable = true;
+						buildingTowner.renderer.material.SetColor("_Color", Color.clear);
+						AstarPath.active.UpdateGraphs (buildingTowner.collider.bounds);
+						buildingTowner = null;
+
+
+						switch(enableButton){
+						case 1:
+							tower1.texture = tower1_enable;
+							break;
+						case 2:
+							tower2.texture = tower2_enable;
+							break;
+						case 3:
+							tower3.texture = tower3_enable;
+							break;
+						}
+						enableButton = 0;
+					}
+				} else if(Input.GetMouseButtonUp(1)){
+					gameControl.currentPlayerState = GameControl.PlayerState.Normal;
+					Destroy(buildingTowner);
+					buildingTowner = null;
 				}
 			}
 		} else {		
