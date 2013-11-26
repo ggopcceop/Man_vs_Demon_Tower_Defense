@@ -21,6 +21,10 @@ public class GamePlayGUI : MonoBehaviour {
 	public GUITexture tower2_GUItexture;
 	public GUITexture tower3_GUItexture;
 	public GUITexture menu_GUItexture;
+	public Texture retry;
+	public Texture next;
+	public Texture menu;
+
 	//towers cost    
 	public int tower1Cost=10;
 	public int tower2Cost=20;
@@ -78,13 +82,20 @@ public class GamePlayGUI : MonoBehaviour {
 			//GUI window shows lose screen
 			GUI.Box(new Rect(Screen.width/12,Screen.height/7,Screen.width/12*10,Screen.height/7*5),"YOU LOSE");
 			//toolbarInt = GUI.Toolbar(new Rect((Screen.width)/12*2,(Screen.height)/7*4,370,50),toolbarInt,toolbarStrings);
+			GUI.DrawTexture(new Rect(Screen.width/2-75,Screen.height/7*4,50,50),menu);
+			GUI.DrawTexture(new Rect(Screen.width/2+25,Screen.height/7*4,50,50),retry);
+			GUI.Label(new Rect(Screen.width/2-75,Screen.height/7*4-25,200,50),"Menu        Retry");
 			//GUI texture
-			Rect rect = new Rect ((-Screen.width / 2)+50, (-Screen.height / 4) , 45, 45);
-			menu_GUItexture.pixelInset = rect;
+
+			//menu_GUItexture.pixelInset = rect;
 		}
 		else if (gameControl.currentGameState == GameControl.GameState.Win) {
 			//GUI window shows win screen
 			GUI.Box(new Rect(Screen.width/12,Screen.height/7,Screen.width/12*10,Screen.height/7*5),"YOU WIN");
+			GUI.DrawTexture(new Rect(Screen.width/2-100,Screen.height/7*4,50,50),menu);
+			GUI.DrawTexture(new Rect(Screen.width/2-25,Screen.height/7*4,50,50),retry);
+			GUI.DrawTexture(new Rect(Screen.width/2+50,Screen.height/7*4,50,50),next);
+			GUI.Label(new Rect(Screen.width/2-100,Screen.height/7*4-25,200,50),"Menu      Retry      Next");
 		}
 
 	}

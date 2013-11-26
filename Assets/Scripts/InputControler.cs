@@ -153,6 +153,15 @@ public class InputControler : MonoBehaviour
 						Debug.Log(name+"is clicked");
 
 					}
+					//retry this level
+					else if (name==gamePlayGUI.retry.name){
+						Debug.Log(name +"is clicked");
+
+					}
+					//entry next level
+					else if (name==gamePlayGUI.next.name){
+						Debug.Log(name+"is clicked");
+					}
 
 				}
 			//test player clicked ingame objects

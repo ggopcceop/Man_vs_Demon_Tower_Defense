@@ -153,34 +153,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1866201650}
---- !u!1 &9165110
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100020, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 9165111}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_18
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9165111
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400020, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 9165110}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0423495993, y: -.399594069, z: -.0588762164}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1833504894}
-  - {fileID: 1620525643}
-  m_Father: {fileID: 2094420573}
 --- !u!1 &17021953
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,85 +205,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 347877450}
---- !u!1 &35478600
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100004, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 35478601}
-  m_Layer: 0
-  m_Name: abyssal_illidan 1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &35478601
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400004, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 35478600}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1079576360}
-  - {fileID: 1210817575}
-  - {fileID: 1435100507}
-  - {fileID: 1455920883}
-  - {fileID: 1915313133}
-  - {fileID: 773557396}
-  - {fileID: 1406532594}
-  - {fileID: 154696330}
-  - {fileID: 2090953414}
-  - {fileID: 1416861788}
-  - {fileID: 1150740117}
-  - {fileID: 1180413343}
-  - {fileID: 1065003270}
-  - {fileID: 142561102}
-  - {fileID: 246157015}
-  - {fileID: 857099138}
-  - {fileID: 194757183}
-  - {fileID: 1753153857}
-  - {fileID: 516555012}
-  - {fileID: 2116735595}
-  - {fileID: 366727973}
-  - {fileID: 1570912652}
-  - {fileID: 1308704714}
-  - {fileID: 1102713217}
-  - {fileID: 1963429911}
-  m_Father: {fileID: 2107321626}
---- !u!1 &39012237
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100022, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 39012238}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_19
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &39012238
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400022, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 39012237}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0422210209, y: -.398902655, z: .0634778067}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2115173370}
-  - {fileID: 1749414597}
-  m_Father: {fileID: 386300205}
 --- !u!1 &43957655
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,32 +275,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 612372678}
---- !u!1 &51167910
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100118, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 51167911}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_CCH
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &51167911
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400118, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 51167910}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.49011612e-08, y: 0, z: 4.28408384e-08}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1036804150}
 --- !u!1 &73044404
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,111 +614,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1912269443}
---- !u!1 &125480804
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100102, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 125480805}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_63
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &125480805
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400102, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 125480804}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0713172257, y: -.166327164, z: -.0559206009}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 736310093}
-  m_Father: {fileID: 1711945038}
---- !u!1 &142561101
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100040, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 142561102}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_32
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &142561102
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400040, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 142561101}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0763888881, y: 2.12749791, z: -.0112565728}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
---- !u!1 &154696329
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100106, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 154696330}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_7
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &154696330
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400106, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 154696329}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .503711402, y: 1.41707182, z: -.0513937548}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
---- !u!1 &194757182
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100046, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 194757183}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_35
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &194757183
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400046, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 194757182}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
 --- !u!1 &208547131
 GameObject:
   m_ObjectHideFlags: 0
@@ -2064,60 +1826,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 817398976}
---- !u!1 &246157014
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100042, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 246157015}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_33
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &246157015
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400042, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 246157014}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
---- !u!1 &258815871
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100112, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 258815872}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_ArmL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &258815872
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400112, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 258815871}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .0117540499, y: -.0704985857, z: -.333235383}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1775249600}
-  - {fileID: 819374124}
-  m_Father: {fileID: 1296938259}
 --- !u!1 &272832233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2398,32 +2106,6 @@ Transform:
   m_Children:
   - {fileID: 980861645}
   m_Father: {fileID: 758013033}
---- !u!1 &366727972
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100054, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 366727973}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_39
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &366727973
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400054, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 366727972}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.10685195, y: 0, z: .331127614}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
 --- !u!1 &381497182
 GameObject:
   m_ObjectHideFlags: 0
@@ -2450,33 +2132,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1795317680}
---- !u!1 &386300204
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100014, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 386300205}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_15
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &386300205
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400014, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 386300204}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .00707631558, y: -.0917048454, z: .14518258}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 39012238}
-  m_Father: {fileID: 731931137}
 --- !u!1 &410461490
 GameObject:
   m_ObjectHideFlags: 0
@@ -2791,32 +2446,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 612372678}
---- !u!1 &516555011
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100050, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 516555012}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_37
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &516555012
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400050, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 516555011}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.223936513, y: 0, z: -.440209746}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
 --- !u!1 &520016615
 GameObject:
   m_ObjectHideFlags: 0
@@ -2843,6 +2472,71 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2125118396}
+--- !u!1001 &541296363
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 490.570404
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 21.7070923
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1486.13501
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -3.09086232e-08
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 3.09086232e-08
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 52.5041924
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 52.5041924
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 52.5041924
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0461212c4cf204f3488c1318e80ced34, type: 2}
+    - target: {fileID: 100000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+      propertyPath: m_Name
+      value: HomeTower
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11100000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+  m_ParentPrefab: {fileID: 100100000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+  m_RootGameObject: {fileID: 1736533336}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &557990151
 GameObject:
   m_ObjectHideFlags: 0
@@ -2870,59 +2564,6 @@ Transform:
   m_Children:
   - {fileID: 326606232}
   m_Father: {fileID: 1512017820}
---- !u!1 &592310802
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100134, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 592310803}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_ShoulderR
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &592310803
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400134, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 592310802}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0178896263, y: .338356346, z: .124949537}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1999021038}
-  m_Father: {fileID: 1790462071}
---- !u!1 &603384638
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100072, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 603384639}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_47
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &603384639
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400072, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 603384638}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.210387796, y: .0957196951, z: .00738900155}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1790462071}
 --- !u!1 &612372677
 GameObject:
   m_ObjectHideFlags: 0
@@ -2979,86 +2620,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1866201650}
---- !u!1 &670429667
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100076, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 670429668}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_49
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &670429668
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400076, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 670429667}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.210387796, y: .0957196951, z: .00738900155}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1790462071}
---- !u!1 &670873069
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100126, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 670873070}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_Head
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &670873070
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400126, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 670873069}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0670573041, y: .0627336502, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 871683734}
-  - {fileID: 1214947785}
-  m_Father: {fileID: 961605388}
---- !u!1 &683910919
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100092, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 683910920}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_59
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &683910920
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400092, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 683910919}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.077211231, y: -.112298012, z: -.27310735}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1775249600}
 --- !u!1 &695618366
 GameObject:
   m_ObjectHideFlags: 0
@@ -3135,32 +2696,6 @@ GUIText:
     rgba: 4294967295
   m_PixelCorrect: 1
   m_RichText: 1
---- !u!1 &717158301
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100098, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 717158302}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_61
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &717158302
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400098, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 717158301}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0401209332, y: -.0946692824, z: .0289176702}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1077868401}
 --- !u!1 &724317018
 GameObject:
   m_ObjectHideFlags: 0
@@ -3240,61 +2775,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1912269443}
---- !u!1 &731195093
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100064, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 731195094}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_43
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &731195094
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400064, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 731195093}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0722255483, y: .00649809837, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 731931137}
---- !u!1 &731931136
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100138, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 731931137}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_Waist
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &731931137
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400138, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 731931136}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0198279619, y: -.0675655603, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2094420573}
-  - {fileID: 386300205}
-  - {fileID: 731195094}
-  m_Father: {fileID: 1401607363}
 --- !u!1 &734150456
 GameObject:
   m_ObjectHideFlags: 0
@@ -3321,32 +2801,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1795317680}
---- !u!1 &736310092
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100122, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 736310093}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_CSL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &736310093
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400122, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 736310092}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 125480805}
 --- !u!1 &758013032
 GameObject:
   m_ObjectHideFlags: 0
@@ -3374,32 +2828,6 @@ Transform:
   m_Children:
   - {fileID: 365169000}
   m_Father: {fileID: 976993213}
---- !u!1 &773557395
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100078, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 773557396}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &773557396
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400078, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 773557395}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .785453856, y: .917616248, z: .041878894}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
 --- !u!1 &780044910
 GameObject:
   m_ObjectHideFlags: 0
@@ -3456,33 +2884,6 @@ Transform:
   m_Children:
   - {fileID: 1912269443}
   m_Father: {fileID: 729103773}
---- !u!1 &793294363
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100136, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 793294364}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_SpineLow
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &793294364
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400136, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 793294363}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .00257854909, y: -.0101585388, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1790462071}
-  m_Father: {fileID: 1401607363}
 --- !u!1 &817398975
 GameObject:
   m_ObjectHideFlags: 0
@@ -3510,32 +2911,6 @@ Transform:
   m_Children:
   - {fileID: 238956075}
   m_Father: {fileID: 1886268920}
---- !u!1 &819374123
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100084, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 819374124}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_54
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &819374124
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400084, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 819374123}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.123019934, y: .136040315, z: -.0996539295}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 258815872}
 --- !u!1 &850534015
 GameObject:
   m_ObjectHideFlags: 0
@@ -3672,58 +3047,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.51000023, y: 6.67999983, z: 4.53000021}
   m_Center: {x: 0, y: 3.33999991, z: 0}
---- !u!1 &857099137
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100044, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 857099138}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_34
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &857099138
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400044, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 857099137}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
---- !u!1 &871683733
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100116, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 871683734}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_Breath
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &871683734
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400116, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 871683733}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.199985653, y: -.0851258039, z: .0208395142}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 670873070}
 --- !u!1 &891489925
 GameObject:
   m_ObjectHideFlags: 0
@@ -3846,33 +3169,6 @@ MonoBehaviour:
   currentPlayerState: 0
   currentGameState: 0
   selectedObject: {fileID: 0}
---- !u!1 &961605387
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100018, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 961605388}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_17
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &961605388
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400018, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 961605387}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0361440033, y: .312645793, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 670873070}
-  m_Father: {fileID: 1790462071}
 --- !u!1 &976442506
 GameObject:
   m_ObjectHideFlags: 0
@@ -4439,59 +3735,6 @@ SkinnedMeshRenderer:
     m_Center: {x: .0404977798, y: .193691671, z: -.1543293}
     m_Extent: {x: .879643917, y: 1.5213542, z: .843380451}
   m_DirtyAABB: 0
---- !u!1 &1033526651
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100074, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1033526652}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_48
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1033526652
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400074, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1033526651}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.210387796, y: .0957196951, z: .00738900155}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1790462071}
---- !u!1 &1036804149
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100070, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1036804150}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_46
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1036804150
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400070, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1036804149}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.314148962, y: .094692111, z: -.0239511672}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 51167911}
-  m_Father: {fileID: 1790462071}
 --- !u!1 &1038070422
 GameObject:
   m_ObjectHideFlags: 0
@@ -4572,32 +3815,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1725839238}
---- !u!1 &1065003269
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100038, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1065003270}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_31
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1065003270
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400038, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1065003269}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
 --- !u!1001 &1065574651
 Prefab:
   m_ObjectHideFlags: 0
@@ -4638,113 +3855,6 @@ Prefab:
   m_RootGameObject: {fileID: 855744186}
   m_IsPrefabParent: 0
   m_IsExploded: 1
---- !u!1 &1077868400
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100090, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1077868401}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_58
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1077868401
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400090, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1077868400}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0723544657, y: -.367833257, z: .0767918155}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 717158302}
-  - {fileID: 1099409553}
-  m_Father: {fileID: 1409637203}
---- !u!1 &1079576359
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100006, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1079576360}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1079576360
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400006, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1079576359}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .940291643, y: 1.03304589, z: .262904614}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
---- !u!1 &1099409552
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100104, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1099409553}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_64
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1099409553
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400104, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1099409552}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0401209332, y: -.0946692824, z: .0289176702}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1617598440}
-  m_Father: {fileID: 1077868401}
---- !u!1 &1102713216
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100062, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1102713217}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_42
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1102713217
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400062, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1102713216}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
 --- !u!1 &1131353984
 GameObject:
   m_ObjectHideFlags: 0
@@ -4771,33 +3881,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 980861645}
---- !u!1 &1150740116
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100010, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1150740117}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_10
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1150740117
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400010, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1150740116}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1401607363}
-  m_Father: {fileID: 35478601}
 --- !u!1001 &1163460739
 Prefab:
   m_ObjectHideFlags: 0
@@ -4915,84 +3998,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!1 &1180413342
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100034, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1180413343}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_29
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1180413343
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400034, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1180413342}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .0688173845, y: .766413391, z: 3.30120861e-06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
---- !u!1 &1210817574
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100008, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1210817575}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1210817575
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400008, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1210817574}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .591524124, y: 1.40029633, z: -.0738614127}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
---- !u!1 &1214947784
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100120, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1214947785}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_CHD
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1214947785
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400120, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1214947784}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .275951982, y: .365984082, z: .00144063227}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 670873070}
 --- !u!1 &1216863982
 GameObject:
   m_ObjectHideFlags: 0
@@ -5182,33 +4187,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1043469041}
---- !u!1 &1296938258
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100132, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1296938259}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_ShoulderL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1296938259
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400132, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1296938258}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0178894699, y: .338356137, z: -.123584986}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 258815872}
-  m_Father: {fileID: 1790462071}
 --- !u!1 &1297947446
 GameObject:
   m_ObjectHideFlags: 0
@@ -5307,35 +4285,12 @@ MonoBehaviour:
   tower2_GUItexture: {fileID: 1494855106}
   tower3_GUItexture: {fileID: 1922253745}
   menu_GUItexture: {fileID: 208547132}
+  retry: {fileID: 2800000, guid: d5b6113498c2943589982ac63cdabba1, type: 3}
+  next: {fileID: 2800000, guid: 071c5affe995a4741a023e377775d95d, type: 3}
+  menu: {fileID: 2800000, guid: 447fc7583de034352bd240bdd4e8a1bb, type: 3}
   tower1Cost: 0
   tower2Cost: 0
   tower3Cost: 0
---- !u!1 &1308704713
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100060, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1308704714}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_41
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1308704714
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400060, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1308704713}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.117751732, y: 1.34723186, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
 --- !u!1 &1315011651
 GameObject:
   m_ObjectHideFlags: 0
@@ -5595,88 +4550,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1336796412}
---- !u!1 &1401607362
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100130, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1401607363}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_Root
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1401607363
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400130, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1401607362}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .0920535102, y: 1.34498262, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 793294364}
-  - {fileID: 731931137}
-  m_Father: {fileID: 1150740117}
---- !u!1 &1406532593
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100094, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1406532594}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_6
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1406532594
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400094, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1406532593}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0142133124, y: 1.33354378, z: -.454383045}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
---- !u!1 &1409637202
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100032, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1409637203}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_28
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1409637203
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400032, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1409637202}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .0820305869, y: -.472337097, z: .0979616344}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1077868401}
-  - {fileID: 1850384062}
-  m_Father: {fileID: 1999021038}
 --- !u!1 &1411170942
 GameObject:
   m_ObjectHideFlags: 0
@@ -5703,32 +4576,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1866201650}
---- !u!1 &1416861787
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100110, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1416861788}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_9
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1416861788
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400110, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1416861787}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .444314182, y: 1.20960975, z: -.0196572915}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
 --- !u!1 &1418953188
 GameObject:
   m_ObjectHideFlags: 0
@@ -5831,32 +4678,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &1435100506
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100024, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1435100507}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1435100507
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400024, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1435100506}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .502099335, y: 1.0887773, z: -.0817440227}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
 --- !u!1 &1439223169
 GameObject:
   m_ObjectHideFlags: 0
@@ -5986,32 +4807,6 @@ GUIText:
     rgba: 4294967295
   m_PixelCorrect: 1
   m_RichText: 1
---- !u!1 &1455920882
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100036, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1455920883}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1455920883
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400036, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1455920882}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .501051962, y: 1.15918696, z: -.029930586}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
 --- !u!1 &1472972456
 GameObject:
   m_ObjectHideFlags: 0
@@ -6038,135 +4833,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2125118396}
---- !u!1 &1476224762
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1476224763}
-  - 137: {fileID: 1476224764}
-  m_Layer: 0
-  m_Name: abyssal_illidan
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1476224763
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1476224762}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: .00106871163, y: .0854792744, z: 0}
-  m_LocalScale: {x: 1.19763947, y: 1.19763947, z: 1.19763947}
-  m_Children: []
-  m_Father: {fileID: 2107321626}
---- !u!137 &1476224764
-SkinnedMeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13700000, guid: 8a01a01f76c9445ba8fab762e68039a3,
-    type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1476224762}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 2100000, guid: 5abbe533cf251444f9ae85c11a9a0a58, type: 2}
-  - {fileID: 2100000, guid: 15b9e6b62a812456881828d82390fc50, type: 2}
-  - {fileID: 2100000, guid: 2b7d8f51f86b443de86dce022d391c02, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
-  serializedVersion: 2
-  m_Quality: 0
-  m_UpdateWhenOffscreen: 0
-  m_Mesh: {fileID: 4300000, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_Bones:
-  - {fileID: 1079576360}
-  - {fileID: 1210817575}
-  - {fileID: 1435100507}
-  - {fileID: 1455920883}
-  - {fileID: 1915313133}
-  - {fileID: 773557396}
-  - {fileID: 1406532594}
-  - {fileID: 154696330}
-  - {fileID: 2090953414}
-  - {fileID: 1416861788}
-  - {fileID: 1150740117}
-  - {fileID: 1401607363}
-  - {fileID: 731931137}
-  - {fileID: 793294364}
-  - {fileID: 2094420573}
-  - {fileID: 386300205}
-  - {fileID: 1790462071}
-  - {fileID: 961605388}
-  - {fileID: 9165111}
-  - {fileID: 39012238}
-  - {fileID: 1296938259}
-  - {fileID: 592310803}
-  - {fileID: 670873070}
-  - {fileID: 258815872}
-  - {fileID: 1999021038}
-  - {fileID: 1833504894}
-  - {fileID: 2115173370}
-  - {fileID: 1775249600}
-  - {fileID: 1409637203}
-  - {fileID: 1180413343}
-  - {fileID: 1963429911}
-  - {fileID: 1065003270}
-  - {fileID: 142561102}
-  - {fileID: 246157015}
-  - {fileID: 857099138}
-  - {fileID: 194757183}
-  - {fileID: 1753153857}
-  - {fileID: 516555012}
-  - {fileID: 2116735595}
-  - {fileID: 366727973}
-  - {fileID: 1570912652}
-  - {fileID: 1308704714}
-  - {fileID: 1102713217}
-  - {fileID: 731195094}
-  - {fileID: 1824670370}
-  - {fileID: 1734453088}
-  - {fileID: 1036804150}
-  - {fileID: 603384639}
-  - {fileID: 1033526652}
-  - {fileID: 670429668}
-  - {fileID: 1620525643}
-  - {fileID: 1749414597}
-  - {fileID: 51167911}
-  - {fileID: 871683734}
-  - {fileID: 819374124}
-  - {fileID: 1747938555}
-  - {fileID: 1214947785}
-  - {fileID: 1711945038}
-  - {fileID: 1077868401}
-  - {fileID: 683910920}
-  - {fileID: 1850384062}
-  - {fileID: 717158302}
-  - {fileID: 2003707536}
-  - {fileID: 125480805}
-  - {fileID: 1099409553}
-  - {fileID: 736310093}
-  - {fileID: 1617598440}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 1150740117}
-  m_AABB:
-    m_Center: {x: -4.17113733, y: 1.0117079, z: .235692978}
-    m_Extent: {x: 6.47166395, y: 3.87171602, z: 3.45554638}
-  m_DirtyAABB: 0
 --- !u!1 &1494855105
 GameObject:
   m_ObjectHideFlags: 0
@@ -6394,32 +5060,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1795317680}
---- !u!1 &1570912651
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100058, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1570912652}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_40
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1570912652
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400058, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1570912651}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.117751859, y: 1.34723163, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
 --- !u!1 &1576945694
 GameObject:
   m_ObjectHideFlags: 0
@@ -6472,58 +5112,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1866201650}
---- !u!1 &1617598439
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100124, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1617598440}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_CSR
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1617598440
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400124, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1617598439}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.98023224e-08, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1099409553}
---- !u!1 &1620525642
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100080, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1620525643}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_50
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1620525643
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400080, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1620525642}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .0831624418, y: -.189227268, z: -.110065542}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 9165111}
 --- !u!1 &1635694056
 GameObject:
   m_ObjectHideFlags: 0
@@ -6596,102 +5184,6 @@ Transform:
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!1001 &1638139648
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 11100000, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_Animations.Array.size
-      value: 23
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 491.373108
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 25.759285
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1453.47913
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 7.52088451
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 8.9266758
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 7.52088451
-      objectReference: {fileID: 0}
-    - target: {fileID: 11100000, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_Animation
-      value: 
-      objectReference: {fileID: 7400004, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-    - target: {fileID: 11100000, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_Animations.Array.data[23]
-      value: 
-      objectReference: {fileID: 7400000, guid: 1da85f72a7a82bc4eabdbd8f0683bde2, type: 3}
-    - target: {fileID: 400000, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.19763947
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.19763947
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.19763947
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: .0854792744
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: .00106871163
-      objectReference: {fileID: 0}
-    - target: {fileID: 11100000, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 13700000, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_RootGameObject: {fileID: 2107321625}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1 &1673725466
 GameObject:
   m_ObjectHideFlags: 0
@@ -6917,34 +5409,6 @@ MonoBehaviour:
   isScanning: 0
   showGraphs: 1
   lastUniqueAreaIndex: 12
---- !u!1 &1711945037
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100088, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1711945038}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_57
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1711945038
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400088, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1711945037}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0730564147, y: -.371357173, z: -.0734862089}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2003707536}
-  - {fileID: 125480805}
-  m_Father: {fileID: 1775249600}
 --- !u!1 &1725839237
 GameObject:
   m_ObjectHideFlags: 0
@@ -6972,138 +5436,78 @@ Transform:
   m_Children:
   - {fileID: 1045717995}
   m_Father: {fileID: 1775908513}
---- !u!1 &1734453087
+--- !u!1 &1736533336
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100068, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
+  m_PrefabParentObject: {fileID: 100000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+  m_PrefabInternal: {fileID: 541296363}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1734453088}
+  - 4: {fileID: 1736533340}
+  - 33: {fileID: 1736533339}
+  - 23: {fileID: 1736533338}
+  - 65: {fileID: 1736533337}
   m_Layer: 0
-  m_Name: abyssal_illidan_bone_45
+  m_Name: HomeTower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1734453088
+--- !u!65 &1736533337
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1736533336}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .366005838, y: .131858632, z: .242364541}
+  m_Center: {x: -1.49011665e-08, y: .00195197819, z: -.00031204577}
+--- !u!23 &1736533338
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 80f4ad99c67b1b044a4247c1a386b3bf,
+    type: 3}
+  m_PrefabInternal: {fileID: 541296363}
+  m_GameObject: {fileID: 1736533336}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 0461212c4cf204f3488c1318e80ced34, type: 2}
+  - {fileID: 2100000, guid: 6051f3880fb4e1147a35b4b2a1ce407e, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!33 &1736533339
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 80f4ad99c67b1b044a4247c1a386b3bf,
+    type: 3}
+  m_PrefabInternal: {fileID: 541296363}
+  m_GameObject: {fileID: 1736533336}
+  m_Mesh: {fileID: 4300000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+--- !u!4 &1736533340
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400068, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1734453087}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .343036234, y: .150598407, z: 6.13428274e-05}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_PrefabParentObject: {fileID: 400000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+  m_PrefabInternal: {fileID: 541296363}
+  m_GameObject: {fileID: 1736533336}
+  m_LocalRotation: {x: -3.09086232e-08, y: .707106829, z: .707106829, w: 3.09086232e-08}
+  m_LocalPosition: {x: 490.570404, y: 21.7070923, z: 1486.13501}
+  m_LocalScale: {x: 52.5041924, y: 52.5041924, z: 52.5041924}
   m_Children: []
-  m_Father: {fileID: 1790462071}
---- !u!1 &1747938554
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100086, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1747938555}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_55
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1747938555
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400086, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1747938554}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.123019353, y: .147932887, z: .108844601}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1999021038}
---- !u!1 &1749414596
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100082, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1749414597}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_51
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1749414597
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400082, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1749414596}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .122537188, y: -.197843552, z: .0937092006}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 39012238}
---- !u!1 &1753153856
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100048, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1753153857}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_36
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1753153857
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400048, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1753153856}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.247643501, y: 0, z: -.314302772}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
---- !u!1 &1775249599
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100030, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1775249600}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_27
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1775249600
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400030, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1775249599}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .0820914954, y: -.473454803, z: -.0978994668}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1711945038}
-  - {fileID: 683910920}
-  m_Father: {fileID: 258815872}
+  m_Father: {fileID: 0}
 --- !u!1 &1775908512
 GameObject:
   m_ObjectHideFlags: 0
@@ -7131,41 +5535,6 @@ Transform:
   m_Children:
   - {fileID: 1725839238}
   m_Father: {fileID: 976993213}
---- !u!1 &1790462070
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100016, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1790462071}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_16
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1790462071
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400016, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1790462070}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .0345232934, y: .124283552, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 961605388}
-  - {fileID: 1824670370}
-  - {fileID: 1734453088}
-  - {fileID: 1036804150}
-  - {fileID: 603384639}
-  - {fileID: 1033526652}
-  - {fileID: 670429668}
-  - {fileID: 1296938259}
-  - {fileID: 592310803}
-  m_Father: {fileID: 793294364}
 --- !u!1 &1790997580
 GameObject:
   m_ObjectHideFlags: 0
@@ -7278,58 +5647,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1866201650}
---- !u!1 &1824670369
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100066, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1824670370}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_44
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1824670370
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400066, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1824670369}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.411537766, y: .0282233953, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1790462071}
---- !u!1 &1833504893
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100026, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1833504894}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_25
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1833504894
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400026, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1833504893}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .0994534269, y: -.621553242, z: -.0940568149}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 9165111}
 --- !u!1 &1835585083
 GameObject:
   m_ObjectHideFlags: 0
@@ -7442,32 +5759,6 @@ MonoBehaviour:
   type: 1
   maxHealth: 50
   currentHealth: 50
---- !u!1 &1850384061
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100096, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1850384062}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_60
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1850384062
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400096, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1850384061}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0834234208, y: -.107907057, z: .26022619}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1409637203}
 --- !u!1 &1855286862
 GameObject:
   m_ObjectHideFlags: 0
@@ -7641,32 +5932,6 @@ Transform:
   - {fileID: 730673962}
   - {fileID: 780044911}
   m_Father: {fileID: 782121481}
---- !u!1 &1915313132
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100056, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1915313133}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1915313133
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400056, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1915313132}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .631837189, y: 1.47262108, z: -.0550566465}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
 --- !u!1 &1922253744
 GameObject:
   m_ObjectHideFlags: 0
@@ -7814,32 +6079,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 612372678}
---- !u!1 &1963429910
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100128, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1963429911}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_Name
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1963429911
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400128, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1963429910}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0763888881, y: 2.33674192, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
 --- !u!1 &1967991522
 GameObject:
   m_ObjectHideFlags: 0
@@ -7992,60 +6231,6 @@ Transform:
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 101301694}
---- !u!1 &1999021037
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100114, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1999021038}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_ArmR
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1999021038
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400114, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 1999021037}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .0117536252, y: -.0704983473, z: .33577925}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1409637203}
-  - {fileID: 1747938555}
-  m_Father: {fileID: 592310803}
---- !u!1 &2003707535
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100100, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2003707536}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_62
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2003707536
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400100, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 2003707535}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.0713172257, y: -.166327164, z: -.0559206009}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1711945038}
 --- !u!1 &2011691694
 GameObject:
   m_ObjectHideFlags: 0
@@ -8252,59 +6437,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1564367461}
---- !u!1 &2090953413
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100108, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2090953414}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_8
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2090953414
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400108, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 2090953413}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .327454478, y: 1.23168027, z: .0137028676}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
---- !u!1 &2094420572
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100012, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2094420573}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_14
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2094420573
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400012, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 2094420572}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .00706098182, y: -.0917167664, z: -.145183086}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 9165111}
-  m_Father: {fileID: 731931137}
 --- !u!1 &2096747388
 GameObject:
   m_ObjectHideFlags: 0
@@ -8331,140 +6463,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1564367461}
---- !u!1 &2107321625
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100002, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2107321626}
-  - 111: {fileID: 2107321627}
-  - 143: {fileID: 2107321628}
-  m_Layer: 0
-  m_Name: abyssal_illidan
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2107321626
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400002, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 2107321625}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 491.373108, y: 25.759285, z: 1453.47913}
-  m_LocalScale: {x: 7.52088451, y: 8.9266758, z: 7.52088451}
-  m_Children:
-  - {fileID: 1476224763}
-  - {fileID: 35478601}
-  m_Father: {fileID: 0}
---- !u!111 &2107321627
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 8a01a01f76c9445ba8fab762e68039a3,
-    type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 2107321625}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400004, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_Animations:
-  - {fileID: 7400000, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400002, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400004, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400006, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400008, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400010, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400012, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400014, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400016, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400018, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400020, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400022, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400024, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400026, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400028, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400030, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400032, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400034, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400036, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400038, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400040, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400042, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  - {fileID: 7400044, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 1
---- !u!143 &2107321628
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2107321625}
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: .400000006
-  m_SlopeLimit: 45
-  m_StepOffset: .300000012
-  m_SkinWidth: .0799999982
-  m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 1, z: 0}
---- !u!1 &2115173369
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100028, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2115173370}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_26
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2115173370
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400028, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 2115173369}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: .0997777507, y: -.620667815, z: .0994077548}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 39012238}
---- !u!1 &2116735594
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100052, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2116735595}
-  m_Layer: 0
-  m_Name: abyssal_illidan_bone_38
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2116735595
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400052, guid: 8a01a01f76c9445ba8fab762e68039a3, type: 3}
-  m_PrefabInternal: {fileID: 1638139648}
-  m_GameObject: {fileID: 2116735594}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.264082909, y: 0, z: .328288674}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 35478601}
 --- !u!1 &2125118395
 GameObject:
   m_ObjectHideFlags: 0
