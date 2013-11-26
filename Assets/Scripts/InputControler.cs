@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using Pathfinding;
 
 public class InputControler : MonoBehaviour
 {
@@ -86,7 +87,9 @@ public class InputControler : MonoBehaviour
 					buildingTowner.collider.enabled = true;
 					buildingTowner.GetComponent<AITower>().enable = true;
 					buildingTowner.renderer.material.SetColor("_Color", Color.white);
+					AstarPath.active.UpdateGraphs (buildingTowner.collider.bounds);
 					buildingTowner = null;
+
 
 					switch(enableButton){
 					case 1:
@@ -211,7 +214,7 @@ public class InputControler : MonoBehaviour
 							CharacterControl character = gameControl.player.GetComponent<CharacterControl>();
 							GameObject target = GameObject.Find("Target");
 							target.transform.position = hit.point;
-							character.move(target.transform);
+							character.move(target.transform, true);
 						}
 					}
 				}

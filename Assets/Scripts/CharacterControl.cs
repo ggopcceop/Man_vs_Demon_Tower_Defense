@@ -11,13 +11,11 @@ public class CharacterControl : AIPath {
 	/** Minimum velocity for moving */
 	public float sleepVelocity = 0.4F;
 	
-	public GameObject attackTarget;
-	
 	// Use this for initialization
 	void Start () {
 		controller = GetComponent<CharacterController>();
 		character = GetComponent<Character>();
-		
+		base.repathRate = 5;
 	}
 	
 	protected new void Update () {
@@ -53,10 +51,13 @@ public class CharacterControl : AIPath {
 
 			Vector3 horizontalVelocity = new Vector3(velocity.x, 0, velocity.z);
 			float horizontalSpeed = horizontalVelocity.magnitude;
-			if(horizontalSpeed > 0.1f){
-				animation.Play("Walk");
-			}else {
-				animation.Play("Stand");
+
+			if(animation != null && animation.enabled){
+				if(horizontalSpeed > 0.1f){
+					animation.Play("Walk");
+				}else {
+					animation.Play("Stand");
+				}
 			}
 
 
@@ -64,11 +65,20 @@ public class CharacterControl : AIPath {
 			velocity = Vector3.zero;
 		}
 	}
-	
+
+	public void move(Transform target, bool force){
+		if(this.target != target || force){
+			this.target = target;
+			if(force){
+				base.SearchPath();
+			}else{
+				base.Start();
+			}
+		}
+	}
+
 	public void move(Transform target){
-		this.target = target;
-		
-		base.Start ();
+		move(target, false);
 	}
 
 	public void AttackTarget(GameObject target){
