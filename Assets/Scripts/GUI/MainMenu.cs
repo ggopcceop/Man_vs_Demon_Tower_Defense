@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour {
 	public bool options = false;
 	private bool showCredit =false;
 	private bool showOptions = false;
+	public bool mainMenu = false;
 
 	public GUISkin skin;
 	//mouse enter, change color to black
@@ -41,6 +42,9 @@ public class MainMenu : MonoBehaviour {
 		}
 		else if (exit)
 			Application.Quit();
+		else if (mainMenu){
+			Application.LoadLevel(0);
+		}
 	}
 
 
