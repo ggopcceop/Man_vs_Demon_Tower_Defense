@@ -49,7 +49,7 @@ public class MainMenu : MonoBehaviour {
 			//GUI window
 			GUI.Box(new Rect(Screen.width/12,Screen.height/7,Screen.width/12*10,Screen.height/7*5),"Credits");
 
-			GUI.Label(new Rect (Screen.width/2-50,Screen.height/7*2,100,180),"Produced By Chao Wang, Jinyu Li, Shuwen Ruan Falcuty of Compture Science ");
+			GUI.Label(new Rect (Screen.width/2-50,Screen.height/7*2,250,180),"Produced By \nChao Wang, \nJinyu Li, \nShuwen Ruan \nFalcuty of Compture Science ");
 
 
 			if(GUI.Button(new Rect(Screen.width/2-45,Screen.height/7*5,90,45),"Back")){
