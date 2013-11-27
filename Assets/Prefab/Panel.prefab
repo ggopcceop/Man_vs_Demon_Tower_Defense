@@ -8,9 +8,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400000}
-  - 114: {fileID: 11400000}
+  - 132: {fileID: 13200000}
   m_Layer: 0
-  m_Name: GameWareControler
+  m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24,9 +24,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400002}
-  - 114: {fileID: 11400002}
+  - 132: {fileID: 13200002}
   m_Layer: 0
-  m_Name: InputControler
+  m_Name: Lives
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40,9 +40,10 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400004}
+  - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: GameManagement
-  m_TagString: GameController
+  m_Name: Panel
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55,9 +56,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400006}
-  - 114: {fileID: 11400004}
+  - 132: {fileID: 13200004}
   m_Layer: 0
-  m_Name: Cursor
+  m_Name: Wave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71,25 +72,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400008}
-  - 114: {fileID: 11400006}
+  - 132: {fileID: 13200006}
   m_Layer: 0
-  m_Name: GameControl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &100010
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400010}
-  - 114: {fileID: 11400008}
-  m_Layer: 0
-  m_Name: HealthBar
+  m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102,7 +87,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: .497791529, y: 1.6561377, z: -.00240552425}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400004}
@@ -113,7 +98,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: .497802734, y: 1.65613937, z: -.00244140625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400004}
@@ -124,14 +109,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 468.300995, y: 50.0365143, z: 1442.88025}
+  m_LocalPosition: {x: 484.314667, y: 47.5278931, z: 1590.50195}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400006}
   - {fileID: 400008}
-  - {fileID: 400000}
-  - {fileID: 400010}
   - {fileID: 400002}
+  - {fileID: 400000}
+  - {fileID: 400006}
   m_Father: {fileID: 0}
 --- !u!4 &400006
 Transform:
@@ -140,8 +124,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: .497791529, y: 1.6561377, z: -.00240552425}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400004}
 --- !u!4 &400008
@@ -151,18 +135,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400004}
---- !u!4 &400010
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100010}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: .497791529, y: 1.6561377, z: -.00240552425}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400004}
@@ -171,95 +144,123 @@ MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
+  m_GameObject: {fileID: 100004}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fe0707f479394fa4a9e2ea396c7e18c, type: 3}
+  m_Script: {fileID: 11500000, guid: 917765c7cdd6d7543b79729327dc7070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpawn: {fileID: 0}
-  castle: {fileID: 0}
-  wareConfigFileName: testSceneWare.txt
-  currentWave: 0
-  enemyInterval: 1
---- !u!114 &11400002
-MonoBehaviour:
+  customSkin: {fileID: 11400000, guid: c7a4e563bc1b04eb6a818098c5bdd2ab, type: 2}
+  healthCount: 10
+  scoreCount: 0
+  cashCount: 200
+  waveLevel: 1
+  waveText: {fileID: 13200004}
+  healthText: {fileID: 13200002}
+  scoreText: {fileID: 13200000}
+  cashText: {fileID: 13200006}
+  Start_button: {fileID: 0}
+  tower1_GUItexture: {fileID: 0}
+  tower2_GUItexture: {fileID: 0}
+  tower3_GUItexture: {fileID: 0}
+  menu_GUItexture: {fileID: 0}
+  retry: {fileID: 0}
+  next: {fileID: 0}
+  tower1Cost: 10
+  tower2Cost: 20
+  tower3Cost: 30
+--- !u!132 &13200000
+GUIText:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Text: 'Score: 0'
+  m_Anchor: 0
+  m_Alignment: 0
+  m_PixelOffset: {x: 0, y: 0}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Material: {fileID: 0}
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_PixelCorrect: 1
+  m_RichText: 1
+--- !u!132 &13200002
+GUIText:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a10dfd9ff644434d9d70f81d6587361, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTiggerWidth: 10
-  cameraSpeed: 50
-  cameraXMin: 0
-  cameraXMax: 0
-  cameraYMin: 0
-  cameraYMax: 0
-  tower1: {fileID: 0}
-  tower1_normal: {fileID: 2800000, guid: 3f38d742a4728492ea278d17fec37d34, type: 3}
-  tower1_enable: {fileID: 2800000, guid: 65329e7f8b34f4752848b8128e9b1ee6, type: 3}
-  tower1_disable: {fileID: 2800000, guid: e8dae9161be19468f81f1cf6001a3e9c, type: 3}
-  tower2: {fileID: 0}
-  tower2_normal: {fileID: 2800000, guid: 8b968d994079649aab1a602428e60e0b, type: 3}
-  tower2_enable: {fileID: 2800000, guid: 4ae748bed6bfa4a0e9b3a690560cce9c, type: 3}
-  tower2_disable: {fileID: 2800000, guid: 58ee8c2b0f1ed4caa95ffc2279414346, type: 3}
-  tower3: {fileID: 0}
-  tower3_normal: {fileID: 2800000, guid: 614c75f2812264eab88f053f6772b0d7, type: 3}
-  tower3_enable: {fileID: 2800000, guid: 05b594f2ccc88400ebf6df90286b60bd, type: 3}
-  tower3_disable: {fileID: 2800000, guid: 0b5a9a38e8f404b82b419443adbd7b9d, type: 3}
-  Tower1Object: {fileID: 0}
-  Tower2Object: {fileID: 0}
-  Tower3Object: {fileID: 0}
-  buildingTowner: {fileID: 0}
---- !u!114 &11400004
-MonoBehaviour:
+  serializedVersion: 3
+  m_Text: 'Lives: 10'
+  m_Anchor: 0
+  m_Alignment: 0
+  m_PixelOffset: {x: 0, y: 0}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Material: {fileID: 0}
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_PixelCorrect: 1
+  m_RichText: 1
+--- !u!132 &13200004
+GUIText:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da00755e05baea741b132a853df1071d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mousePosition: {x: 154.440308, y: 361.19986}
-  mouseSensitivity: 8
-  virtualCursor: {fileID: 2800000, guid: e9fd1726c8823f94fb187b2ce2b9b555, type: 3}
---- !u!114 &11400006
-MonoBehaviour:
+  serializedVersion: 3
+  m_Text: 'Wave: 1'
+  m_Anchor: 0
+  m_Alignment: 0
+  m_PixelOffset: {x: 0, y: 0}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Material: {fileID: 0}
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_PixelCorrect: 1
+  m_RichText: 1
+--- !u!132 &13200006
+GUIText:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100008}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9ec24486fa17414e92bd7d45062b882, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  currentPlayerState: 0
-  currentGameState: 0
-  selectedObject: {fileID: 0}
---- !u!114 &11400008
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec033cc951fcc6644a60cf7e03c40ba4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fullHealth: {fileID: 2800000, guid: da5316eedc799f143a0afaa34fa42a2b, type: 3}
-  emptyHealth: {fileID: 2800000, guid: 1ad5bb806a118ac4cbddfbf052681277, type: 3}
-  healthBarLength: 40
-  healthBarHeight: 5
-  healthBarHightOffset: 20
+  serializedVersion: 3
+  m_Text: 'Coin: 1000'
+  m_Anchor: 0
+  m_Alignment: 0
+  m_PixelOffset: {x: 0, y: 0}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Material: {fileID: 0}
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_PixelCorrect: 1
+  m_RichText: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

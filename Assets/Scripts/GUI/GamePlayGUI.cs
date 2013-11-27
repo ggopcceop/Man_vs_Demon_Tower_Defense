@@ -97,7 +97,7 @@ public class GamePlayGUI : MonoBehaviour {
 	void OnGUI(){
 		GUI.skin = customSkin;
 		GUI.Box(new Rect (0,0,Screen.width,40),condition);
-		GUI.Label(new Rect(1,28,45,100),"Click to Start");
+		GUI.Label(new Rect(1,28,100,80),"Click to Start");
 		if (lose ==false && win==false)
 			GUI.Label(new Rect(Screen.width-60,28, 60, 50), "Menu");
 		GUI.Label(new Rect(5,Screen.height-65,250,50),"$10 $20 $30");

@@ -135,6 +135,7 @@ GameObject:
   - 114: {fileID: 11400004}
   - 114: {fileID: 11400002}
   - 114: {fileID: 11400000}
+  - 23: {fileID: 2300000}
   m_Layer: 0
   m_Name: Tower5
   m_TagString: Untagged
@@ -249,6 +250,27 @@ Transform:
   - {fileID: 400012}
   - {fileID: 400002}
   m_Father: {fileID: 0}
+--- !u!23 &2300000
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
 --- !u!65 &6500000
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -272,6 +294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed43d12199b0d3a4682cf17b6d5504e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enable: 0
   ejection: {fileID: 100002, guid: 97dbfd8b285c1484ead500b03930151d, type: 3}
   ejectionInterval: 5
   range: 50
@@ -313,7 +336,6 @@ MonoBehaviour:
   endReachedDistance: .200000003
   closestOnPathCheck: 1
   sleepVelocity: .400000006
-  attackTarget: {fileID: 0}
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
