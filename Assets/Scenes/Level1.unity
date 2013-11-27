@@ -74,6 +74,1113 @@ NavMeshSettings:
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
   m_NavMesh: {fileID: 0}
+--- !u!1 &18520159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100046, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 18520160}
+  m_Layer: 0
+  m_Name: coldwraith_bone_72
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &18520160
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400030, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 18520159}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0571565181, y: -.0279967189, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1904698461}
+--- !u!1 &75917707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 75917708}
+  m_Layer: 0
+  m_Name: coldwraith_bone_12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &75917708
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400150, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 75917707}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .00657597883, y: -.169882625, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1253057729}
+  m_Father: {fileID: 342050890}
+--- !u!1 &109442387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: bed9e692c2b394b328075126e1c5c33a, type: 2}
+  m_PrefabInternal: {fileID: 152933254}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 109442392}
+  - 33: {fileID: 109442391}
+  - 23: {fileID: 109442390}
+  - 65: {fileID: 109442389}
+  - 114: {fileID: 109442388}
+  m_Layer: 0
+  m_Name: HomeTower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &109442388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: bed9e692c2b394b328075126e1c5c33a,
+    type: 2}
+  m_PrefabInternal: {fileID: 152933254}
+  m_GameObject: {fileID: 109442387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 894514fd340e176449fc8adb2ab80488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Home
+  type: 1
+  maxHealth: 50
+  currentHealth: 50
+--- !u!65 &109442389
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500000, guid: bed9e692c2b394b328075126e1c5c33a,
+    type: 2}
+  m_PrefabInternal: {fileID: 152933254}
+  m_GameObject: {fileID: 109442387}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .366005838, y: .131858632, z: .242364541}
+  m_Center: {x: -1.49011665e-08, y: .00195197819, z: -.00031204577}
+--- !u!23 &109442390
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: bed9e692c2b394b328075126e1c5c33a,
+    type: 2}
+  m_PrefabInternal: {fileID: 152933254}
+  m_GameObject: {fileID: 109442387}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 0461212c4cf204f3488c1318e80ced34, type: 2}
+  - {fileID: 2100000, guid: 6051f3880fb4e1147a35b4b2a1ce407e, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!33 &109442391
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: bed9e692c2b394b328075126e1c5c33a,
+    type: 2}
+  m_PrefabInternal: {fileID: 152933254}
+  m_GameObject: {fileID: 109442387}
+  m_Mesh: {fileID: 4300000, guid: 80f4ad99c67b1b044a4247c1a386b3bf, type: 3}
+--- !u!4 &109442392
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: bed9e692c2b394b328075126e1c5c33a, type: 2}
+  m_PrefabInternal: {fileID: 152933254}
+  m_GameObject: {fileID: 109442387}
+  m_LocalRotation: {x: -.707106829, y: 0, z: 0, w: .707106709}
+  m_LocalPosition: {x: 150.330978, y: 6.9355545, z: 245.568619}
+  m_LocalScale: {x: 52.5041924, y: 52.5041924, z: 52.5041924}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &134650632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100058, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 134650633}
+  m_Layer: 0
+  m_Name: coldwraith_bone_45
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &134650633
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400084, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 134650632}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0235782005, y: -.0243640542, z: .0234918594}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1201402709}
+--- !u!1 &144387975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100124, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 144387976}
+  m_Layer: 0
+  m_Name: coldwraith_bone_36
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &144387976
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400102, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 144387975}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0153275058, y: -.146462068, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 967961111}
+  - {fileID: 611884281}
+  - {fileID: 2083986341}
+  m_Father: {fileID: 816148866}
+--- !u!1 &146555522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100068, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 146555523}
+  m_Layer: 0
+  m_Name: coldwraith_bone_33
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &146555523
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400108, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 146555522}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .00636918051, y: -.0673319697, z: -.104917131}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 670178430}
+--- !u!1 &149702715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100048, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 149702716}
+  m_Layer: 0
+  m_Name: coldwraith_bone_71
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &149702716
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400032, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 149702715}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.118937768, y: -.0698265433, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1904698461}
+--- !u!1 &150474025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 150474026}
+  m_Layer: 0
+  m_Name: coldwraith_bone_7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &150474026
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400160, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 150474025}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.00363452197, y: -.0629832149, z: -.100235738}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1878770493}
+  m_Father: {fileID: 279484321}
+--- !u!1 &151723164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100086, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 151723165}
+  m_Layer: 0
+  m_Name: coldwraith_bone_37
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &151723165
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400100, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 151723164}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0470901206, y: -.129151583, z: .0340393931}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 801975752}
+  - {fileID: 1437658175}
+  - {fileID: 2120030281}
+  - {fileID: 911911990}
+  m_Father: {fileID: 619004634}
+--- !u!1001 &152933254
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: bed9e692c2b394b328075126e1c5c33a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 150.330978
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bed9e692c2b394b328075126e1c5c33a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.9355545
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bed9e692c2b394b328075126e1c5c33a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 245.568619
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bed9e692c2b394b328075126e1c5c33a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bed9e692c2b394b328075126e1c5c33a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bed9e692c2b394b328075126e1c5c33a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bed9e692c2b394b328075126e1c5c33a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: bed9e692c2b394b328075126e1c5c33a, type: 2}
+  m_RootGameObject: {fileID: 109442387}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &174072127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100154, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 174072128}
+  m_Layer: 0
+  m_Name: coldwraith_bone_SpineLow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &174072128
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400172, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 174072127}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .00392393069, y: -.00119125843, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1904698461}
+  - {fileID: 1614331888}
+  - {fileID: 1488369874}
+  - {fileID: 263135762}
+  - {fileID: 1858375300}
+  - {fileID: 363418909}
+  m_Father: {fileID: 926084544}
+--- !u!1 &175330133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100148, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 175330134}
+  m_Layer: 0
+  m_Name: coldwraith_bone_Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &175330134
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400136, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 175330133}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0207216348, y: .0348562598, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 218877801}
+  - {fileID: 1520125645}
+  - {fileID: 1742170494}
+  - {fileID: 1284672144}
+  - {fileID: 579921321}
+  - {fileID: 985685173}
+  - {fileID: 1452085012}
+  - {fileID: 1897611372}
+  m_Father: {fileID: 1831777028}
+--- !u!1 &185655639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100054, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 185655640}
+  m_Layer: 0
+  m_Name: coldwraith_bone_84
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &185655640
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 185655639}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.00642762706, y: -.0852350295, z: .00766417384}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1201402709}
+--- !u!1 &192331683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100100, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 192331684}
+  m_Layer: 0
+  m_Name: coldwraith_bone_55
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &192331684
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400064, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 192331683}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0345833302, y: -.00325368345, z: -.146410435}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1549448764}
+--- !u!1 &218877800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100146, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 218877801}
+  m_Layer: 0
+  m_Name: coldwraith_bone_76
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &218877801
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400022, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 218877800}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.00281523331, y: .0867127776, z: .0131183825}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 175330134}
+--- !u!1 &222885315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100108, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 222885316}
+  m_Layer: 0
+  m_Name: coldwraith_bone_48
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &222885316
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400078, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 222885315}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .023842765, y: -.190741345, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 853908183}
+  - {fileID: 1549448764}
+  m_Father: {fileID: 2083986341}
+--- !u!1 &246118274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100160, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 246118275}
+  m_Layer: 0
+  m_Name: coldwraith_bone_64
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &246118275
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400046, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 246118274}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.00130555558, y: 0, z: .138636172}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2101352874}
+--- !u!1 &263135761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100036, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 263135762}
+  m_Layer: 0
+  m_Name: coldwraith_bone_68
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &263135762
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400038, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 263135761}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.00392393069, y: .0325306654, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 174072128}
+--- !u!1 &270240045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100110, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 270240046}
+  m_Layer: 0
+  m_Name: coldwraith_bone_51
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &270240046
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400072, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 270240045}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0270359647, y: .0184857547, z: .115057446}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 274553668}
+--- !u!1 &274553667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100112, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 274553668}
+  m_Layer: 0
+  m_Name: coldwraith_bone_47
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &274553668
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400080, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 274553667}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0185626, y: -.115370058, z: -.00296809222}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 270240046}
+  m_Father: {fileID: 2083986341}
+--- !u!1 &279484320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100030, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 279484321}
+  m_Layer: 0
+  m_Name: coldwraith_bone_Waist
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &279484321
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400170, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 279484320}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .00386794191, y: -.00769984722, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 723286958}
+  - {fileID: 342050890}
+  - {fileID: 1019079620}
+  - {fileID: 150474026}
+  - {fileID: 1815907123}
+  m_Father: {fileID: 926084544}
+--- !u!1 &281336639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 8133eeb5586ff4afc815b5ca54c9e24c, type: 2}
+  m_PrefabInternal: {fileID: 1529516673}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 281336641}
+  - 131: {fileID: 281336640}
+  m_Layer: 0
+  m_Name: StartLevelButton
+  m_TagString: Playing
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!131 &281336640
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13100000, guid: 8133eeb5586ff4afc815b5ca54c9e24c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1529516673}
+  m_GameObject: {fileID: 281336639}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 4f01e1f92eaa34d19b78cf7e702d7080, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: -290
+    y: -300
+    width: 45
+    height: 45
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!4 &281336641
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 8133eeb5586ff4afc815b5ca54c9e24c, type: 2}
+  m_PrefabInternal: {fileID: 1529516673}
+  m_GameObject: {fileID: 281336639}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .5, y: .5, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &290191816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 42e6cf7225b2d4370ada1e65db3521d6, type: 2}
+  m_PrefabInternal: {fileID: 2118595044}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 290191818}
+  - 131: {fileID: 290191817}
+  m_Layer: 0
+  m_Name: NextButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!131 &290191817
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13100000, guid: 42e6cf7225b2d4370ada1e65db3521d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 2118595044}
+  m_GameObject: {fileID: 290191816}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 071c5affe995a4741a023e377775d95d, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: -1000
+    y: -29
+    width: 45
+    height: 45
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!4 &290191818
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 42e6cf7225b2d4370ada1e65db3521d6, type: 2}
+  m_PrefabInternal: {fileID: 2118595044}
+  m_GameObject: {fileID: 290191816}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .5, y: .5, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &307858242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100166, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 307858243}
+  m_Layer: 0
+  m_Name: coldwraith_bone_61
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &307858243
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400052, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 307858242}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.164916664, y: 0, z: -.138888806}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2101352874}
+--- !u!1 &325580049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100164, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 325580050}
+  m_Layer: 0
+  m_Name: coldwraith_bone_62
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &325580050
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400050, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 325580049}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.164919123, y: 0, z: .138888195}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2101352874}
+--- !u!1 &342050889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100022, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 342050890}
+  m_Layer: 0
+  m_Name: coldwraith_bone_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &342050890
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400164, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 342050889}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0925668702, y: -.156054124, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 75917708}
+  m_Father: {fileID: 279484321}
+--- !u!1 &363418908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100032, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 363418909}
+  m_Layer: 0
+  m_Name: coldwraith_bone_70
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &363418909
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400034, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 363418908}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.00392393069, y: .0325306654, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 174072128}
+--- !u!1001 &400359898
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400180, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 156.85437
+      objectReference: {fileID: 0}
+    - target: {fileID: 400180, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 12.4371414
+      objectReference: {fileID: 0}
+    - target: {fileID: 400180, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 222.968689
+      objectReference: {fileID: 0}
+    - target: {fileID: 400180, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400180, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400180, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400180, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -1.62920685e-07
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_RootGameObject: {fileID: 1368030275}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &404052375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100070, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 404052376}
+  m_Layer: 0
+  m_Name: coldwraith_bone_32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &404052376
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400110, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 404052375}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .00636918051, y: -.00183075666, z: -.0935943201}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 670178430}
+--- !u!1 &432591518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 05e01842fb0184609bcb325fc2ab899c, type: 2}
+  m_PrefabInternal: {fileID: 598071489}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 432591519}
+  m_Layer: 0
+  m_Name: TowerButtons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &432591519
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 05e01842fb0184609bcb325fc2ab899c, type: 2}
+  m_PrefabInternal: {fileID: 598071489}
+  m_GameObject: {fileID: 432591518}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .5, y: .5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1447308023}
+  - {fileID: 1738561617}
+  - {fileID: 703297750}
+  m_Father: {fileID: 0}
+--- !u!1 &483375446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 483375447}
+  - 114: {fileID: 483375448}
+  m_Layer: 0
+  m_Name: GameControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &483375447
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  m_GameObject: {fileID: 483375446}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1499665579}
+--- !u!114 &483375448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400006, guid: 7f8448938c58432429768593b86b49f8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  m_GameObject: {fileID: 483375446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9ec24486fa17414e92bd7d45062b882, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1368030275}
+  currentPlayerState: 0
+  currentGameState: 0
+  selectedObject: {fileID: 0}
+--- !u!1 &488369526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100024, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 488369527}
+  m_Layer: 0
+  m_Name: coldwraith_bone_23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &488369527
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400128, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 488369526}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .00438392162, y: -.155634373, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 913776914}
+--- !u!1 &527822026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: a9ca92b162dc34e889c3ec5f31fa1424, type: 2}
+  m_PrefabInternal: {fileID: 1216927516}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 527822028}
+  - 131: {fileID: 527822027}
+  m_Layer: 0
+  m_Name: RetryButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!131 &527822027
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13100000, guid: a9ca92b162dc34e889c3ec5f31fa1424,
+    type: 2}
+  m_PrefabInternal: {fileID: 1216927516}
+  m_GameObject: {fileID: 527822026}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: d5b6113498c2943589982ac63cdabba1, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: -1000
+    y: -28.1000004
+    width: 45
+    height: 45
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!4 &527822028
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: a9ca92b162dc34e889c3ec5f31fa1424, type: 2}
+  m_PrefabInternal: {fileID: 1216927516}
+  m_GameObject: {fileID: 527822026}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .5, y: .5, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &536052813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 536052814}
+  - 114: {fileID: 536052815}
+  m_Layer: 0
+  m_Name: Cursor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &536052814
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  m_GameObject: {fileID: 536052813}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1499665579}
+--- !u!114 &536052815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: 7f8448938c58432429768593b86b49f8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  m_GameObject: {fileID: 536052813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da00755e05baea741b132a853df1071d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mousePosition: {x: 154.440308, y: 361.19986}
+  mouseSensitivity: 8
+  virtualCursor: {fileID: 2800000, guid: e9fd1726c8823f94fb187b2ce2b9b555, type: 3}
 --- !u!1 &541748426
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,6 +1245,151 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!1 &547706655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100066, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 547706656}
+  m_Layer: 0
+  m_Name: coldwraith_bone_ArmL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &547706656
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400134, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 547706655}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .000118122436, y: -.000186502934, z: -.0577342883}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1044116075}
+  m_Father: {fileID: 1741484899}
+--- !u!1 &575974124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100162, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 575974125}
+  m_Layer: 0
+  m_Name: coldwraith_bone_63
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &575974125
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400048, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 575974124}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.121694446, y: 0, z: -.139113829}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2101352874}
+--- !u!1 &579921320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100138, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 579921321}
+  m_Layer: 0
+  m_Name: coldwraith_bone_Breath
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &579921321
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400024, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 579921320}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0796152353, y: .0180956125, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 175330134}
+--- !u!1001 &598071489
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 05e01842fb0184609bcb325fc2ab899c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 05e01842fb0184609bcb325fc2ab899c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 05e01842fb0184609bcb325fc2ab899c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 05e01842fb0184609bcb325fc2ab899c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 05e01842fb0184609bcb325fc2ab899c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 05e01842fb0184609bcb325fc2ab899c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 05e01842fb0184609bcb325fc2ab899c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 05e01842fb0184609bcb325fc2ab899c, type: 2}
+  m_RootGameObject: {fileID: 432591518}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &611884280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100120, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 611884281}
+  m_Layer: 0
+  m_Name: coldwraith_bone_40
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &611884281
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400094, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 611884280}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0106000444, y: -.0955619812, z: -.00129663642}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 144387976}
 --- !u!1 &612103926
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,10 +1466,787 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 612103926}
   m_LocalRotation: {x: .336080432, y: 0, z: 0, w: .941833317}
-  m_LocalPosition: {x: 1.86326933, y: 33.654129, z: -102.714516}
+  m_LocalPosition: {x: 194.526443, y: 59.9343643, z: -1.72854614}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!1 &619004633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100088, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 619004634}
+  m_Layer: 0
+  m_Name: coldwraith_bone_29
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &619004634
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400116, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 619004633}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0233986452, y: -.181790233, z: .0493201427}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 151723165}
+  m_Father: {fileID: 967910460}
+--- !u!1 &670178429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100072, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 670178430}
+  m_Layer: 0
+  m_Name: coldwraith_bone_21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &670178430
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400132, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 670178429}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .00529587548, y: .0398240685, z: .0216567516}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 404052376}
+  - {fileID: 146555523}
+  m_Father: {fileID: 1741484899}
+--- !u!1 &675293808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100116, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 675293809}
+  m_Layer: 0
+  m_Name: coldwraith_bone_46
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &675293809
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400082, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 675293808}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0185625851, y: -.117041588, z: -.00129656354}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1815869781}
+  m_Father: {fileID: 2083986341}
+--- !u!1 &684784743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100096, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 684784744}
+  m_Layer: 0
+  m_Name: coldwraith_bone_17
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &684784744
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400140, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 684784743}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .00529587315, y: .0398240089, z: -.0216527786}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 738134660}
+  - {fileID: 1046147586}
+  m_Father: {fileID: 1020287684}
+--- !u!1 &703297749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 05e01842fb0184609bcb325fc2ab899c, type: 2}
+  m_PrefabInternal: {fileID: 598071489}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 703297750}
+  - 131: {fileID: 703297751}
+  m_Layer: 0
+  m_Name: Tower3
+  m_TagString: GUI
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &703297750
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 05e01842fb0184609bcb325fc2ab899c, type: 2}
+  m_PrefabInternal: {fileID: 598071489}
+  m_GameObject: {fileID: 703297749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 432591519}
+--- !u!131 &703297751
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13100002, guid: 05e01842fb0184609bcb325fc2ab899c,
+    type: 2}
+  m_PrefabInternal: {fileID: 598071489}
+  m_GameObject: {fileID: 703297749}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 614c75f2812264eab88f053f6772b0d7, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: -90
+    y: -300
+    width: 45
+    height: 45
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!1 &723286957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100028, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 723286958}
+  m_Layer: 0
+  m_Name: coldwraith_bone_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &723286958
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400166, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 723286957}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.120060392, y: -.188934594, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 913776914}
+  m_Father: {fileID: 279484321}
+--- !u!1 &738134659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100094, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 738134660}
+  m_Layer: 0
+  m_Name: coldwraith_bone_27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &738134660
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400120, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 738134659}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0063692024, y: -.0673319101, z: .104916684}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 684784744}
+--- !u!1 &764138742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100052, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 764138743}
+  m_Layer: 0
+  m_Name: coldwraith_bone_CSL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &764138743
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 764138742}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0206361413, y: -.0562386513, z: .069527626}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1201402709}
+--- !u!1 &801975751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100084, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 801975752}
+  m_Layer: 0
+  m_Name: coldwraith_bone_42
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &801975752
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400090, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 801975751}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0160978399, y: -.0965597332, z: .0265818536}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 151723165}
+--- !u!1 &816148865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100126, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 816148866}
+  m_Layer: 0
+  m_Name: coldwraith_bone_22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &816148866
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400130, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 816148865}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .00405246764, y: -.0796365738, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 144387976}
+  m_Father: {fileID: 1078811579}
+--- !u!1 &850212293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100172, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 850212294}
+  m_Layer: 0
+  m_Name: coldwraith_bone_58
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &850212294
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400058, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 850212293}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 1.11111116, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2101352874}
+--- !u!1 &853908182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100106, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 853908183}
+  m_Layer: 0
+  m_Name: coldwraith_bone_52
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &853908183
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400070, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 853908182}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0594698302, y: -.135241121, z: -.00129650068}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 924954180}
+  m_Father: {fileID: 222885316}
+--- !u!1 &866537360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 866537361}
+  m_Layer: 0
+  m_Name: coldwraith_bone_34
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &866537361
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400106, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 866537360}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.144556746, y: -.0368380994, z: 7.00354576e-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1881738052}
+--- !u!1 &911911989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100076, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 911911990}
+  m_Layer: 0
+  m_Name: coldwraith_bone_85
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &911911990
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 911911989}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0064282231, y: -.0852414295, z: -.00766500831}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 151723165}
+--- !u!1 &913776913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100026, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 913776914}
+  m_Layer: 0
+  m_Name: coldwraith_bone_11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &913776914
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400152, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 913776913}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .00109595805, y: -.13152203, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 488369527}
+  m_Father: {fileID: 723286958}
+--- !u!1 &924954179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100104, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 924954180}
+  m_Layer: 0
+  m_Name: coldwraith_bone_54
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &924954180
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400066, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 924954179}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0148671716, y: .0482678413, z: .153125376}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 853908183}
+--- !u!1 &926084543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100156, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 926084544}
+  m_Layer: 0
+  m_Name: coldwraith_bone_Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &926084544
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400174, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 926084543}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: .663105011, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 174072128}
+  - {fileID: 279484321}
+  m_Father: {fileID: 2101352874}
+--- !u!1 &967910459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100090, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 967910460}
+  m_Layer: 0
+  m_Name: coldwraith_bone_ArmR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &967910460
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400138, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 967910459}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .000118127093, y: -.000186502934, z: .0577361174}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 619004634}
+  m_Father: {fileID: 1020287684}
+--- !u!1 &967961110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100122, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 967961111}
+  m_Layer: 0
+  m_Name: coldwraith_bone_39
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &967961111
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400096, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 967961110}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0106000304, y: -.0972335339, z: .000374892057}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 144387976}
+--- !u!1 &985685172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100136, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 985685173}
+  m_Layer: 0
+  m_Name: coldwraith_bone_BTH
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &985685173
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 985685172}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0796152353, y: .0180956125, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 175330134}
+--- !u!1 &1014577197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1014577198}
+  m_Layer: 0
+  m_Name: coldwraith_bone_26
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1014577198
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400122, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1014577197}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0537340902, y: -.28682062, z: -.0149323111}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1452901007}
+  m_Father: {fileID: 1878770493}
+--- !u!1 &1019079619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1019079620}
+  m_Layer: 0
+  m_Name: coldwraith_bone_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1019079620
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400162, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1019079619}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.00363452197, y: -.0629832149, z: .10023611}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1308674651}
+  m_Father: {fileID: 279484321}
+--- !u!1 &1020287683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100098, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1020287684}
+  m_Layer: 0
+  m_Name: coldwraith_bone_15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1020287684
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400144, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1020287683}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0349734277, y: .111171424, z: .10962493}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 684784744}
+  - {fileID: 967910460}
+  m_Father: {fileID: 1904698461}
+--- !u!1 &1043360127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1043360128}
+  - 114: {fileID: 1043360129}
+  m_Layer: 0
+  m_Name: HealthBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1043360128
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  m_GameObject: {fileID: 1043360127}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1499665579}
+--- !u!114 &1043360129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400008, guid: 7f8448938c58432429768593b86b49f8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  m_GameObject: {fileID: 1043360127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec033cc951fcc6644a60cf7e03c40ba4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fullHealth: {fileID: 2800000, guid: da5316eedc799f143a0afaa34fa42a2b, type: 3}
+  emptyHealth: {fileID: 2800000, guid: 1ad5bb806a118ac4cbddfbf052681277, type: 3}
+  healthBarLength: 40
+  healthBarHeight: 5
+  healthBarHightOffset: 20
+--- !u!1 &1044116074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100064, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1044116075}
+  m_Layer: 0
+  m_Name: coldwraith_bone_31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1044116075
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400112, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1044116074}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .023385264, y: -.18179208, z: -.0493194759}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1201402709}
+  m_Father: {fileID: 547706656}
+--- !u!1 &1046147585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100092, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1046147586}
+  m_Layer: 0
+  m_Name: coldwraith_bone_28
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1046147586
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400118, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1046147585}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0063692024, y: -.00183069706, z: .0935972556}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 684784744}
+--- !u!1 &1058018012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1058018013}
+  - 114: {fileID: 1058018014}
+  m_Layer: 0
+  m_Name: GameWareControler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1058018013
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  m_GameObject: {fileID: 1058018012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1499665579}
+--- !u!114 &1058018014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 7f8448938c58432429768593b86b49f8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  m_GameObject: {fileID: 1058018012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fe0707f479394fa4a9e2ea396c7e18c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpawn: {fileID: 0}
+  castle: {fileID: 109442387}
+  wareConfigFileName: testSceneWare.txt
+  currentWave: 0
+  enemyInterval: 1
 --- !u!1 &1058064731
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,3 +2309,1752 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!1 &1063313650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100042, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1063313651}
+  m_Layer: 0
+  m_Name: coldwraith_bone_CCH
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1063313651
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400026, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1063313650}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.148308292, y: .00646829605, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1904698461}
+--- !u!1 &1078811578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100128, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1078811579}
+  m_Layer: 0
+  m_Name: coldwraith_bone_10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1078811579
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400154, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1078811578}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0827749074, y: .066334486, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 816148866}
+  m_Father: {fileID: 1904698461}
+--- !u!1 &1126635155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100158, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1126635156}
+  m_Layer: 0
+  m_Name: coldwraith_bone_Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1126635156
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400062, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1126635155}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .027777778, y: 1.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2101352874}
+--- !u!1 &1151925400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100178, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1151925401}
+  - 137: {fileID: 1151925402}
+  m_Layer: 0
+  m_Name: coldwraith
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1151925401
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400178, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1151925400}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 40.7346764, z: 1573.05469}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1368030276}
+--- !u!137 &1151925402
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700000, guid: bfda57751e15c4187843a404ad95d976,
+    type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1151925400}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: b79be1ef7a38040bca8bfef03ed655c0, type: 2}
+  - {fileID: 2100000, guid: b79be1ef7a38040bca8bfef03ed655c0, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  m_Bones:
+  - {fileID: 926084544}
+  - {fileID: 174072128}
+  - {fileID: 279484321}
+  - {fileID: 1904698461}
+  - {fileID: 723286958}
+  - {fileID: 342050890}
+  - {fileID: 1019079620}
+  - {fileID: 150474026}
+  - {fileID: 1831777028}
+  - {fileID: 1593376301}
+  - {fileID: 1078811579}
+  - {fileID: 913776914}
+  - {fileID: 75917708}
+  - {fileID: 1308674651}
+  - {fileID: 1878770493}
+  - {fileID: 1020287684}
+  - {fileID: 1741484899}
+  - {fileID: 684784744}
+  - {fileID: 967910460}
+  - {fileID: 175330134}
+  - {fileID: 547706656}
+  - {fileID: 670178430}
+  - {fileID: 816148866}
+  - {fileID: 488369527}
+  - {fileID: 1253057729}
+  - {fileID: 1881738052}
+  - {fileID: 1014577198}
+  - {fileID: 738134660}
+  - {fileID: 1046147586}
+  - {fileID: 619004634}
+  - {fileID: 1897611372}
+  - {fileID: 1044116075}
+  - {fileID: 404052376}
+  - {fileID: 146555523}
+  - {fileID: 866537361}
+  - {fileID: 1452901007}
+  - {fileID: 144387976}
+  - {fileID: 151723165}
+  - {fileID: 1201402709}
+  - {fileID: 967961111}
+  - {fileID: 611884281}
+  - {fileID: 2083986341}
+  - {fileID: 801975752}
+  - {fileID: 1437658175}
+  - {fileID: 1747882493}
+  - {fileID: 134650633}
+  - {fileID: 675293809}
+  - {fileID: 274553668}
+  - {fileID: 222885316}
+  - {fileID: 1239213183}
+  - {fileID: 1815869781}
+  - {fileID: 270240046}
+  - {fileID: 853908183}
+  - {fileID: 1549448764}
+  - {fileID: 924954180}
+  - {fileID: 192331684}
+  - {fileID: 1126635156}
+  - {fileID: 1506733223}
+  - {fileID: 850212294}
+  - {fileID: 1946165893}
+  - {fileID: 1836649006}
+  - {fileID: 307858243}
+  - {fileID: 325580050}
+  - {fileID: 575974125}
+  - {fileID: 246118275}
+  - {fileID: 1815907123}
+  - {fileID: 1614331888}
+  - {fileID: 1488369874}
+  - {fileID: 263135762}
+  - {fileID: 1858375300}
+  - {fileID: 363418909}
+  - {fileID: 149702716}
+  - {fileID: 18520160}
+  - {fileID: 1417100605}
+  - {fileID: 1063313651}
+  - {fileID: 579921321}
+  - {fileID: 218877801}
+  - {fileID: 1520125645}
+  - {fileID: 1742170494}
+  - {fileID: 1284672144}
+  - {fileID: 1452085012}
+  - {fileID: 985685173}
+  - {fileID: 2120030281}
+  - {fileID: 1617318313}
+  - {fileID: 185655640}
+  - {fileID: 911911990}
+  - {fileID: 764138743}
+  - {fileID: 1791976244}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 926084544}
+  m_AABB:
+    m_Center: {x: .0404977798, y: .193691671, z: -.1543293}
+    m_Extent: {x: .879643917, y: 1.5213542, z: .843380451}
+  m_DirtyAABB: 0
+--- !u!1 &1201402708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100062, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1201402709}
+  m_Layer: 0
+  m_Name: coldwraith_bone_38
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1201402709
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400098, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1201402708}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0470773168, y: -.129156113, z: -.0340402573}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1747882493}
+  - {fileID: 134650633}
+  - {fileID: 1617318313}
+  - {fileID: 185655640}
+  - {fileID: 764138743}
+  - {fileID: 1791976244}
+  m_Father: {fileID: 1044116075}
+--- !u!1001 &1216927516
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: a9ca92b162dc34e889c3ec5f31fa1424, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9ca92b162dc34e889c3ec5f31fa1424, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9ca92b162dc34e889c3ec5f31fa1424, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9ca92b162dc34e889c3ec5f31fa1424, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9ca92b162dc34e889c3ec5f31fa1424, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9ca92b162dc34e889c3ec5f31fa1424, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a9ca92b162dc34e889c3ec5f31fa1424, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a9ca92b162dc34e889c3ec5f31fa1424, type: 2}
+  m_RootGameObject: {fileID: 527822026}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &1239213182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100080, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1239213183}
+  m_Layer: 0
+  m_Name: coldwraith_bone_49
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1239213183
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400076, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1239213182}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0133125586, y: -.0242338777, z: -.00423513353}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1437658175}
+--- !u!1 &1253057728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1253057729}
+  m_Layer: 0
+  m_Name: coldwraith_bone_24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1253057729
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400126, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1253057728}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.00548015535, y: -.162210479, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 75917708}
+--- !u!1 &1284672143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100140, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1284672144}
+  m_Layer: 0
+  m_Name: coldwraith_bone_79
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1284672144
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1284672143}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0457074642, y: .0336458087, z: .0247985832}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 175330134}
+--- !u!1 &1308674650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1308674651}
+  m_Layer: 0
+  m_Name: coldwraith_bone_13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1308674651
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400148, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1308674650}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0334672406, y: -.239926979, z: .0140093192}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1881738052}
+  m_Father: {fileID: 1019079620}
+--- !u!1 &1368030275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100180, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1368030276}
+  - 111: {fileID: 1368030283}
+  - 143: {fileID: 1368030282}
+  - 114: {fileID: 1368030281}
+  - 114: {fileID: 1368030280}
+  - 114: {fileID: 1368030279}
+  - 23: {fileID: 1368030278}
+  - 114: {fileID: 1368030277}
+  m_Layer: 0
+  m_Name: coldwraith
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1368030276
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400180, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1368030275}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -1.62920685e-07}
+  m_LocalPosition: {x: 156.85437, y: 12.4371414, z: 222.968689}
+  m_LocalScale: {x: 9.73827934, y: 9.73827934, z: 9.73827934}
+  m_Children:
+  - {fileID: 1151925401}
+  - {fileID: 2101352874}
+  m_Father: {fileID: 0}
+--- !u!114 &1368030277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400006, guid: bfda57751e15c4187843a404ad95d976,
+    type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1368030275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7768b9688e214cf45886ee5a4d5a6008, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repathRate: .5
+  target: {fileID: 0}
+  canSearch: 1
+  canMove: 1
+  speed: 3
+  turningSpeed: 5
+  slowdownDistance: .600000024
+  pickNextWaypointDist: 2
+  forwardLook: 1
+  endReachedDistance: .200000003
+  closestOnPathCheck: 1
+  sleepVelocity: .400000006
+--- !u!23 &1368030278
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: bfda57751e15c4187843a404ad95d976,
+    type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1368030275}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!114 &1368030279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: bfda57751e15c4187843a404ad95d976,
+    type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1368030275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawGizmos: 1
+  detailedGizmos: 0
+  saveGetNearestHints: 1
+  startEndModifier:
+    priority: 1
+    addPoints: 0
+    exactStartPoint: 1
+    exactEndPoint: 1
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags:
+    tagsChange: -1
+    tagsSet: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!114 &1368030280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: bfda57751e15c4187843a404ad95d976,
+    type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1368030275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f586f285b3847808d79083bd19ef1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  priority: 2
+--- !u!114 &1368030281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: bfda57751e15c4187843a404ad95d976,
+    type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1368030275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 894514fd340e176449fc8adb2ab80488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Okea
+  type: 0
+  maxHealth: 10
+  currentHealth: 10
+--- !u!143 &1368030282
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 14300000, guid: bfda57751e15c4187843a404ad95d976,
+    type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1368030275}
+  serializedVersion: 2
+  m_Height: 1.29999995
+  m_Radius: .300000012
+  m_SlopeLimit: 45
+  m_StepOffset: .300000012
+  m_SkinWidth: .0799999982
+  m_MinMoveDistance: 0
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!111 &1368030283
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11100000, guid: bfda57751e15c4187843a404ad95d976,
+    type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1368030275}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  m_Animations:
+  - {fileID: 7400000, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  - {fileID: 7400002, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  - {fileID: 7400004, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  - {fileID: 7400006, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  - {fileID: 7400008, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  - {fileID: 7400010, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  - {fileID: 7400012, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  - {fileID: 7400014, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  - {fileID: 7400016, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  - {fileID: 7400018, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  - {fileID: 7400020, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  - {fileID: 7400022, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  - {fileID: 7400024, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  - {fileID: 7400026, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  - {fileID: 7400028, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  - {fileID: 7400030, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  - {fileID: 7400032, guid: 1ae065cfa0c694a64a3dd7994d64f7ed, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1417100604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100044, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1417100605}
+  m_Layer: 0
+  m_Name: coldwraith_bone_73
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1417100605
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400028, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1417100604}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.148308307, y: .00646829605, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1904698461}
+--- !u!1 &1437658174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100082, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1437658175}
+  m_Layer: 0
+  m_Name: coldwraith_bone_43
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1437658175
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400088, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1437658174}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.02332782, y: -.0245952606, z: -.0234990716}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1239213183}
+  m_Father: {fileID: 151723165}
+--- !u!1 &1447308021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 05e01842fb0184609bcb325fc2ab899c, type: 2}
+  m_PrefabInternal: {fileID: 598071489}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1447308023}
+  - 131: {fileID: 1447308022}
+  m_Layer: 0
+  m_Name: Tower1
+  m_TagString: GUI
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!131 &1447308022
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13100004, guid: 05e01842fb0184609bcb325fc2ab899c,
+    type: 2}
+  m_PrefabInternal: {fileID: 598071489}
+  m_GameObject: {fileID: 1447308021}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 3f38d742a4728492ea278d17fec37d34, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: -225
+    y: -300
+    width: 45
+    height: 45
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!4 &1447308023
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 05e01842fb0184609bcb325fc2ab899c, type: 2}
+  m_PrefabInternal: {fileID: 598071489}
+  m_GameObject: {fileID: 1447308021}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 432591519}
+--- !u!1 &1452085011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100134, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1452085012}
+  m_Layer: 0
+  m_Name: coldwraith_bone_CHD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1452085012
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1452085011}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0587818883, y: .0597622953, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 175330134}
+--- !u!1 &1452901006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1452901007}
+  m_Layer: 0
+  m_Name: coldwraith_bone_35
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1452901007
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400104, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1452901006}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.144557267, y: -.0368239209, z: 5.96046448e-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1014577198}
+--- !u!1 &1488369873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100038, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1488369874}
+  m_Layer: 0
+  m_Name: coldwraith_bone_67
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1488369874
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400040, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1488369873}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.00392393069, y: .0325306654, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 174072128}
+--- !u!1 &1499665578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1499665579}
+  m_Layer: 0
+  m_Name: GameManagement
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1499665579
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  m_GameObject: {fileID: 1499665578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 468.300995, y: 50.0365143, z: 1442.88025}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 536052814}
+  - {fileID: 483375447}
+  - {fileID: 1058018013}
+  - {fileID: 1043360128}
+  - {fileID: 2115475409}
+  m_Father: {fileID: 0}
+--- !u!1 &1506733222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100174, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1506733223}
+  m_Layer: 0
+  m_Name: coldwraith_bone_57
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1506733223
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400060, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1506733222}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2101352874}
+--- !u!1 &1520125644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100144, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1520125645}
+  m_Layer: 0
+  m_Name: coldwraith_bone_77
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1520125645
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400020, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1520125644}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0058504343, y: -.0121276975, z: .000480565097}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 175330134}
+--- !u!1001 &1529516673
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 8133eeb5586ff4afc815b5ca54c9e24c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8133eeb5586ff4afc815b5ca54c9e24c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8133eeb5586ff4afc815b5ca54c9e24c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8133eeb5586ff4afc815b5ca54c9e24c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8133eeb5586ff4afc815b5ca54c9e24c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8133eeb5586ff4afc815b5ca54c9e24c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8133eeb5586ff4afc815b5ca54c9e24c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8133eeb5586ff4afc815b5ca54c9e24c, type: 2}
+  m_RootGameObject: {fileID: 281336639}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &1549448763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100102, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1549448764}
+  m_Layer: 0
+  m_Name: coldwraith_bone_53
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1549448764
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400068, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1549448763}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0594698302, y: -.136912644, z: .00037502771}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 192331684}
+  m_Father: {fileID: 222885316}
+--- !u!1 &1593376300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100130, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1593376301}
+  m_Layer: 0
+  m_Name: coldwraith_bone_9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1593376301
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400156, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1593376300}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0421765894, y: .19148837, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1904698461}
+--- !u!1 &1614331887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100040, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1614331888}
+  m_Layer: 0
+  m_Name: coldwraith_bone_66
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1614331888
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400042, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1614331887}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.00392393069, y: .0325306654, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 174072128}
+--- !u!1 &1617318312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100056, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1617318313}
+  m_Layer: 0
+  m_Name: coldwraith_bone_83
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1617318313
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1617318312}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.00642762706, y: -.0852350295, z: .00766417384}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1201402709}
+--- !u!1001 &1638428334
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 468.300995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 50.0365143
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1442.88025
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1368030275}
+    - target: {fileID: 11400000, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+      propertyPath: castle
+      value: 
+      objectReference: {fileID: 109442387}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+  m_RootGameObject: {fileID: 1499665578}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &1707904424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 226ee9fe3f3714b0faf8eb6ae6508d3c, type: 2}
+  m_PrefabInternal: {fileID: 1825908623}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1707904426}
+  - 131: {fileID: 1707904425}
+  m_Layer: 0
+  m_Name: MenuButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!131 &1707904425
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13100000, guid: 226ee9fe3f3714b0faf8eb6ae6508d3c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1825908623}
+  m_GameObject: {fileID: 1707904424}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 447fc7583de034352bd240bdd4e8a1bb, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 225
+    y: 120
+    width: 45
+    height: 45
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!4 &1707904426
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 226ee9fe3f3714b0faf8eb6ae6508d3c, type: 2}
+  m_PrefabInternal: {fileID: 1825908623}
+  m_GameObject: {fileID: 1707904424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .5, y: .5, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &1738561616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 05e01842fb0184609bcb325fc2ab899c, type: 2}
+  m_PrefabInternal: {fileID: 598071489}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1738561617}
+  - 131: {fileID: 1738561618}
+  m_Layer: 0
+  m_Name: Tower2
+  m_TagString: GUI
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1738561617
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 05e01842fb0184609bcb325fc2ab899c, type: 2}
+  m_PrefabInternal: {fileID: 598071489}
+  m_GameObject: {fileID: 1738561616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 432591519}
+--- !u!131 &1738561618
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13100000, guid: 05e01842fb0184609bcb325fc2ab899c,
+    type: 2}
+  m_PrefabInternal: {fileID: 598071489}
+  m_GameObject: {fileID: 1738561616}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 8b968d994079649aab1a602428e60e0b, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: -160
+    y: -300
+    width: 45
+    height: 45
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!1 &1741484898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100074, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1741484899}
+  m_Layer: 0
+  m_Name: coldwraith_bone_16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1741484899
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400142, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1741484898}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.034973409, y: .111171298, z: -.109625727}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 670178430}
+  - {fileID: 547706656}
+  m_Father: {fileID: 1904698461}
+--- !u!1 &1742170493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100142, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1742170494}
+  m_Layer: 0
+  m_Name: coldwraith_bone_78
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1742170494
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1742170493}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0485452563, y: .0330595374, z: -.0264638364}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 175330134}
+--- !u!1 &1747882492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100060, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1747882493}
+  m_Layer: 0
+  m_Name: coldwraith_bone_44
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1747882493
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400086, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1747882492}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0160919875, y: -.0967025459, z: -.0260044336}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1201402709}
+--- !u!1 &1791976243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100050, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1791976244}
+  m_Layer: 0
+  m_Name: coldwraith_bone_CSR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791976244
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1791976243}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.7252903e-09, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1201402709}
+--- !u!1 &1815869780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100114, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1815869781}
+  m_Layer: 0
+  m_Name: coldwraith_bone_50
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1815869781
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400074, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1815869780}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0190152377, y: -.00329461694, z: -.110367656}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 675293809}
+--- !u!1 &1815907122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1815907123}
+  m_Layer: 0
+  m_Name: coldwraith_bone_65
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1815907123
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400044, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1815907122}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .00638502277, y: -.0169345737, z: -.00143932144}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 279484321}
+--- !u!1001 &1825908623
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 226ee9fe3f3714b0faf8eb6ae6508d3c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 226ee9fe3f3714b0faf8eb6ae6508d3c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 226ee9fe3f3714b0faf8eb6ae6508d3c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 226ee9fe3f3714b0faf8eb6ae6508d3c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 226ee9fe3f3714b0faf8eb6ae6508d3c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 226ee9fe3f3714b0faf8eb6ae6508d3c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 226ee9fe3f3714b0faf8eb6ae6508d3c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 226ee9fe3f3714b0faf8eb6ae6508d3c, type: 2}
+  m_RootGameObject: {fileID: 1707904424}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &1831777027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100150, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1831777028}
+  m_Layer: 0
+  m_Name: coldwraith_bone_8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1831777028
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400158, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1831777027}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0271380898, y: .120183103, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 175330134}
+  m_Father: {fileID: 1904698461}
+--- !u!1 &1836649005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100168, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1836649006}
+  m_Layer: 0
+  m_Name: coldwraith_bone_60
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1836649006
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400054, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1836649005}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2101352874}
+--- !u!1 &1858375299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100034, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1858375300}
+  m_Layer: 0
+  m_Name: coldwraith_bone_69
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1858375300
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400036, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1858375299}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.00392393069, y: .0325306654, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 174072128}
+--- !u!1 &1878770492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1878770493}
+  m_Layer: 0
+  m_Name: coldwraith_bone_14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1878770493
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400146, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1878770492}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0334249102, y: -.239933059, z: -.014005959}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1014577198}
+  m_Father: {fileID: 150474026}
+--- !u!1 &1881738051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1881738052}
+  m_Layer: 0
+  m_Name: coldwraith_bone_25
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1881738052
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400124, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1881738051}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0537760407, y: -.286812633, z: .0149347326}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 866537361}
+  m_Father: {fileID: 1308674651}
+--- !u!1 &1897611371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100132, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1897611372}
+  m_Layer: 0
+  m_Name: coldwraith_bone_Jaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1897611372
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400114, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1897611371}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0170493517, y: .0354625583, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 175330134}
+--- !u!1 &1904698460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100152, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1904698461}
+  m_Layer: 0
+  m_Name: coldwraith_bone_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1904698461
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400168, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1904698460}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0193844233, y: .123284578, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1831777028}
+  - {fileID: 1593376301}
+  - {fileID: 1078811579}
+  - {fileID: 1020287684}
+  - {fileID: 1741484899}
+  - {fileID: 149702716}
+  - {fileID: 18520160}
+  - {fileID: 1417100605}
+  - {fileID: 1063313651}
+  m_Father: {fileID: 174072128}
+--- !u!1 &1946165892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100170, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1946165893}
+  m_Layer: 0
+  m_Name: coldwraith_bone_59
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1946165893
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400056, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 1946165892}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2101352874}
+--- !u!1 &2083986340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100118, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2083986341}
+  m_Layer: 0
+  m_Name: coldwraith_bone_41
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2083986341
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400092, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 2083986340}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .0255458634, y: -.194147423, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 675293809}
+  - {fileID: 274553668}
+  - {fileID: 222885316}
+  m_Father: {fileID: 144387976}
+--- !u!1 &2101352873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100176, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2101352874}
+  m_Layer: 0
+  m_Name: coldwraith 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2101352874
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400176, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 2101352873}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1506733223}
+  - {fileID: 850212294}
+  - {fileID: 1946165893}
+  - {fileID: 1836649006}
+  - {fileID: 307858243}
+  - {fileID: 325580050}
+  - {fileID: 575974125}
+  - {fileID: 246118275}
+  - {fileID: 1126635156}
+  - {fileID: 926084544}
+  m_Father: {fileID: 1368030276}
+--- !u!1 &2115475408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2115475409}
+  - 114: {fileID: 2115475410}
+  m_Layer: 0
+  m_Name: InputControler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2115475409
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 7f8448938c58432429768593b86b49f8, type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  m_GameObject: {fileID: 2115475408}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1499665579}
+--- !u!114 &2115475410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 7f8448938c58432429768593b86b49f8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1638428334}
+  m_GameObject: {fileID: 2115475408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a10dfd9ff644434d9d70f81d6587361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraTiggerWidth: 10
+  cameraSpeed: 50
+  cameraXMin: 0
+  cameraXMax: 0
+  cameraYMin: 0
+  cameraYMax: 0
+  tower1: {fileID: 0}
+  tower1_normal: {fileID: 0}
+  tower1_enable: {fileID: 2800000, guid: 65329e7f8b34f4752848b8128e9b1ee6, type: 3}
+  tower1_disable: {fileID: 0}
+  tower2: {fileID: 0}
+  tower2_normal: {fileID: 0}
+  tower2_enable: {fileID: 2800000, guid: 4ae748bed6bfa4a0e9b3a690560cce9c, type: 3}
+  tower2_disable: {fileID: 0}
+  tower3: {fileID: 0}
+  tower3_normal: {fileID: 0}
+  tower3_enable: {fileID: 2800000, guid: 05b594f2ccc88400ebf6df90286b60bd, type: 3}
+  tower3_disable: {fileID: 0}
+  Tower1Object: {fileID: 0}
+  Tower2Object: {fileID: 0}
+  Tower3Object: {fileID: 0}
+  buildingTowner: {fileID: 0}
+--- !u!1001 &2118595044
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 42e6cf7225b2d4370ada1e65db3521d6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 42e6cf7225b2d4370ada1e65db3521d6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 42e6cf7225b2d4370ada1e65db3521d6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 42e6cf7225b2d4370ada1e65db3521d6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 42e6cf7225b2d4370ada1e65db3521d6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 42e6cf7225b2d4370ada1e65db3521d6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 42e6cf7225b2d4370ada1e65db3521d6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 42e6cf7225b2d4370ada1e65db3521d6, type: 2}
+  m_RootGameObject: {fileID: 290191816}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &2120030280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100078, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2120030281}
+  m_Layer: 0
+  m_Name: coldwraith_bone_82
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2120030281
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: bfda57751e15c4187843a404ad95d976, type: 2}
+  m_PrefabInternal: {fileID: 400359898}
+  m_GameObject: {fileID: 2120030280}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0064282231, y: -.0852414295, z: -.00766503811}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 151723165}

@@ -7,6 +7,11 @@ public class InputControler : MonoBehaviour
 	
 	public float cameraTiggerWidth = 10.0f;
 	public float cameraSpeed = 12.0f;
+	public float cameraXMin;
+	public float cameraXMax;
+	public float cameraYMin;
+	public float cameraYMax;
+
 	public GUITexture tower1;
 	public Texture2D tower1_normal; 
 	public Texture2D tower1_enable;
