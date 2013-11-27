@@ -54,9 +54,9 @@ public class CharacterControl : AIPath {
 
 			if(animation != null && animation.enabled){
 				if(horizontalSpeed > 0.1f){
-					animation.Play("Walk");
+					animation.CrossFade("Walk");
 				}else {
-					animation.Play("Stand");
+					animation.CrossFade("Stand");
 				}
 			}
 
