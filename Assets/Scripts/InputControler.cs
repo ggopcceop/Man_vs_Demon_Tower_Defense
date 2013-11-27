@@ -7,10 +7,11 @@ public class InputControler : MonoBehaviour
 	
 	public float cameraTiggerWidth = 10.0f;
 	public float cameraSpeed = 12.0f;
+
 	public float cameraXMin;
 	public float cameraXMax;
-	public float cameraYMin;
-	public float cameraYMax;
+	public float cameraZMin;
+	public float cameraZMax;
 
 	public GUITexture tower1;
 	public Texture2D tower1_normal; 
@@ -83,6 +84,19 @@ public class InputControler : MonoBehaviour
 			|| (mPosY < cameraTiggerWidth) || (mPosY > Screen.height - cameraTiggerWidth)) {
 			cameraMoveDirection = new Vector3 (mPosX / Screen.width - 0.5f, 0, -(mPosY / Screen.height - 0.5f));
 			
+		}
+
+		if(mainCamera.transform.position.x >= cameraXMax && cameraMoveDirection.x > 0){
+			cameraMoveDirection.x = 0;
+		}
+		if(mainCamera.transform.position.x <= cameraXMin && cameraMoveDirection.x < 0){
+			cameraMoveDirection.x = 0;
+		}
+		if(mainCamera.transform.position.z >= cameraZMax && cameraMoveDirection.z > 0){
+			cameraMoveDirection.z = 0;
+		}
+		if(mainCamera.transform.position.z <= cameraZMin && cameraMoveDirection.z < 0){
+			cameraMoveDirection.z = 0;
 		}
 		
 		//camera will move if direction is not zero
