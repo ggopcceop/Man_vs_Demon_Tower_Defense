@@ -33,9 +33,9 @@ public class GameWareControler : MonoBehaviour
 	/* store all the wares informations */
 	public LinkedList<Ware> gameWares = new LinkedList<Ware> ();
 	
-	//the spawn point of enemy
-	public GameObject enemySpawn;
-	
+	//the spawn points of enemy
+	public GameObject[] enemySpawn;
+
 	//the human castle for enemy target
 	public GameObject castle;
 	
@@ -62,7 +62,11 @@ public class GameWareControler : MonoBehaviour
 	void Start ()
 	{
 		gameControl = GameObject.Find("GameControl").GetComponent<GameControl>();
-		
+
+		if(enemySpawn.Length == 0){
+			Debug.LogError("There is not spawn point for the enemy");
+		}
+
 		//read the ware config
 		ReadWareConfig ();
 		
@@ -176,16 +180,18 @@ public class GameWareControler : MonoBehaviour
 		}
 	}
 
-
+	//the index of the spawn points
+	int spawnIndex = 0;
 
 	void SpawnWare (Ware ware)
 	{
-					
-			GameObject prelab = Resources.Load (ware.name) as GameObject;
-			GameObject ai = Instantiate (prelab, enemySpawn.transform.position, Quaternion.identity) as GameObject;
+		Transform spawnPoint = enemySpawn[++spawnIndex % enemySpawn.Length].transform;
 
-			ai.GetComponent<AIEnemy> ().secondaryTarget = castle;
-			AIEnemies.AddLast (ai);				
+		GameObject prelab = Resources.Load (ware.name) as GameObject;
+		GameObject ai = Instantiate (prelab, spawnPoint.position, Quaternion.identity) as GameObject;
+
+		ai.GetComponent<AIEnemy> ().secondaryTarget = castle;
+		AIEnemies.AddLast (ai);				
 
 	}
 }
