@@ -70,17 +70,20 @@ public class GamePlayGUI : MonoBehaviour {
 		condition = cashText.text+"  "+waveText.text+"  "+healthText.text+"  "+scoreText.text;
 
 		if (lose){
-
+			win = false;
 			//reposition menu button
 			rect = new Rect (-75, 0 , 50, 50);
 			menu_GUItexture.pixelInset = rect;
 			//reposition retry button
 			rect = new Rect (25, 0 , 50, 50);
 			retry.pixelInset = rect;
-			win = false;
+
+			rect = new Rect (1000,100,50,50);
+			next.pixelInset = rect;
+
 		}
 		else if (win){
-
+			lose = false;
 			rect = new Rect (-100, 0 , 50, 50);
 			menu_GUItexture.pixelInset = rect;
 			//reposition retry button
@@ -89,7 +92,7 @@ public class GamePlayGUI : MonoBehaviour {
 			//repositon next button
 			rect = new Rect (50, 0 , 50, 50);
 			next.pixelInset = rect;
-			lose = false;
+
 		}
 	}
 
@@ -106,14 +109,15 @@ public class GamePlayGUI : MonoBehaviour {
 		if (gameControl.currentGameState == GameControl.GameState.Lose) {
 			//GUI window shows lose screen
 			GUI.Box(new Rect(Screen.width/12,Screen.height/7,Screen.width/12*10,Screen.height/7*5),"YOU LOSE");
-			GUI.Label(new Rect(Screen.width/2-75,Screen.height/7*4-18,200,50)," Menu          Retry");
+
+			GUI.Label(new Rect(Screen.width/2-75,Screen.height/7*4-20,250,150)," Menu    Retry");
 			lose = true;
 		
 		}
 		else if (gameControl.currentGameState == GameControl.GameState.Win) {
 			//GUI window shows win screen
 			GUI.Box(new Rect(Screen.width/12,Screen.height/7,Screen.width/12*10,Screen.height/7*5),"YOU WIN");
-			GUI.Label(new Rect(Screen.width/2-100,Screen.height/7*4-18,200,50),"Menu       Retry      Next");
+			GUI.Label(new Rect(Screen.width/2-100,Screen.height/7*4-20,250,150),"Menu   Retry   Next");
 			win = true;
 		}
 
